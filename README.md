@@ -26,6 +26,17 @@
 * As a food lover, in order to review, edit, or delete recipes that I may not like anymore or need a little touch, I want to click the edit or delete button and from there make the necessary modifies
 * As a food lover, in order to express my gratitude or disappointment about another user’s recipe, I want to be able to leave a message inside a message board system provided by the App
 
-![desktop/SaporiD'ItaliaERD.png](image/SaporiD'ItaliaERD.png)
+![ERD](/ReadmePictures/SaporiD'ItaliaERD.png)
+
+
+![WIREFRAME1](/ReadmePictures/IMG_4036.jpg)
+
+![WIREFRAME2](/ReadmePictures/IMG_4037.jpg)
+
+![WIREFRAME3](/ReadmePictures/IMG_4038.jpg)
+
+![WIREFRAME4](/ReadmePictures/IMG_4039.jpg)
+
+![DATAFLOW](/ReadmePictures/IMG_4040.jpg)
 
 
