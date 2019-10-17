@@ -16,6 +16,9 @@
 3. Add user-specific message system between users
 4. Ability to upload photos for each recipes
 
+## Stretch Goal:
+1. Interactive Google Map of Italy where users can surf through it and look for the recipes origin
+
 
 ## User Stories
 * As a food lover, particularly Italian’s food,  in order to track my recipes I want to consult an App of authentic Italian recipes, easily divided by Region
