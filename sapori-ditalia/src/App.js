@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { withRouter } from "react-router-dom";
 import Login from './components/auth/Login'
 import ApplicationViews from "./components/ApplicationViews"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -33,14 +34,24 @@ class App extends Component {
     });
   }
 
+  clearUser = () => {
+    localStorage.clear()
+
+    this.setState({
+      user: this.isAuthenticated()
+    });
+    this.props.history.push("/login");
+
+  }
+
 
   render() {
 
-    return(
+    return (
       <>
         {this.state.user ?
           <>
-            <Navbar />
+            <Navbar clearUser={this.clearUser} />
             <ApplicationViews userId={this.state.userId} />
           </>
           :
@@ -51,4 +62,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
