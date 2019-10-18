@@ -1,110 +1,116 @@
 {
- "regions": [
-     {
-         "id": 1,
-         "name": "Trentino Alto Adige",
-         "description": "Up in the top northeastern corner of Italy lies the region of Trentino-Alto Adige, which shares a border with Austria and Switzerland. This region shares many culinary traditions with their Swiss and Austrian neighbors, so you'll find ingredients like sausage, yogurt, and polenta throughout, as well as dishes such as goulash, strudels, and spätzle in certain areas."
-     },
-     {
-        "id": 2,
-        "name": "Lombardia",
-        "description": "If you're in the northern Italian region of Lombardia , you're not very far from the capital of Italian fashion: Milan. This is a beautiful and mountainous area, where the food is hearty and strictly local, buckwheat pasta with potatoes and Swiss chard. Here, people tend to use ingredients like rice, polenta, beef, pork, and butter when cooking. It's also famous for its two versions of mostarda, a traditional condiment made from candied fruit and mustard essence."
+  "regions": [
+    {
+      "id": 1,
+      "name": "Trentino Alto Adige",
+      "description": "Up in the top northeastern corner of Italy lies the region of Trentino-Alto Adige, which shares a border with Austria and Switzerland. This region shares many culinary traditions with their Swiss and Austrian neighbors, so you'll find ingredients like sausage, yogurt, and polenta throughout, as well as dishes such as goulash, strudels, and spätzle in certain areas."
     },
     {
-        "id": 3,
-        "name": "Valle D'Aosta",
-        "description": "Up in the northwest corner of Italy, bordered by France and Switzerland, is Valle d'Aosta. Aside from it's hearty cuisine, this region is known for its breathtaking scenery, including the iconic, snow-capped peaks of Matterhorn, Mont Blanc, Monte Rosa and Gran Paradiso. You'll also find an abundance of cheese in this part of Italy, particularly fontina, which is used to make fondue (yes, they have fondue here!), as well as flavor risottos, soups, and polenta."
+      "id": 2,
+      "name": "Lombardia",
+      "description": "If you're in the northern Italian region of Lombardia , you're not very far from the capital of Italian fashion: Milan. This is a beautiful and mountainous area, where the food is hearty and strictly local, buckwheat pasta with potatoes and Swiss chard. Here, people tend to use ingredients like rice, polenta, beef, pork, and butter when cooking. It's also famous for its two versions of mostarda, a traditional condiment made from candied fruit and mustard essence."
     },
     {
-        "id": 4,
-        "name": "Piemonte",
-        "description": "Also in the north, the Piemonte (or Piedmont) region sits at the foot of the Alps, bordering both France and Switzerland. This region is known for its rich and savory cuisine, hazelnut desserts, wines like Barolo and Nebiolo, and of course, the famous Alba white truffle, Tartufo Bianco d’Alba. During the wine harvest in the fall, there's an annual culinary tradition where locals and friends get together around a bubbling pot of bagna cauda: an aromatic and heady combination of mountains of garlic, slowly cooked with plenty of olive oil and anchovies."
+      "id": 3,
+      "name": "Valle D'Aosta",
+      "description": "Up in the northwest corner of Italy, bordered by France and Switzerland, is Valle d'Aosta. Aside from it's hearty cuisine, this region is known for its breathtaking scenery, including the iconic, snow-capped peaks of Matterhorn, Mont Blanc, Monte Rosa and Gran Paradiso. You'll also find an abundance of cheese in this part of Italy, particularly fontina, which is used to make fondue (yes, they have fondue here!), as well as flavor risottos, soups, and polenta."
     },
     {
-        "id": 5,
-        "name": "Friuli Venezia Giulia",
-        "description": "Up in the northeastern corner of Italy, bordering Austria, Slovenia, and the Adriatic Sea, the Friuli-Venezia Giulia region is home to some of the most renowned vineyards (producing white wine) in the country. It's also known for its traditional holiday treat: the gubana, which is most famous in the town of Udine. With a characteristic snail-shell shape and scents of cinnamon, raisins, orange zest and vanilla, it's not surprising that this cake has more similarities with cousins in Croatia and Slovenia than any cakes or sweet breads in other Italian regions."
+      "id": 4,
+      "name": "Piemonte",
+      "description": "Also in the north, the Piemonte (or Piedmont) region sits at the foot of the Alps, bordering both France and Switzerland. This region is known for its rich and savory cuisine, hazelnut desserts, wines like Barolo and Nebiolo, and of course, the famous Alba white truffle, Tartufo Bianco d’Alba. During the wine harvest in the fall, there's an annual culinary tradition where locals and friends get together around a bubbling pot of bagna cauda: an aromatic and heady combination of mountains of garlic, slowly cooked with plenty of olive oil and anchovies."
     },
     {
-        "id": 6,
-        "name": "Veneto",
-        "description": "You're probably familiar with the region of Veneto, located in the north east and stretching from the Dolomite Mountains to the Adriatic Sea, thanks to its capital: Venice, a city famed for its canals, Gothic architecture, and the fact that it's slowly sinking. Known more for its bustling tourism than its local cuisine, Venice actually has a rich food culture, including risotto and the lesser-known cicchetti: little morsels similar to tapas, often served in small, standing room-only bars known as bacari."
+      "id": 5,
+      "name": "Friuli Venezia Giulia",
+      "description": "Up in the northeastern corner of Italy, bordering Austria, Slovenia, and the Adriatic Sea, the Friuli-Venezia Giulia region is home to some of the most renowned vineyards (producing white wine) in the country. It's also known for its traditional holiday treat: the gubana, which is most famous in the town of Udine. With a characteristic snail-shell shape and scents of cinnamon, raisins, orange zest and vanilla, it's not surprising that this cake has more similarities with cousins in Croatia and Slovenia than any cakes or sweet breads in other Italian regions."
     },
     {
-        "id": 7,
-        "name": "Liguria",
-        "description": "A crescent-shaped region located in the northwest, Liguria is a part of what's known as Italy's western Riviera. The region's capital is Genoa, but you'll also find scenic Mediterranean fishing villages and towns like Cinque Terre, Portofino and Santa Margherita Ligure here, as well. The Torta Pasqualina pie—made with fine, almost transparent layers of dough and filled with chard, creamy ricotta and carefully eggs—is one of Liguria's iconic dishes, next to pesto of course."
+      "id": 6,
+      "name": "Veneto",
+      "description": "You're probably familiar with the region of Veneto, located in the north east and stretching from the Dolomite Mountains to the Adriatic Sea, thanks to its capital: Venice, a city famed for its canals, Gothic architecture, and the fact that it's slowly sinking. Known more for its bustling tourism than its local cuisine, Venice actually has a rich food culture, including risotto and the lesser-known cicchetti: little morsels similar to tapas, often served in small, standing room-only bars known as bacari."
     },
     {
-        "id": 8,
-        "name": "Emilia Romagna",
-        "description": "The capital of Emilia-Romagna, a region in northern Italy, is Bologna: a historic, vibrant city with an 11th-century university and traditional medieval architecture. Here, you'll find a classic dish that's as loved in the United States as it is throughout Italy: lasagne. The classic Emilian lasagne is probably the most emblematic of all lasagne recipes and involves the staples of the region's cuisine: fresh egg pasta (plain or green pasta made with spinach, known as lasagne verdi), full-flavored beef and pork ragu, bechamel sauce, and the region's favorite cheese, Parmesan."
+      "id": 7,
+      "name": "Liguria",
+      "description": "A crescent-shaped region located in the northwest, Liguria is a part of what's known as Italy's western Riviera. The region's capital is Genoa, but you'll also find scenic Mediterranean fishing villages and towns like Cinque Terre, Portofino and Santa Margherita Ligure here, as well. The Torta Pasqualina pie—made with fine, almost transparent layers of dough and filled with chard, creamy ricotta and carefully eggs—is one of Liguria's iconic dishes, next to pesto of course."
     },
     {
-        "id": 9,
-        "name": "Toscana",
-        "description": "Located in central Italy, this regions's capital, Florence, houses some of the world's most important Renaissance art and architecture. It's also home to the iconic rolling hills and valleys, wine and olive oil vineyards, and sunflower fields that have made it a destination for countless tourists and American romantic comedies. In Tuscany, the cuisine is characterized by simplicity—most menus include bread, cheeses, fresh fruit and vegetables, and meats like wild boar. A classic dish is acquacotta, a rustic soup of stale bread, wild chicory, potatoes, and fresh tomatoes."
+      "id": 8,
+      "name": "Emilia Romagna",
+      "description": "The capital of Emilia-Romagna, a region in northern Italy, is Bologna: a historic, vibrant city with an 11th-century university and traditional medieval architecture. Here, you'll find a classic dish that's as loved in the United States as it is throughout Italy: lasagne. The classic Emilian lasagne is probably the most emblematic of all lasagne recipes and involves the staples of the region's cuisine: fresh egg pasta (plain or green pasta made with spinach, known as lasagne verdi), full-flavored beef and pork ragu, bechamel sauce, and the region's favorite cheese, Parmesan."
     },
     {
-        "id": 10,
-        "name": "Umbria",
-        "description": "Also centrally located, Umbria borders the neighboring regions of Tuscany, Lazio, and Le Marche. Often referred to as the green heart of Italy, this region is best known hilly, medieval towns, picturesque forests, and abundance of foraged truffles. Umbrian cuisine is similarly rustic to that of Tuscany—dishes you might encounter while visiting include this thick, hearty farro soup, or a simple black olive panino."
+      "id": 9,
+      "name": "Toscana",
+      "description": "Located in central Italy, this regions's capital, Florence, houses some of the world's most important Renaissance art and architecture. It's also home to the iconic rolling hills and valleys, wine and olive oil vineyards, and sunflower fields that have made it a destination for countless tourists and American romantic comedies. In Tuscany, the cuisine is characterized by simplicity—most menus include bread, cheeses, fresh fruit and vegetables, and meats like wild boar. A classic dish is acquacotta, a rustic soup of stale bread, wild chicory, potatoes, and fresh tomatoes."
     },
     {
-        "id": 11,
-        "name": "Le Marche",
-        "description": "An eastern Italian region situated between the Apennine Mountains and the Adriatic Sea, Le Marche is a place where meat lovers will feel right at home. On the coast, an abundance of fish and seafood are available, while inland, pigs are used to produce sausage and ham. Olives all'Ascolana, deep-fried olives stuffed with a meat filling (like a combo of pork, beef, and chicken), come from a province in the central part of Le Marche, but have become popular in bars throughout the country. Most often, they are part of an antipasto course, or are put out to nibble on during aperitivo."
+      "id": 10,
+      "name": "Umbria",
+      "description": "Also centrally located, Umbria borders the neighboring regions of Tuscany, Lazio, and Le Marche. Often referred to as the green heart of Italy, this region is best known hilly, medieval towns, picturesque forests, and abundance of foraged truffles. Umbrian cuisine is similarly rustic to that of Tuscany—dishes you might encounter while visiting include this thick, hearty farro soup, or a simple black olive panino."
     },
     {
-        "id": 12,
-        "name": "Lazio",
-        "description": "If you've been to Rome, Italy’s capital and the heart of the ancient Roman Empire, then you've been to the region of Lazio. Here, you'll come across a number of familiar pasta dishes utilizing ingredients that traditionally might have been found in a shepherd's backpack: guanciale (unsmoked bacon from the jowls or cheeks of the pig), found in pasta alla carbonara or pasta alla gricia; pecorino cheese, used in cacio e pepe; and salt and pepper, used in pretty much every single one of these dishes."
+      "id": 11,
+      "name": "Le Marche",
+      "description": "An eastern Italian region situated between the Apennine Mountains and the Adriatic Sea, Le Marche is a place where meat lovers will feel right at home. On the coast, an abundance of fish and seafood are available, while inland, pigs are used to produce sausage and ham. Olives all'Ascolana, deep-fried olives stuffed with a meat filling (like a combo of pork, beef, and chicken), come from a province in the central part of Le Marche, but have become popular in bars throughout the country. Most often, they are part of an antipasto course, or are put out to nibble on during aperitivo."
     },
     {
-        "id": 13,
-        "name": "Abruzzo",
-        "description": "East of Rome lies the region of Abruzzo, known for its stunning Adriatic coastline and nature reserves in the rugged Apennine Mountains. The cuisine in this region is eclectic and tough to pin down, since it draws on both pastoral and coastal culinary traditions. One dish popular in the region requires very little fuss: arrosticini, long, thin skewers of lamb (similar to kebabs) that are famous in this part of Italy. Another regional specialty is scrucchiata, a sweet yet sugarless grape jam with a recipe that's been passed on by word of mouth for generations."
+      "id": 12,
+      "name": "Lazio",
+      "description": "If you've been to Rome, Italy’s capital and the heart of the ancient Roman Empire, then you've been to the region of Lazio. Here, you'll come across a number of familiar pasta dishes utilizing ingredients that traditionally might have been found in a shepherd's backpack: guanciale (unsmoked bacon from the jowls or cheeks of the pig), found in pasta alla carbonara or pasta alla gricia; pecorino cheese, used in cacio e pepe; and salt and pepper, used in pretty much every single one of these dishes."
     },
     {
-        "id": 14,
-        "name": "Molise",
-        "description": "A mountainous Italian region with a chunk of coastline on the Adriatic Sea, the cuisine of Molise isn't too different from the cuisine of it's neighbor, Abruzzo. Case in point: agnello cacio e uova, baked lamb with cheese, eggs and peas."
+      "id": 13,
+      "name": "Abruzzo",
+      "description": "East of Rome lies the region of Abruzzo, known for its stunning Adriatic coastline and nature reserves in the rugged Apennine Mountains. The cuisine in this region is eclectic and tough to pin down, since it draws on both pastoral and coastal culinary traditions. One dish popular in the region requires very little fuss: arrosticini, long, thin skewers of lamb (similar to kebabs) that are famous in this part of Italy. Another regional specialty is scrucchiata, a sweet yet sugarless grape jam with a recipe that's been passed on by word of mouth for generations."
     },
     {
-        "id": 15,
-        "name": "Campania",
-        "description": "Known for its dramatic coastline, the region of Campania is home to Naples—the regional capital—as well as the Amalfi Coast and the iconic Mount Vesuvius. Traditional dishes here are simple and tend to highlight fresh seafood from the Gulf of Naples, as well as locally grown produce like the region's famous Amalfi lemons, tomatoes, spring onions, peppers, artichokes, potatoes, oranges, and fennel. The ingredients in the zucchini spaghetti below are simple, but when combined make a legendary pasta that was invented in 1952 by Maria Grazia, who owned a restaurant in the small fishing village of Nerano (located between Sorrento and the Amalfi Coast)."
+      "id": 14,
+      "name": "Molise",
+      "description": "A mountainous Italian region with a chunk of coastline on the Adriatic Sea, the cuisine of Molise isn't too different from the cuisine of it's neighbor, Abruzzo. Case in point: agnello cacio e uova, baked lamb with cheese, eggs and peas."
     },
     {
-        "id": 16,
-        "name": "Puglia",
-        "description": "Forming the heel of Italy’s “boot,” Puglia is a southern region known for its sun-bleached, hilly towns and miles upon miles of Mediterranean coastline. The region is a massive producer of not only olive oil, but also of wheat, tomatoes, eggplant, and many other vegetables, as well as fresh-caught seafood like oysters and mussels. A dish traditional to the area is orechiette, or ear-shaped pasta, served with broccoli rabe, garlic, anchovies, and dried Chile peppers."
+      "id": 15,
+      "name": "Campania",
+      "description": "Known for its dramatic coastline, the region of Campania is home to Naples—the regional capital—as well as the Amalfi Coast and the iconic Mount Vesuvius. Traditional dishes here are simple and tend to highlight fresh seafood from the Gulf of Naples, as well as locally grown produce like the region's famous Amalfi lemons, tomatoes, spring onions, peppers, artichokes, potatoes, oranges, and fennel. The ingredients in the zucchini spaghetti below are simple, but when combined make a legendary pasta that was invented in 1952 by Maria Grazia, who owned a restaurant in the small fishing village of Nerano (located between Sorrento and the Amalfi Coast)."
     },
     {
-        "id": 17,
-        "name": "Basilicata",
-        "description": "A southern Italian region primarily made up of forests and mountains, Basilicata locals tend to use a great deal of pork in their cooking, although you'll also come across wild boar and lamb in dishes. The region is famous for troccoli (a pasta similar to spaghetti) and capunti (thick, oval-shaped pasta resembling a pea pod), but is also known for a dish pretty much unheard of in America: sanguinaccio dolce. It's a southern Italian (particularly Basilicata, Calabria, Abruzzo and Campania) specialty of fresh pig’s blood cooked with dark chocolate and milk into a decadent pudding. Though it sounds somewhat unappealing, the pig's blood actually gives the dessert its fantastic, custard-like texture and complements the flavor of the dark chocolate."
+      "id": 16,
+      "name": "Puglia",
+      "description": "Forming the heel of Italy’s “boot,” Puglia is a southern region known for its sun-bleached, hilly towns and miles upon miles of Mediterranean coastline. The region is a massive producer of not only olive oil, but also of wheat, tomatoes, eggplant, and many other vegetables, as well as fresh-caught seafood like oysters and mussels. A dish traditional to the area is orechiette, or ear-shaped pasta, served with broccoli rabe, garlic, anchovies, and dried Chile peppers."
     },
     {
-        "id": 18,
-        "name": "Calabria",
-        "description": "Calabria, a sunny region located at the very bottom of mainland Italy, is geographically known for its rugged mountains, dramatic coastline, and many popular beaches. When it comes to food, common ingredients include swordfish, lobster, shrimp, squid and sea urchin, while hot peppers and cipolla rosa di tropea (a type of onion) are added to bring spice to dishes. It's also home to nduja (pronounced en-DOO-ya), a spreadable salami typically made from pork scraps, herbs, spices, and Calabrian chili peppers, for its trademark zing."
+      "id": 17,
+      "name": "Basilicata",
+      "description": "A southern Italian region primarily made up of forests and mountains, Basilicata locals tend to use a great deal of pork in their cooking, although you'll also come across wild boar and lamb in dishes. The region is famous for troccoli (a pasta similar to spaghetti) and capunti (thick, oval-shaped pasta resembling a pea pod), but is also known for a dish pretty much unheard of in America: sanguinaccio dolce. It's a southern Italian (particularly Basilicata, Calabria, Abruzzo and Campania) specialty of fresh pig’s blood cooked with dark chocolate and milk into a decadent pudding. Though it sounds somewhat unappealing, the pig's blood actually gives the dessert its fantastic, custard-like texture and complements the flavor of the dark chocolate."
     },
     {
-        "id": 19,
-        "name": "Sicilia",
-        "description": "Sicily is the largest Mediterranean island located just off the toe of Italy's famous boot ad its cuisine reflects a variety of outside influences, including Spanish, Greek, and Arabic. You'll find a number of traditional dishes here, from pasta alla norma to arancini. But, one thing you can't leave Sicily without trying is one of their cannoli, an empty, crisp, bubbly, deep-brown tubes of flaky, fried pastry waiting to be filled with ricotta, pastry cream, or chocolate in her recipe for the sweet treats. They're often dipped in chopped pistachios, chocolate, or candied fruit, before being showered in sweet, light-as-air confectioners' sugar."
+      "id": 18,
+      "name": "Calabria",
+      "description": "Calabria, a sunny region located at the very bottom of mainland Italy, is geographically known for its rugged mountains, dramatic coastline, and many popular beaches. When it comes to food, common ingredients include swordfish, lobster, shrimp, squid and sea urchin, while hot peppers and cipolla rosa di tropea (a type of onion) are added to bring spice to dishes. It's also home to nduja (pronounced en-DOO-ya), a spreadable salami typically made from pork scraps, herbs, spices, and Calabrian chili peppers, for its trademark zing."
     },
     {
-        "id": 20,
-        "name": "Sardegna",
-        "description": "The region of Sardegna, or Sardinia, is a large Italian island in the Mediterranean Sea with over 1,200 miles of coastline. It's no surprise that seafood is the name of the game here, and this clam stew made with fregola is a local favorite."
+      "id": 19,
+      "name": "Sicilia",
+      "description": "Sicily is the largest Mediterranean island located just off the toe of Italy's famous boot ad its cuisine reflects a variety of outside influences, including Spanish, Greek, and Arabic. You'll find a number of traditional dishes here, from pasta alla norma to arancini. But, one thing you can't leave Sicily without trying is one of their cannoli, an empty, crisp, bubbly, deep-brown tubes of flaky, fried pastry waiting to be filled with ricotta, pastry cream, or chocolate in her recipe for the sweet treats. They're often dipped in chopped pistachios, chocolate, or candied fruit, before being showered in sweet, light-as-air confectioners' sugar."
+    },
+    {
+      "id": 20,
+      "name": "Sardegna",
+      "description": "The region of Sardegna, or Sardinia, is a large Italian island in the Mediterranean Sea with over 1,200 miles of coastline. It's no surprise that seafood is the name of the game here, and this clam stew made with fregola is a local favorite."
     }
- ],
- "users":[],
- "messages":[],
- "recipes":[],
- "cookbooks":[],
- "myRecipes":[]
-
+  ],
+  "users": [
+    {
+      "userName": "Fortunato",
+      "password": "napoli",
+      "name": "Fortunato",
+      "id": 1
+    }
+  ],
+  "messages": [],
+  "recipes": [],
+  "cookbooks": [],
+  "myRecipes": []
 }
