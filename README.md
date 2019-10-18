@@ -8,7 +8,7 @@
 #### An open source Italian-recipes App. Users can search from all the 20 regions of Italy and save their favorite Italian recipes in their personal cookbooks. They can also contribute with their personal recipes, adding the new ones in the database where other users can search, rate and save them.
 
 ## Technology used
-#### HTML5, CSS3, JAVASCRIPT, REACT, JSON SERVER, REACT BOOTSTRAP, NPM
+#### HTML5, CSS3, JAVASCRIPT, REACT, JSON SERVER, SEMANTIC UI REACT, NPM
 
 ## MVP Definition
 1. User-specific CRUD for Authentic Italian recipes
