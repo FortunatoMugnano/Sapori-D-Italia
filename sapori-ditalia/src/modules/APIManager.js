@@ -14,5 +14,9 @@ export default {
     return fetch(`${remoteURL}/users?userName=${userName}`)
     .then(e => e.json()
     )
-  }
+  },
+	getUserById(id) {
+    return fetch(`${remoteURL}/users/${id}`)
+    .then(result => result.json());
+	}
 }
