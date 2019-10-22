@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, withRouter } from 'react-router-dom';
+import RegionList from "./explore/RegionList"
+import MessageList from "./message/MessageList"
+import MessageCard from "./message/MessageCard"
+import AddMessageForm from "./message/AddMessageForm"
 
 
 class ApplicationViews extends Component {
 
     render() {
-        console.log("userId", (sessionStorage.getItem("activeUser")))
         return (
             <>
                 <Route exact path="/explore" render={props => {
-                    return <img src="../images/italy-map.gif" alt="map of italy" />
+                    return <RegionList {...props} />
+                }} />
+                <Route exact path="/messages" render={props => {
+                    return <MessageList {...props} />
+                }} />
+                 <Route exact path="/messages/new" render={props => {
+                    return <AddMessageForm {...props} />
+                }} />
+                 <Route exact path="/messages/new" render={props => {
+                    return <MessageCard {...props} />
                 }} />
 
             </>
@@ -19,4 +31,4 @@ class ApplicationViews extends Component {
     }
 }
 
-export default ApplicationViews;
+export default withRouter(ApplicationViews)

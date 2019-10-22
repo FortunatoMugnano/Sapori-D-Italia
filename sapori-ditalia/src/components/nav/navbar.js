@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav } from "react-bootstrap"
+import { withRouter } from "react-router-dom"
 
 
 class Navbar extends Component {
@@ -19,10 +20,10 @@ class Navbar extends Component {
                     <Nav.Link href="/explore">Explore</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="cookbook">My CookBook</Nav.Link>
+                    <Nav.Link href="/cookbook">My CookBook</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="messages">Messages</Nav.Link>
+                    <Nav.Link href="/messages">Messages</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link onClick={this.handleLogout}>Log Out</Nav.Link>
@@ -33,4 +34,4 @@ class Navbar extends Component {
 
 }
 
-export default Navbar
+export default withRouter(Navbar)
