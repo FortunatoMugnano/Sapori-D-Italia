@@ -113,28 +113,300 @@
       "password": "napoli",
       "name": "Elizabeth",
       "id": 2
-    },
-    {
-      "userName": "Ciro",
-      "password": "napoli",
-      "name": "Ciro",
-      "id": 3
-    },
-    {
-      "userName": "Giuseppe",
-      "password": "napoli",
-      "name": "Giuseppe",
-      "id": 4
-    },
-    {
-      "userName": "boo",
-      "password": "napoli",
-      "name": "boo",
-      "id": 5
     }
   ],
   "messages": [],
-  "recipes": [],
-  "cookbooks": [],
-  "myRecipes": []
+  "userRecipes": [],
+  "myRecipes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "regionId": 1,
+      "name": "Canederli with Speck",
+      "ingredients": "9 ounces stale white bread crusts on 1 tablespoon chopped onion, 1 tablespoon butter, 1 tablespoon olive oil, 3 1/2 ounces of speck, chopped, 1 tablespoon chopped chives plus extra for garnish, 1 tablespoon chopped parsley, 2 eggs beaten, 1 cup milk, 1 tablespoon breadcrumbs, 1 tablespoon flour, Salt and pepper, Homemade beef stock or butter and sage to serve",
+      "direction": "Cut the bread into cubes about 1/3 inch wide and set aside in a large bowl. Melt the butter in a pan with the olive oil and gently saute the onion. When soft, add the speck and cook for a few minutes. Add the onion and speck to the bread, along with the herbs, eggs and milk. Season with a small pinch of salt and some pepper. Mix – hands are best – until well combined and leave the bread to soak up the milk for about 15 minutes. Stir the mixture occasionally so that the bread is evenly coated. You're looking for a mixture that you can roll into a ball. Depending on the bread and how well it soaks up the liquid, you may need to add a tablespoon of breadcrumbs and one of flour. Be aware not to use too much flour or the canederli will become too hard or chewy inside. With wet hands, roll a handful of the bread mixture into compact balls, about 2-2 1/2 inches in diameter until you have 8 canederli. Cook the canederli in boiling beef broth or water for about 10-12 minutes, or until they float. Serve with some of the broth and some chives, or alternatively, remove from the broth and serve with a sage and butter sauce, made simply by melting butter in a skillet, adding the sage leaves and gently cooking until fragrant, about 1 minute, then tossing the canederli in this with a few spoonfuls of the broth to create a creamy emulsion. Serve immediately",
+      "difficulty": "Medium",
+      "rate": 4
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "regionId": 1,
+      "name": "Apple Strudel (Strudel di Mele)",
+      "ingredients": "For the pastry: 2 1/2 cups flour, 1/2 cup  warm water, 1 egg, 2 teaspoons olive oil, plus more for brushing, 1 pinch of salt, 1 teaspoon vinegar; For the filling: 4 apples, about 750 grams Zest and juice of 1 lemon, 3 tablespoons currants, 2 tablespoons pine nuts, 1/4 cup turbinado sugar, 1 teaspoon ground cinnamon, 2/3 cup breadcrumbs, 1/3 cup butter, 2 tablespoons rum, optional, confectioners' sugar, for dusting",
+      "direction": "For the pastry: Place the flour in a bowl and make a well in the center. Place the water, egg, 2 teaspoons olive oil, salt, and vinegar in the center and whisk with a fork to combine, until it begins to get too difficult to whisk. From here, knead the dough until soft, elastic, and well-combined. Brush the dough with olive oil and let rest, covered, in a bowl for 30 minutes. For the filling: Peel and core the apples, and chop them into thin slices, then place immediately in a bowl with the zest and juice of the lemon and toss. Set aside. In a separate bowl, combine the currants, pine nuts, turbinado sugar, and cinnamon. Set aside. In a small skillet, toast the breadcrumbs in half of the butter over a medium heat for 2 to 3 minutes, until the breadcrumbs become coated in the butter. Set aside. For the assembly: Divide the pastry into 2 balls. Roll out 1 ball of pastry on a floured tea towel to a rectangle roughly 12 x 16 inches and thin enough to see your hand through the other side. Brush melted butter over the whole pastry. Scatter half of the toasted breadcrumbs evenly over the pastry, leaving a border of about 4 inches. Combine the chopped apples with the currant mixture and the rum, then toss to combine. Place half of the apple mixture over the breadcrumbs and, with the help of the tea towel, gently fold the pastry from the long side, then roll to close the pastry firmly. Fold the ends underneath. Transfer the pastry to a baking sheet lined with parchment paper and brush with melted butter to cover entirely. Repeat with the rest of the pastry and filling to create the second strudel. Bake the strudels at 350ºF for about 30 minutes, or until the top is golden brown. Let cool slightly, then transfer to a baking rack. You can serve this warm or cold, with a simple dusting of confectioners' sugar or a dollop of unsweetened, fresh whipped cream or ice cream.",
+      "difficulty": "Hard",
+      "rate": 3
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "regionId": 2,
+      "name": "Mostarda Mantovana",
+      "ingredients": "2 pounds (1 kg) quince (or apples), on the underripe side, 1 1/2 cups (300 grams) sugar, 1/2 lemon, sliced (optional), mustard essence, as needed (10-20 drops per kilogram of cooked fruit)",
+      "direction": "Day one: Peel and finely chop the fruit. Place in a non-reactive bowl with the sugar and lemon slices (if using) and toss until well-combined. Leave to sit in a cool place to macerate for 24 hours. Day two: Strain the liquid created by the fruit into a small saucepan. Return the fruit to the bowl. Bring the liquid to a rapid boil, cook for 5 minutes. Remove from the heat and pour the liquid over the fruit. Let cool, then cover and let sit in a cool place for another 24 hours. Day three: Strain off the liquid again, into a saucepan. Return the fruit to the bowl. Bring the liquid, which should be more syrupy now, to the boil and cook 5 minutes. Pour it back over the fruit. Let cool, then cover and let sit in a cool place for 24 hours. Day four: Place the fruit and its syrup in a saucepan and bring to the boil. Turn the heat down to a simmer and let cook, turning the fruit with a wooden spoon to cook it evenly, for about 10 minutes (if there is not enough liquid left to cook the fruit through, add a splash of water to help it along). The fruit should still have some bite to it, it should keep its shape, but be evenly cooked. It should all be held together with a light syrup. Let it cool completely, then, weigh the fruit (you do need scales for this! In my experience with this recipe, it produces about 750 grams of cooked fruit, so 3/4 of a kilogram). In a well-ventilated area, open the bottle of mustard essence (do not put your face close to it or try to sniff it directly and do not try to taste it or get it on your skin!) and carefully add 10-20 drops of mustard essence per kilogram of fruit or to taste—10 drops will produce a mildy spiced mostarda, 20 is not for the faint hearted! I would recommend 10-12 drops per kilogram (so 8-9 drops for 3/4 of a kilogram of cooked fruit). Bottle in sterilised jars and, if not planning on eating within the month, process the cans to seal. This is best consumed within six months as the mustard essence begins to weaken significantly after this time, even if unopened. As the essence diminishes with heat, it is best to keep the mostarda somewhere cool.",
+      "difficulty": "Hard",
+      "rate": 4
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "regionId": 3,
+      "name": "Risotto Like a Chef",
+      "ingredients": "1 1/2 cups arborio rice, 4 cups chicken stock, 1/2 cup vermouth (or another dry white wine), 1 medium shallot (about 1/2 cup or 1/2 small onion, chopped), 3 tablespoons whole butter (divided), 1 tablespoon vegetable oil, 1/4 cup Parmesan cheese (grated), 1 tablespoon Italian parsley (chopped), Kosher salt (to taste)",
+      "direction": "Gather the ingredients. Heat the stock to a simmer in a medium saucepan, then lower the heat so that the stock just stays hot. In a large, heavy-bottomed saucepan, heat the oil and 1 tablespoon of the butter over medium heat. When the butter has melted, add the chopped shallot or onion. Sauté for 2 to 3 minutes or until slightly translucent. Add the rice to the pot and stir it briskly with a wooden spoon so that the grains are coated with the oil and melted butter. Sauté for another minute or so, until there is a slightly nutty aroma. But don't let the rice turn brown. Add the wine and cook while stirring, until the liquid is fully absorbed. Add a ladle of hot chicken stock to the rice and stir until the liquid is fully absorbed. When the rice appears almost dry, add another ladle of stock and repeat the process. Continue adding stock, a ladle at a time, for 20 to 30 minutes or until the grains are tender but still firm to the bite, without being crunchy. Stir in the remaining 2 tablespoons butter, the Parmesan cheese, and the parsley, and season to taste with Kosher salt. Serve in bowls and enjoy",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "regionId": 4,
+      "name": "Brasato al Barolo (Piedmont-Style Pot Roast)",
+      "ingredients": "2 1/2 pounds (1.2 kg) beef chuck roast/pot roast, Salt and freshly ground black pepper, 3 tablespoons olive oil, 3 tablespoons (50 grams) cold butter, 1 onion diced, 1 carrot diced, 1 stalk celery diced, 2 garlic cloves peeled, 2-3 bay leaves, 1 handful mixed fresh herbs such as rosemary, sage, thyme, 1 bottle (25 fl oz or 750 ml) dry, full-bodied red wine, Water or beef stock, to cover",
+      "direction": "Rub the beef with salt and pepper. If you like, you can tie the beef with kitchen string too, to help it keep it shape during cooking. Heat the olive oil in a (preferably ovenproof) pot, such as a Dutch oven (in Italy a terracotta pot is often used). Sear the beef in one whole piece over high heat on all sides until a nice brown crust develops. Remove the beef and set aside. Turn the heat to low. Add the onion, carrot and celery by sweating them gently with a good pinch of salt and half of the butter until the vegetables are soft and translucent, about 10 minutes. Return the beef to the pot, tip over the bottle of wine, add the garlic cloves, herbs (and optional spices, if using) and season with salt and pepper. Over medium heat, bring the wine to a boil and let it reduce, about 5 minutes. Add enough water (or beef stock) to cover the meat with liquid again. Place on the lid, turn heat down to low and let simmer gently for about 2 hours, turning the beef occasionally. Alternatively, if you have an ovenproof pot, you can also put this in a moderate oven (325°F/160°C) for the same amount of time. Remove the meat and set aside on a chopping board. Remove and discard bay leaves and rosemary or thyme stalks, if you used them. Then, with an immersion blender, blend the vegetables and liquid until smooth. Continue boiling the sauce over medium-high heat, uncovered, until the sauce is reduced and slightly thickened, about 10 minutes. Drop in the rest of the butter and swirl it through the sauce until glossy. Taste for seasoning, add salt and pepper, if necessary. Cut the beef into 1/3 inch slices and serve with the sauce alongside fluffy mashed potatoes or creamy, soft polenta. Note: This dish improves after a good night's rest. I like to slice the meat as described above and leave in the sauce to absorb some extra flavor, but some prefer to keep the meat whole until serving and slice later. Either way, let the brasato cool completely, then cover and refrigerate overnight (or up to three days). Then, simply reheat in the oven or stovetop before serving.",
+      "difficulty": "Hard",
+      "rate": 5
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "regionId": 4,
+      "name": "Bagna Cauda (Hot Garlic and Anchovy Sauce)",
+      "ingredients": "12 plump cloves garlic, 1 cup extra virgin olive oil, 3.5 ounces (100 grams) anchovies in oil, 1/4 cup (50 grams) of cold butter",
+      "direction": "Peel the garlic cloves, then mince 4 to 5 of them and finely slice the rest. Place all the garlic, the olive oil, and anchovies in a small saucepan and place over VERY LOW HEAT. Cook gently for about 20 minutes, or until the garlic is soft and fragrant but do not let the garlic brown or fry (a barely-there sizzle is fine). Keep your eye on it and stir occasionally to check that there's no danger of browning the garlic. Just before removing from heat, stir through the butter. Serve hot with raw or cooked vegetables cut into sticks or wedges for dipping (see note for ideas). If not using right away, keep in the refrigerator for a few days maximum.",
+      "difficulty": "Easy",
+      "rate": 3
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "regionId": 5,
+      "name": "Gubana",
+      "ingredients": "70g sultanas, 350g butter, 125g broken nuts, 60g pine nuts, 75g candied fruit, 30g almonds, spoonful of bread crumbs, 3 eggs, caster sugar, lemon, orange, 'Malaga' wine, 350g white flour, 2 spoonfuls of Aquavite.",
+      "direction": "Mix a third of the flour and butter together. Mix the remaining flour with the Acquavite and an egg to make a second lot of dough. Leave both to rest on one side. Place the sultanas in the wine to soften them up. Boil the nuts in hot water and chop them finely along with the candied fruit. Throw them all into a bowl and add the pine nuts and grated rind from the lemon and orange, together with the sultanas and the bread crumbs. Mix well and fold in the yolk of an egg and the white of the egg which has been beaten previously. The two pastries should be now rolled and layed together to form a light 'pasta sfogliata'. Place all the mixture from the bowl onto the pastry and fold over to hide the mixture. Take the two ends of the pastry and form a spiral bun shape. Flour the dough and baste with another egg yolk. Sprinkle on the sugar and place in a hot oven for around 45 mins. The Gubana should be served tepid or cold.",
+      "difficulty": "Easy",
+      "rate": 4
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "regionId": 6,
+      "name": "Baccalà Mantecato",
+      "ingredients": "25 ounces (700 gr) baccalà (stockfish, already soaked), 1 or 2 cloves of garlic, 1/2 cup (120 ml) olive oil, salt and white pepper to taste",
+      "direction": "Place the baccalà in a large saucepan and cover with cold water. Bring to the boil and simmer for 15 minutes or until tender (test by pricking with a fork, if it's still too firm, give it a little more time). Drain the fish, reserving a little of the water if needed later. Remove the garlic, skin and any large bones. Break the fish into pieces and place in a bowl (or your mixer/food processor if using - but note that this will result in a different consistency). Then, while the fish is still hot, begin whipping to 'cream' the fish with a whisk or -- if you're going old-school -- a wooden spoon. At the same time, add the olive oil in a thin, slow drizzle and continue whipping energetically until you have a creamy, mousse-like consistency, with some larger pieces here and there. This is easiest done with two people, but otherwise just pause every now and then to add the olive oil in stages. You may need a little more olive oil, you may find you don't need all of it. You might even need a little of the cooking water if it is too dry or too dense. This all really depends on the quality of the stockfish and how long it was soaked for prior to cooking. Season to taste with salt and pepper and serve on slices of baguette or grilled (white) polenta. If you like, scatter some chopped parsley over the top; some prefer a pinch of nutmeg; those who like it with a kick can stir in some chopped, raw garlic.",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "regionId": 7,
+      "name": "Basil and Pine Nut Sauce (Trofie al pesto)",
+      "ingredients": "1 garlic clove, 1/2 teaspoon coarse sea salt, 100 grams basil leaves with stalks on, leaves and flowers removed and washed and dried, 60 grams pine nuts, toasted, 1/2 cup extra virgin olive oil, the nicest you can afford, preferably from Liguria, 20 grams finely grated Parmigiano-Reggiano cheese, 20 grams finely grated pecorino cheese, plus extra for serving",
+      "direction": "In a mortar and pestle, grind the garlic with the sea salt until it forms a paste. Use the pestle to grind the garlic along the sides and don’t pound the mixture. When the garlic and salt has formed a puree, add the basil leaves. Continue to grind until the leaves start to break down. Next, add the pine nuts, continuing to grind until the mixture forms a paste. Remove the pesto from the mortar into a bowl and add the cheeses. Stir well with a wooden spoon. When well mixed, add the olive oil, 1 tablespoon at a time, stirring until it forms a sauce. Pesto can be placed in a clean, dry jar, covered with oil, and placed in the refrigerator for up to a week. It can also be frozen in cubes in an ice tray ready to add to a soup or pasta when needed. NOTES If you don’t want to use a mortar and pestle, you can also use a blender or food processor or a hand blender with good results. Just add in the same order as listed above, adding a few tablespoons of the olive oil with the garlic. Be careful not to over chop the pine nuts as you want the sauce to have a nice, slightly chunky texture. When combined, remove the pesto and place in a bowl. Stir in the cheeses using a wooden spoon. Then slowly add the remaining olive oil.",
+      "difficulty": "Medium",
+      "rate": 5
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "regionId": 7,
+      "name": "Torta Pasqualina (Easter Chard and Ricotta Pie)",
+      "ingredients": "For the pastry: 4 cups (500 grams) bread flour, 1 teaspoon salt, 2 tablespoons olive oil (plus more for brushing dough), 1 1/4 cups (about 310 milliliters) water, or as needed. For the filling: 2 pounds (1 kilogram) swiss chard (or other greens such as spinach), 1/2 medium brown onion, chopped finely, 2 tablespoons olive oil,Salt and pepper, 1 handful fresh marjoram leaves, 8 eggs, 1 cup (120 grams) grated Parmesan cheese, 1 1/2 cups (about 350 grams) ricotta, 1 pinch ground nutmeg",
+      "direction": "For the pastry: Place the flour, salt, and olive oil in a bowl and add water, little by little, until you have a dough that is neither dry nor sticky. You may need to add a bit more water, you may not need it all, so I suggest doing this by hand or at least adding the water bit by bit so you can see how the dough behaves. Once the dough comes together, knead it on a lightly floured surface for 5 to 10 minutes, until the dough is smooth and elastic (it should bounce back when poked). Wrap in plastic wrap and let rest for at least 1 hour (you can also prepare this the night before and leave it overnight in the fridge).For the filling: Remove the central veins of the chard, then cook the leaves until tender, about 5 to 7 minutes. Remove from the water, drain, let cool slightly, then chop finely. Squeeze again to remove as much water as possible (too much liquid will create a soggy base). In a large pan, sauté the onion in 2 tablespoons olive oil until soft and translucent. Add the chard and toss to combine with the onion, cooking a further 2 minutes. Season with salt and pepper, add the fresh marjoram leaves, and set aside to cool. When cool, combine 2 beaten eggs and a third of the Parmesan with the chard mixture and set aside until needed. In a separate bowl, combine the ricotta, 2 eggs, a third of the Parmesan, and nutmeg, and season with salt and pepper. Beat until combined. Set aside in the fridge until needed. To assemble the pie, brush olive oil lightly over a cake tin with a removable base (about 9-10 inches or 23 to 25-centimeter diameter is ideal, but slightly larger sizes work too). Cut the dough into 4 equal portions. Roll the portions out one at a time, keeping the others well covered with a tea towel or plastic wrap. On a large, lightly floured surface, roll the first ball of dough until very thin -- you should be able to see your fingers through the other side. Lay the dough gently over the cake tin to cover the sides and base. Let the excess dough hang over the edge. Brush the dough lightly with olive oil. Roll out a second ball of dough as before and lay over the first layer of dough the same way. Brush with olive oil, pushing out any air bubbles with the brush as you do so. Fill the pie base with the chard mixture, smoothing over the top with the back of a spoon. Next, layer over the ricotta mixture, smoothing over the top with the back of a spoon. Then, with the help of a spoon, make 4 round indents over the surface of the ricotta that are big enough to fit an egg yolk in each. Crack the eggs, separating the whites from the yolks. Place the yolks in the indents in the ricotta and the whites in a small bowl. Whisk the whites together with a fork and pour over about half of the whites to make an even layer that just covers the ricotta. Sprinkle over the rest of the Parmesan. Roll out the third ball of dough as before. Gently lay it over the top of the pie and brush lightly with olive oil. Roll out the last ball of dough and lay it over the top. Trim the dough overhang, leaving about an inch (2 1/2 centimeters) from the edge of the top of the pie, and roll the trim down until it reaches the top of the pie. Brush the top with olive oil and then bake for about 50 minutes at 350° F (180° C) or until the top is golden brown and puffed. (A tip: If you have an oven that doesn't bake well from the bottom, place the pie on the lowest shelf for the first half of the cooking time, then move it up for the second half). Remove the pie from the oven, and let the pie stand for 15 to 20 minutes in the cake tin before removing the tin and cutting into it. Serve warm or even cold -- this makes a great portable picnic dish too.",
+      "difficulty": "Hard",
+      "rate": 2
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "regionId": 8,
+      "name": "Lasagna alla Bolognese",
+      "ingredients": "Butter, for the pan, 1/2 batch Bolognese Sauce, 1 1/2 (9-ounce) boxes no-boil lasagne noodles, Besciamella, 3/4 cup grated Parmesan, plus more for serving, Extra-virgin olive oil, for serving. Bolognese Sauce: 1 pound ground pork, 1 pound ground veal, 5 tablespoons olive oil, 1 cup red wine,1 red onion, medium chop,  3 (28-ounce) cans pelati tomatoes, 3 carrots medium chop,3 celery stalks medium chop,5 ounces pancetta, cut into small cubes, 1/2 teaspoon crushed red pepper flakes, 2 handfuls fresh flat-leaf parsley, leaves picked and chopped, 1 pound ground beef, Kosher salt and freshly ground black pepper, 1 cup whole milk. Besciamella: 1/2 cup butter, 1/2 cup all-purpose flour, 4 1/2 cups whole milk, Pinch freshly grated nutmeg, Kosher salt and freshly ground black pepper",
+      "direction": "Preheat the oven to 375 degrees F. Butter the lasagne pan well and add a very thin layer of meat sauce. Add the first layer of lasagne noodles and in order, cover with meat sauce, about 3 ladles besciamella, and a generous sprinkle of Parmesan cheese. Repeat the same process until you reach the top of the dish. Make sure the lasagna noodles are soaking into the sauce. When done layering the ingredients, top the lasagne with a final ladle of meat sauce and some besciamella, add a few thin slices of butter and finish with some grated Parmesan. Bake for about 30 minutes. Heat a broiler. When your fantastic lasagne alla bolognese is cooked, give it a nice crisp top by broiling it for about 5 minutes. Always serve this dish with extra-virgin olive oil and some grated parmesan, to taste. Bolognese Sauce: Saute the onion, carrots, and celery in about 5 tablespoons olive oil in a large rondeau until soft. Add the pancetta to the soffritto (onion mixture). Cook on a medium-high flame for about 7 to 10 minutes, then add the meat; break it up well with a wooden spoon. You can jack up the heat a bit, and keep stirring until all the ground meat is browned. Add the red pepper flakes and the parsley and cook for just 1 minute. Add the wine now and cook until the alcohol is completely evaporated, scraping up the browned bits on the bottom of the pan. Pulse the tomatoes smooth in a food processor and add them to the meat, season generously with salt and pepper, lower the flame to medium and cook for about 2 1/2 hours, stirring occasionally. Finish the sauce by adding the whole milk, stir well and set aside, to cool off. Besciamella: Melt the 1/2 cup butter in a pan over medium heat. Stir in the flour with a wooden spoon. This is an important moment, as you have to slowly toast the flour without burning it. This will help you lose the flowery taste. Warm up the milk and gradually ladle into the pot with the butter-flour mixture, whisking constantly while bringing the mixture to a boil. Reduce the heat, and simmer for about 15 minutes. Season the sauce with freshly grated nutmeg, salt, and pepper. Because you are working with pasta that does not require boiling, you have to make sure that there are no pieces of lasagne sticking out of the sauce because they won't cook. When you decide to tap into your reserve of frozen lasagne, keep in mind you need to thaw the frozen lasagne overnight before reheating. Pelati tomatoes are whole canned tomatoes. If the sauce is too thick, add a little more milk, if too runny, return to the heat and add a pat of butter mixed with an equal amount of all-purpose flour. The most important thing though is: besciamella should not taste floury. If you think your sauce is ready, but you can spot a hint of flouriness when you taste it, think again, and keep on cooking it for a few minutes more.",
+      "difficulty": "Medium",
+      "rate": 5
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "regionId": 9,
+      "name": "Acquacotta (Wild Greens and Bread Soup)",
+      "ingredients": "2 large bunches of wild chicory, 2 garlic cloves, 2 small potatoes, peeled and thinly sliced, 10 1/2 ounces (300 grams) of fresh tomatoes, chopped, 1 pinch of salt, Water to cover, 4 eggs, 4 slices of stale bread from a good, dense, wood fired country loaf (or if fresh, dry out the slices in a low oven), Extra-virgin olive oil, A handful of chopped, wild fennel and calamint",
+      "direction": "Carefully wash the wild greens several times over or until all the dirt has been removed. If they are tough or large, you may need to blanch them first until tender. If they are young and small then just use them as they are. Place the garlic cloves, potatoes, tomatoes, the wild greens and salt in a pot and add water to cover. Bring to a simmer and cook until the vegetables are tender. Crack the eggs into the simmering soup and cover until the whites are cooked but the yolk still runny, a few minutes. Remove from the heat, place a slice of bread in each shallow bowl and ladle the soup and egg over each slice of bread. Let rest a minute or two so that the bread can soak up the broth. Ideally, the bread should soak everything up and there should be no liquid in the bowl. If the bread hasn't soaked up enough, be sure to ladle over some extra broth from the pot. If there is any extra liquid present in the bowl, remove it with a spoon or kitchen paper. Finish with a drizzle of very good olive oil and a generous handful of chopped wild fennel and calamint.",
+      "difficulty": "Medium",
+      "rate": 3
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "regionId": 10,
+      "name": "Viana La Place's Umbrian Black Olive Panino",
+      "ingredients": "1 small crusty roll, with a firm, chewy crumb, 1 garlic clove, peeled, Extra-virgin olive oil, Juice of 1/2 a small lemon, 8 oil-cured black olives, pitted and cut in half, 1 teaspoon orange zest, preferably from an organic orange (use a zester to create thin strips)",
+      "direction": "Slice the roll in half horizontally. Pull out a little of the inside of the bread to form shallow hollows. Cut the garlic clove in half. Rub the inside of both halves of the bread with the cut garlic cloves. You can determine how much flavor you want by how hard you rub the clove into the bread. Drizzle the bread generously with olive oil and lemon juice. Nestle the olives into the bottom half of the roll, sprinkle with orange zest, and cover with the other half.",
+      "difficulty": "Easy",
+      "rate": 4
+    },
+    {
+      "id": 14,
+      "userId": 1,
+      "regionId": 11,
+      "name": "Olive all'Ascolana (Deep-Fried Stuffed Olives)",
+      "ingredients": "60 large, whole green olives, 2 cups water, 1 tablespoon salt, 1 tablespoon olive oil, 1/4 cup (50 grams) butter, 1/2 small carrot, finely chopped, 1/2 small onion, finely chopped, 1/2 celery stick, finely chopped, 3 1/2 ounces (100 grams) pork, finely diced or minced, 3 1/2 ounces 100 grams beef, finely diced or minced, 3 1/2 ounce, 100 grams chicken, finely diced or minced, 1/3 cup (80 ml) dry white wine, Pinch of nutmeg, Salt and pepper, 1 egg yolk, 1/2 cup (50 grams) grated Parmesan cheese, 1 whole egg, 1 cup (100 grams) flour, 1 cup (50 grams) breadcrumbs, Olive oil or vegetable oil, for frying",
+      "direction": "First, prepare the olives. Arm yourself with a small knife. (A regular table or butter knife is easiest to work with; you may prefer a sharp knife, but they can cut too easily through the olive, resulting in breakage). Begin trimming around the pit of the olive, much like you would peel the skin off an apple, to create a spiral of olive meat and to remove the pit. Discard the pit, and place the olive in a bowl with the water and salt. Continue with the rest of the olives. (You may want helpers.) For the filling, over medium heat, melt the butter with the olive oil in a skillet, and saute the carrot, onion, and celery for about 5 minutes. Add all the pork, beef, and chicken, and cook, stirring gently, for about 5 minutes. Then, add the white wine, nutmeg, salt, and pepper, and continue cooking, stirring gently, for a further 10 minutes or until the liquid is reduced slightly. Transfer the mixture to a food processor and blend, until smooth and fine like a paste. To the meat mixture, add the egg yolk and Parmesan cheese, and blend again. You should have a rather solid, compact filling that you can easily shape into a ball. If it is a bit soft or sticky, place in the refrigerator to chill. This filling can also be made a day or two ahead and stored in the refrigerator in an airtight container until needed. To fill the olives, take a 1/2-teaspoon sized portion of the filling, roll it into an oval shape, and wrap an olive around it (like the filling is taking the place of the pit). Press gently to close the olive perfectly over the filling. Repeat with the rest of the olives. When all the olives are ready, they can be refrigerated at this point and kept until you need to fry them. In a small bowl, beat the egg with a pinch of salt. Put the flour and the breadcrumbs in 2 other, separate small bowls. Fill a small saucepan with enough olive oil for the olives will float in. Bring the oil to medium heat. Double-coat the olives by first dipping them in flour, then egg, then breadcrumbs, then back into the egg and back into the breadcrumbs. Drop them carefully into the hot oil and fry for about 1 minute, turning them gently to brown evenly. Fry in small batches (do not overcrowd the pan otherwise the temperature will drop significantly), and drain on paper towels. Serve immediately. Note: If the olives are browning too quickly, it means the oil is too hot and you will end up with a soft filling rather than a fully cooked one (the egg will be uncooked but the meat of course is already cooked). Turn the heat down a notch and try again, cooking them slower.",
+      "difficulty": "Medium",
+      "rate": 4
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "regionId": 12,
+      "name": "Pasta Carbonara",
+      "ingredients": "6 ounces flat pancetta, cut into 1/4-inch dice, 2 tablespoons extra-virgin olive oil, 5 large eggs, 1 cup freshly grated Pecorino Romano, 1 cup freshly grated Parmigiano-Reggiano, 2 tablespoons freshly cracked black pepper, 1 pound bucatini",
+      "direction": "In a medium skillet, cook the pancetta and oil over medium-low heat, stirring occasionally, until the pancetta is browned and the fat has rendered, about 10 minutes. Remove from heat. In a large bowl, whisk together the eggs, Pecorino, Parmesan, and pepper. Bring a pot of salted water to boil; cook pasta until al dente, drain, and immediately toss with the egg mixture. Add the pancetta along with its rendered fat, toss well, and serve immediately with extra pepper, if desired. If the heat of the cooked pasta does not quite set the eggs, you can gently toss it again over very low heat in the pan you cooked the pancetta in. But stir continuously and make sure the heat is as low as it can go so that you don’t wind up with scrambled eggs.",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 16,
+      "userId": 1,
+      "regionId": 12,
+      "name": "Pasta with Pecorino, Guanciale & Black Pepper (Mezze Maniche alla Gricia)",
+      "ingredients": "1 teaspoon extra-virgin olive oil, 7 ounces guanciale, cut into 1 1/2 x 1/2-inch strips Cored insides of 6 zucchini, roughly chopped, Sea salt, 1 pound rigatoni, mezze maniche, paccheri, or other tubular pasta, 1 cup grated Pecorino Romano, Freshly ground black pepper",
+      "direction": "Heat the olive oil in a large skillet over low heat. When the oil begins to shimmer, add the guanciale and cook, stirring, until golden brown, about 8 minutes. Add the zucchini, season with salt, and cook until the zucchini is softened and cooked through, about 10 minutes. Meanwhile, bring a large pot of water to a rolling boil over high heat. Salt the water. When the salt has dissolved, add the pasta and cook until al dente. Add a ladle of the pasta cooking water to the skillet with the zucchini and bring to a simmer. When the pasta is very al dente, drain, reserving the cooking water. Add the pasta and another ladle of its cooking water to the pan. Cook over medium-high heat, stirring vigorously, until a thick sauce forms, adding more water if necessary to achieve the desired consistency. Remove the skillet from the heat and, add 3/4 cup of the Pecorino Romano, and mix thoroughly. Season to taste. Plate and sprinkle each portion with some of the remaining Pecorino Romano and pepper to taste. Serve immediately.",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "regionId": 12,
+      "name": "Cacio e Pepe",
+      "ingredients": "2 tablespoons whole black peppercorns crushed in a mortar and pestle or 1 tablespoon freshly ground black pepper, 4 tablespoons extra-virgin olive oil, 2 tablespoons sea salt, 500 grams spaghetti, 3/4 cup grated Pecorino Romano, 3/4 cup grated Parmigiano-Reggiano, About 3/4 to 1 cup of cooking water",
+      "direction": "In a pot over low heat, heat the crushed peppercorn with the olive oil. In a pot large enough to cook the spaghetti, bring water to a boil. Turn the heat off under the olive oil and add about 1/2 cup of the hot cooking water from the pot into the pan, then set aside. When the pasta water comes to a rolling boil, add the salt, stir, then add the spaghetti. Cook the spaghetti until 2 minutes under the lowest time recommended on the package. Using tongs (you don't want to get the rid of the water), add the pasta to the pot with the pepper. Turn the heat onto very low and turn the pasta continuously until most of the water is absorbed. At this point, remove from the heat and transfer to a warm bowl. Still tossing, begin adding the two grated cheeses, a couple handfuls at a time. If it starts to get dry, add 2 to 3 tablespoons of pasta water. Keep turning and turning, adding cheese and pasta water, a little at a time, until all the cheese has been incorporated and you have a lovely creamy sauce coating each strand of pasta. Eat immediately.",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 18,
+      "userId": 1,
+      "regionId": 13,
+      "name": "Three-Ingredient Lamb Skewers",
+      "ingredients": "1 branch of fresh rosemary, 4 tablespoons extra-virgin olive oil, plus more for drizzling, 1 1/2 pounds (about 700 grams) lamb, cut into 1/2-inch cubes, Salt and pepper, to taste, Hot chile pepper flakes, optional",
+      "direction": "Bash the rosemary branch with the palm of your hand on a chopping board and stick it in a small bowl with the olive oil and a few grinds of black pepper. Leave to infuse while you prepare the lamb. Thread the cubes of lamb onto long skewerss to make about 16 sticks. Drizzle the meat with some of the olive oil to coat lightly. Sear the lamb sticks over a high flame on an iron grill and cook about 1 minute on each side, until the meat is browned (not burnt) and develops a little crust. Remove from the heat and place on a serving plate. Immediately season with salt and, if desired, a pinch of chile pepper flakes. Brush the lamb skewers with the remaining olive oil, using the rosemary branch as a brush. Serve hot with a glass of red wine and crusty country-style bread drizzled with olive oil. (And eat these with your hands!)",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 19,
+      "userId": 1,
+      "regionId": 14,
+      "name": "Baked Lamb with Cheese, Eggs and Peas (Agnello Cacio Uova e Piselli)",
+      "ingredients": "2 tablespoons olive oil, 1 onion, sliced thinly, 2 pounds (1 kilogram) lamb shoulder diced, 1 cup (250 milliliters) dry white wine, 1 pound (450 grams) fresh peas in their shells (about 1 cup or 200 grams of frozen or fresh, podded peas), Salt and pepper, 4 eggs, Juice of 1/2 lemon, 2/3 cup grated Pecorino cheese, Handful of fresh parsley, chopped",
+      "direction": "Heat olive oil in an oven-proof pot and gently saute the onion until soft and translucent. Add the lamb and let it brown evenly. Pour in the wine, turn heat down to a simmer and cook until lamb is tender and the liquid has reduced. Meanwhile shell the peas and a few minutes before lamb is ready, add to the pot. Season with salt and pepper. Beat the eggs together with the lemon juice, cheese and parsley. Pour the egg mixture over the top of the lamb stew and bake at 350ºF until golden brown on top, about 15-20 minutes.",
+      "difficulty": "Medium",
+      "rate": 4
+    },
+    {
+      "id": 20,
+      "userId": 1,
+      "regionId": 15,
+      "name": "Pastiera Napoletana (Neapolitan Wheatberry and Ricotta Easter cake)",
+      "ingredients": "For the pastry: 1 stick (125 grams) unsalted cold butter, 2 cups (250 grams) of flour, 1 whole egg, plus one yolk, 3/4 cup (100 grams) of powdered sugar, 1 lemon, finely zested. For the filling: 10 ounces (280 grams) of cooked wheat berries or about 3.5 ounces (100 grams) of uncooked wheat berries, 1 cup (230 milliliters) milk, 2 tablespoons (30 grams) of butter, 12 ounces (350 grams) of fresh ricotta (a combination of cow's milk and sheep's milk ricottas are traditionally used), 1 3/4 cups (320 grams) of fine sugar, 2 whole eggs, plus two yolks, 1 lemon's zest, finely grated, 1 teaspoon vanilla essence (or 1 vanilla bean pod, scraped), 1 teaspoon ground cinnamon, 1 tablespoon orange blossom water, 3 1/2 ounces (100 grams) candied citron, finely chopped, 1 handful powdered sugar, for dusting",
+      "direction": "For the pastry: Mix the dry ingredients together in a bowl. Chop the cold butter into small pieces and pulse together in a food processor until it resembles breadcrumbs. Add the egg and lemon zest and knead just until the mixture comes together. If you find it a bit dry, add some cold water, a tablespoon at a time until it forms a dough: if it's too wet, add a bit of flour. Cover in plastic wrap and rest at least 30 minutes or overnight. For the filling: If you're using uncooked wheat berries, then you first need to cook them by soaking them in water for 3 days (change the water twice a day), then draining and cooking in a large pot of at least 4 cups of fresh water. Simmer for 1 ½ hours without stirring, until soft. Drain and reserve until needed (this will keep well in an air tight container the fridge for 1 week) then carry on to the next step. If using pearl barley as a substitute, leave the uncooked barley to soak in a large bowl of fresh water overnight, then the next day cook it in plenty of water for 30 minutes or until soft. Drain then follow the rest of the recipe. Place the cooked wheat berries in a saucepan over medium heat with the butter, milk and lemon zest. Bring to a boil gently, stirring occasionaly until it becomes very thick and creamy like oatmeal, about 15 minutes. Let cool until needed. In a bowl, beat the eggs and extra yolks with the ricotta, sugar, vanilla, cinnamon and orange blossom water until creamy. Leave this mixture to rest several hours (better if overnight) in the fridge. Fold the cooled wheat berry cream and the rested ricotta mixture together with the finely chopped candied citron. Roll out about two thirds of the pastry and place in a 10 inch (25 centimeter) greased springform tin. Cut off any overhang and add to the remaining pastry, roll out again and with a pastry crimper wheel, cut long strips about ¾ an inch wide. Fill the pastry base with the ricotta mixture and even out the borders of the pastry to the level of the mixture. Lay the long pastry strips gently across the top to form a a criss-cross diamond pattern (not square), pressing the strips on the edge of the pastry very gently. If desired, you can brush the lattice gently with some egg wash to make it shiny. Bake the pastiera for 1 hour at 390ºF (200ºC) until the pastry is golden and the pastiera is amber-brown on top. Allow to cool completely inside the springform pan before removing or chilling. Ideally serve the pastiera the next day (remove it from the fridge at least 30 minutes before eating to take away some of the chill) with some powdered sugar sifted over the top. Store any leftovers in the fridge.",
+      "difficulty": "Hard",
+      "rate": 5
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "regionId": 15,
+      "name": "Octopus and Potato Salad (Insalata di polpo e patate)",
+      "ingredients": "2 pounds (1 kg) octopus cleaned, 2 medium-large potatoes, washed but unpeeled, 1/2 cup (125 ml) dry white wine, Handful of parsley leaves, chopped finely, Juice of 1 lemon, 1/4 cup extra-virgin olive oil, 1 stick of celery, thinly sliced (optional), Salt and freshly ground black pepper to taste",
+      "direction": "The day before planning to cook the octopus, put it in the freezer to freeze completely. The next day, let it defrost before cooking. Place the potatoes whole and unpeeled in a pot of cold water and bring to the boil. Cook until tender (a knife should slip through it easily), about 20 minutes. Drain and let cool before peeling and chopping into 1/2-inch cubes. Set aside. Heat a heavy-bottomed pot or casserole dish over high heat. Add half the olive oil and brown the whole octopus in the pot, a few minutes. Pour over the white wine and cover. Turn flame down to lowest heat available and let simmer about 45 minutes (or until very tender—poke it with a fork to check and if not yet tender enough, leave it for a little longer) and let it cool in the pot until tepid. Remove, saving the liquid (as it is delicious), drain on paper towels, and when cool enough to handle, peel off the skin by gently rubbing with your fingers (baby octopus won't need this treatment) and chop into pieces about 2 inches (5 cm) long. Toss the octopus and potatoes together with the parsley, lemon juice, the rest of the olive oil, and the thinly sliced celery. Add a spoonful or more of the pan juices and salt and freshly ground pepper to taste (it's usually already quite flavorful). Eat at room temperature or chilled.",
+      "difficulty": "Medium",
+      "rate": 5
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "regionId": 15,
+      "name": "Babà Napoletano al Rum",
+      "ingredients": "For the babà: 1 teaspoon active-dry yeast, 1 tablespoon milk, 2 1/4 cups strong white flour (also known as bread flour or baker's flour), 1/4 cup sugar, 6 medium sized eggs, cold from the fridge and beaten, 1/2 cup butter room temperature, 1 pinch of salt. For the syrup: 1 cup white sugar, 1 lemon or orange peel, 9 ounces of rum, 3 cups water, 1 splash apricot jam for glazing",
+      "direction": "Combine the fresh yeast with the milk and 2 tablespoons of the flour until you get a small ball of dough. Leave in a bowl, covered in cling wrap and in a warm place, for about 30 minutes or until doubled in size. Note: I find active-dry yeast most reliable for this recipe. You could use fresh yeast in the appropriate conversion but try not to use instant yeast here as the proving stage is important. Also, use strong flour (bread flour), rather than soft flours (all purpose or cake flour), as it contains more gluten, making a very elastic dough that will rise well in the oven to create that perfect babà shape. Place the rest of the flour in a mixer with the ball of dough, then, with the mixer running, add the sugar and the beaten eggs. Keep the mixer on, working the dough for roughly 15-20 minutes or until the dough begins pulling away from the sides of the bowl and is very elastic. At this point, add the salt and then the butter, chopped into small cubes, one piece at a time, combining well after each addition, which should take another 15 minutes. The dough should become softer and paler. Remove from the mixer, cover the bowl with cling wrap and let the dough rise for three hours in a warm place. In the meantime, prepare the syrup by placing the citrus rinds in a saucepan with the water and sugar. Bring the boil and when the sugar has dissolved, take the pan off the heat. At this point or when cooler, you can add the rum (don't cook the rum as the alcohol will evaporate – unless you don't want this to be an adult's only dessert!). Set aside, covered, and allow the mixture to infuse until needed. Prepare the molds by buttering and flouring them well - for traditional babà use individual molds just over 2 inches in height and 2 inches in diameter on top, slightly tapered towards the bottom - a popover pan of similar dimensions works just as well. When the dough has risen, take apricot-sized balls (about 2-2 1/2 ounces each; you can weigh the first one to get an idea) with your hands and place them in the molds (they should fill the moulds by about a third). Leave to rest in a warm place, away from drafts, until the dough forms a dome and rises to the top of the molds. Bake at 350°F for about 30 minutes or until the babà has developed a deep golden-brown colour, on the darker rather than the blonder side. Let cool. At this point, you can store the babà in an air tight container for later (in the fridge they keep for a week; they also freeze well for 2 months), or you can proceed with the soaking. Heat the rum syrup until it is warm, then, off the heat, emerge the babà in the syrup, turning delicately until soaked through. Pull them out with tongs and squeeze the excess syrup out gently then place on a rack over a baking tray to catch any drips. Try to keep the babà vertical, or if on their sides, rotate them regularly so that the syrup soaks through evenly. Brush them with some strained apricot jam (if needed, heat or dilute with a bit of syrup) to give them a bit of shine. The rum syrup itself will keep in the fridge for up to a month. Just before serving, sprinkle some more of the rum syrup over the top of them and don't be shy about it. If not eating the soaked babà straight away, store them in the fridge in an air tight container for up to 5 days. Bring to room temperature before serving as they are or, if you're feeling indulgent, cut them in half but not all the way to the bottom, pipe pastry cream through the middle and arrange some strawberry slices on top.",
+      "difficulty": "Hard",
+      "rate": 5
+    },
+    {
+      "id": 23,
+      "userId": 1,
+      "regionId": 16,
+      "name": "Orecchiette with Broccoli Rabe and Sausage",
+      "ingredients": "1/2 cup olive oil (the better the quality, the better the taste), divided, 2 cloves garlic, finely chopped divided, 1 pound Italian sausage, not in casings, 1 bunch of broccoli rabe, trimmed and rinsed, 1 tablespoon butter, 1/4 cup freshly squeezed lemon juice, Salt and pepper, to taste, 1 packet (16 ounces) orecchiette, cooked as instructed and set aside warm, Parmigiano-Reggiano to taste",
+      "direction": "Divide the olive oil and the garlic between two separate deep, large frying skillets, one of which is stainless steel and the other of which has an accompanying cover or lid. In the stainless steel skillet, warm the olive oil and garlic on low gradually, then increase to medium heat. Add the sausage and cook according to your personal preference (I like mine really crispy). When the sausage is about 10 minutes away from where you want it to be, begin to heat the other pan with the garlic and olive oil to medium. After five minutes, add the broccoli rabe and cover for five minutes. Then add the butter, lemon juice, salt, and pepper and stir and cover for about another minute. You want to make sure you don’t overcook it. It needs to retain that bright green color, yet be tender enough to eat. One of the biggest mistakes novice (and sometimes even experienced) home chefs make is to overcook vegetables. Food is art, and overcooked green veggies are not appealing! So, if you’re unsure, set a timer for five minutes. At medium heat and in a covered pan, 5 to 7 minutes should get it right where you want it to be. When the broccoli rabe is done, add the sausage to the pan, then stir. Then add in the orecchiette and stir everything together, still on medium heat, for 3 to 5 minutes. Serve with freshly grated Parmigiano-Reggiano to taste. Please post below if you have questions or comments.",
+      "difficulty": "Easy",
+      "rate": 4
+    },
+    {
+      "id": 24,
+      "userId": 1,
+      "regionId": 16,
+      "name": "Miele di fichi (fig honey)",
+      "ingredients": "2 pounds dried figs, 1 gallon water",
+      "direction": "Cut figs in half and place in a large pot with the water. Bring to the boil then turn down to a gentle simmer and cook for about an hour or until the liquid is reduced by at least half and the figs are soft. Drain the figs and their liquid in a muslin-lined sieve over a bowl. When the figs are cool enough to handle, bring the edges of the muslin together and give it a good squeeze to remove as much liquid as you can. Place the strained liquid into a saucepan and bring to the boil. Turn down to a simmer and cook for about twenty minutes or so to reduce further and set. You can see if the syrup is at setting point by keeping a saucer in the freezer and testing several drops of hot syrup on the cold plate for a dense, honey-like consistency. Pour the fig honey into clean, sterilised, warm jars and seal as you would a jam.",
+      "difficulty": "Easy",
+      "rate": 4
+    },
+    {
+      "id": 25,
+      "userId": 1,
+      "regionId": 17,
+      "name": "Patate alla lucana (Basilicata Potato Casserole)",
+      "ingredients": "750g (1-1/2) potatoes, peeled and sliced, 500g (1 lb) tomatoes, peeled and sliced (or canned tomatoes, drained and sliced), 1 medium onion, thinly sliced, Oregano, q.b. , Pecorino cheese, q.b. , Breadcrumbs, q.b. , Olive oil, q.b. , Salt, 100-150g (3-4 oz) mozzarella or scamorza, Anchovy fillets, to taste",
+      "direction": "Grease the bottom of a baking or gratin dish with olive oil. Lay down a layer of potato slices. (I like to lay them in slightly overlapping rows, like roof tiles, but you needed be so “pignolo” if you don’t care about looks.) Sprinkle the potatoes with salt. Then lay down some tomato slices here and there, along with some of their juice, then some onion slices. If using, add the mozzarella or scamorza and/or a few anchovies. Sprinkle over some oregano and then grate some pecorino on top. Finally, drizzle everything with olive oil. Repeat this layering process until you have run out of potatoes. Top the final layer of potatoes with some tomatoes, generous amounts of grated pecorino and a nice sprinkling of breadcrumbs. Drizzle olive oil all over, in a cross-hatch pattern so the crumbs are well impregnated with oil. Bake in a 180C/350F oven for a good hour or so, or until golden brown on top and the juices that the tomatoes will have given off has (mostly) cooked off. If the top is not done to your liking after an hour, increase the oven temperature to 200C/400F and continue baking for a few minutes more. Let the potatoes cool off for a good 10-15 minutes before serving.",
+      "difficulty": "Medium",
+      "rate": 4
+    },
+    {
+      "id": 26,
+      "userId": 1,
+      "regionId": 18,
+      "name": "Almost Nduja",
+      "ingredients": "1 cup finely diced soppressata (127 grams), 3 tablespoons extra-virgin olive oil (42 grams), 2 tablespoons crushed/minced Calabrian chiles (36 grams), 2 tablespoons minced sun-dried tomatoes (36 grams)",
+      "direction": "Combine all ingredients in food processor. Pulse until mostly smooth, scraping down as needed. The final coarseness is totally up to you! Store in the fridge and bring up to room temperature before serving.",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 27,
+      "userId": 1,
+      "regionId": 19,
+      "name": "Couscous alla Trapanese",
+      "ingredients": "17 ounces boxed couscous, 2 bay leaves, 1 cinnamon stick, 10 garlic cloves smashed (plus 2 unpeeled),2 onions, chopped (plus 1, halved), 1/4 cup extra-virgin olive oil, 2 large stalks celery chopped, 1 small bunch parsley, left whole, with a small amount reserved and chopped for garnish, 1/2 cup sliced almonds, 1 pound fresh tomatoe peeled, 4 cups water, 1/2 pound large head-on shrimp, heads and bodies separated, 2 pounds mixed fish and shellfish, such as red snapper, sea bass, calamari, and mussels, Red pepper flakes to taste, Salt and pepper to taste, Lemon, for garnish, if desired",
+      "direction": "Cook the couscous along with the bay leaves, cinnamon, 2 cloves of unpeeled garlic, and 1 halved onion, according to package instructions. Once cooked, remove the bay leaves, cinnamon, garlic, and onion, and set aside. While the couscous is steaming, make the fish stock: In a large pot, warm the olive oil over medium-high heat. Add the chopped onions and smashed garlic cloves, cook until soft, about 3 minutes. Add the sliced almonds and peeled tomatoes, cook until the tomato starts to soften, about 3 to 5 minutes. Add water, red pepper, salt, pepper, and the shrimp heads and bodies, and bring to a boil. Reduce the heat to a simmer and cook until the tomatoes completely break down, about an hour. Add the remaining fish and shellfish, and simmer until cooked through, about 10 minutes. Transfer the fish and shellfish to a separate dish. Strain the fish stock. Pour 3 tablespoons of fish stock over the couscous and let sit, covered, for one hour before serving. Serve the couscous topped with the cooked fish, garnished with chopped parsley and lemon, and with the strained fish stock on the side (for pouring over the entire dish, as desired).",
+      "difficulty": "Medium",
+      "rate": 5
+    },
+    {
+      "id": 28,
+      "userId": 1,
+      "regionId": 19,
+      "name": "Pesto Trapanese",
+      "ingredients": "10 ripe plum tomatoes (San Marzano and Roma are best), 1/2 cup (85 grams) blanched almonds, 4 garlic cloves, peeled and roughly chopped, Handful of basil leaves, 3 to 4 tablespoons extra-virgin olive oil, 1/3 cup (40 grams) dried breadcrumbs, optional (or Parmesan cheese, grated), Salt and pepper, to taste",
+      "direction": "Score the underside of the tomatoes with a cross and blanch in a pot of boiling water for about 1 minute. Peel off the skins then chop into quarters. Remove the seeds and then roughly chop the rest of the flesh. Set aside. Toast almonds in a moderate oven until golden, about 5 to 10 minutes. In a mortar, grind the garlic, basil leaves, and a pinch of salt with a drizzle of olive oil until creamy. Add the almonds and continue grinding until fine and creamy (it will still be slightly grainy or chunky). Add the tomatoes; depending on your preferences, squash them gently or leave them slightly chunky. Add the rest of the olive oil in a drizzle until well combined and creamy. Taste for seasoning, then add salt and pepper if necessary. If desired, toast the breadcrumbs in a wide skillet with some olive oil until they're golden and serve this over the pasta in place of Parmesan cheese.",
+      "difficulty": "Easy",
+      "rate": 5
+    },
+    {
+      "id": 29,
+      "userId": 1,
+      "regionId": 20,
+      "name": "Sardinian Clam Stew With Fregola",
+      "ingredients": "Fregola: 1 1/4 cups (200 grams) semolina or durum wheat flour, 1 egg yolk, 1/3 cup water, or as needed, 1 pinch salt, 1-2 tablespoons all-purpose flour. Clam Stew: 2 pounds (1 kg) clams, 1 garlic clove, finely chopped, 1 small onion, finely chopped, 1 handful parsley, finely chopped, 3 tablespoons extra virgin olive oil, 1/2 cup dry white wine, 1 cup (250 ml) tomato passata (you can also substitute with a whole fresh tomato, chopped), 1 cup water or as needed",
+      "direction": "Fregola: Pour the semolina flour into a wide shallow ceramic bowl or onto a wooden surface (wood is an ideal material for this as it tends to add some traction as you rub the liquid into the egg). Combine the yolk, water, and salt in a small bowl. Dribble a teaspoon of the egg mixture onto the semolina, and with the fingertips of one hand, drag the liquid through the semolina to create little, irregular-shaped balls. Dribble and drag, rubbing the egg mixture into the flour in a circular motion, until all the flour or all the egg is used up. If you find the mixture feels too moist, a spoonful or two of regular flour can be added to avoid clumping. Heat oven to 150° C/300° F. Place the fregola in a single layer on a baking tray and bake for about 10-15 minutes, or until they feel dry to the touch. You can also leave them out, uncovered, for several days to dry naturally. Let cool. Clam Stew: Rinse the clams and remove any with broken shells. If you need to purge the clams (if they haven't already been purged and de-sanded where you bought them), at about 1 hour before you plan on cooking them, place the clams in a large, wide shallow dish such as a lasagne tray, cover with an inch of salt water (for 4 cups of fresh water, 2 tablespoons of salt, which is similar to the salinity of seawater). Let the clams purge 1 hour at most. Discard the water, being careful not to pour the filtered grit back over the shells. In a wide skillet, open the clams over high heat. A tight-fitting lid helps this along, it should take a few minutes of shaking the pan to move them around and let the ones on the bottom come to the top to open. When they've opened, turn off heat and strain the liquid produced from the clams—set this aside. Remove the clams from their shells (save a handful in their shells for garnish, if you like). Set aside. In the same pan, saute the garlic, onion, and parsley with the olive oil over low heat until the onion is translucent and soft. Add the white wine and turn the heat to medium-high. Let the alcohol cook off for a few minutes, then add the tomato, along with the clam water. Bring to the boil then turn down to a low simmer. Let cook for about 10 minutes. Taste and add salt and pepper if needed. At this point, you can add the fregola (you can also use store-bought fregola, though you may need to check the cooking times recommended on the packet), along with 1 cup of water or as needed. Bring to a boil, then turn down to a low simmer and cook, uncovered, for 10-12 minutes or until the fregola is cooked through. You are looking for a mixture that is the texture of risotto—soupy but not too stiff/solid. You may need to add a splash of water if the mixture gets too thick and the fregola are still too al dente. Add the clams at the very end to heat through, then serve immediately.",
+      "difficulty": "Medium",
+      "rate": 5
+    }
+  ]
 }
