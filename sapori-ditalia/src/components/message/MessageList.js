@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import APIManager from '../../modules/APIManager';
-import MessageCard from './MessageCard';
-import AddMessageForm from '../messages/AddMessageForm';
+import MessageCard from '../message/MessageCard';
+import AddMessageForm from '../message/AddMessageForm';
 
 class MessagesList extends Component {
 	//define what this component needs to render
@@ -38,6 +38,7 @@ class MessagesList extends Component {
 				<div className='sectionHeader'>
 					<h1>MESSAGES</h1>
 				</div>
+                <AddMessageForm getData={this.getData} />
 				{this.state.messages.map(message => (
 					<MessageCard
 						key={message.id}
@@ -46,7 +47,7 @@ class MessagesList extends Component {
 						getData={this.getData}
 					/>
 				))}
-				<AddMessageForm getData={this.getData} />
+
 			</div>
 		);
 	}

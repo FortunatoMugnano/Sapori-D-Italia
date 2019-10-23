@@ -1,0 +1,62 @@
+.ui.button {
+    color: #FCB83B;
+    margin-left: 0.7em;
+    margin-bottom: 0.3em;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: auto;
+
+}
+.addBtnContainer{
+    align-self: flex-start;
+    background-color: cadetblue;
+    width: 60%;
+    margin-left: 0.6em;
+    border-style: solid;
+}
+
+.sectionHeader {
+    align-self: center;
+    margin-bottom: 2em;
+}
+
+.friendCard {
+    background-color: #FCB83B;
+    margin: 0.3em;
+    border-style: solid;
+
+}
+
+.myCard {
+    background-color: #E4E8D0;
+    margin: 0.3em;
+    border-style: solid;
+}
+
+.msgHeader{
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: inherit;
+}
+
+.formField {
+    margin-bottom: 0.8em;
+    margin-top: 0.6em;
+    margin-left: 0.8em;
+}
+.msgBody{
+    margin-bottom: 0.8em;
+    margin-top: 0.6em;
+}
+.myCard > p, h4 {
+    margin-left: 0.8em;
+}
+
+.loginForm {
+    margin-top: 2em
+}

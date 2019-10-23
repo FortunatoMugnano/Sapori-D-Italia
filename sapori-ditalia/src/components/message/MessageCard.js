@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import APIManager from '../../modules/APIManager';
-import moment from 'moment';
+import moment from 'react-moment';
+import EditMessageForm from "./EditMessageForm"
+
+
+
 class MessageCard extends Component {
     state = {
         myCard: ''
@@ -30,31 +34,29 @@ class MessageCard extends Component {
     }
 
     render() {
-        let timeStamp = moment(this.props.message.date).fromNow();
+
 
         return (
             <>
                 {this.state.myCard ? (
                     <div className='myCard'>
-                        <p>Posted: {timeStamp} </p>
-                        <p>{this.props.message.message}</p>
-                        {this.props.message.editTimeStamp !== '' ? (
+                        <p>Posted: {this.props.message.date} </p>
+                        <h4>{this.props.message.message}</h4>
+                        {/* {this.props.message.editTimeStamp !== '' ? (
                             <p>
-                                Last Edited {moment(this.props.message.editTimeStamp).fromNow()}
+                                Last Edited {Moment(this.props.message.editTimeStamp).fromNow()}
                             </p>
                         ) : (
                                 ''
-                            )}
-                        {/* <div className='cardButtonRow'>
-							<EditMessageForm
-								{...this.props.message}
-								getData={this.props.getData}
-							/> */}
-                        <button
-                            className='addItemBtn' type='primary' shape='round' icon='delete' size='small' onClick={() => this.handleDelete(this.props.message.id)}
-                        >
-                            Delete
-							</button>
+                            )} */}
+                        <div className='cardButtonRow'>
+                            <EditMessageForm
+                                {...this.props.message}
+                                getData={this.props.getData}
+                            />
+                            <button className="ui icon button" onClick={() => this.handleDelete(this.props.message.id)}><i aria-hidden="true" className="delete icon" ></i>Delete</button>
+                        </div>
+
                     </div>
                 ) : (
                         <>
@@ -63,18 +65,10 @@ class MessageCard extends Component {
                                     <h5>
                                         <span>{this.props.message.user.userName}</span>
                                     </h5>
-                                    <p>Posted: {timeStamp} </p>
+                                    <p>Posted: {this.props.message.date} </p>
                                 </div>
                                 <div className='msgBody'>
-                                    <p>{this.props.message.message}</p>
-                                    {this.props.message.editTimeStamp !== '' ? (
-                                        <p>
-                                            Last Edited{' '}
-                                            {moment(this.props.message.editTimeStamp).fromNow()}
-                                        </p>
-                                    ) : (
-                                            ''
-                                        )}
+                                    <h4>{this.props.message.message}</h4>
                                 </div>
                             </div>
                         </>

@@ -4,6 +4,7 @@ import Login from './components/auth/Login'
 import ApplicationViews from "./components/ApplicationViews"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../src/components/nav/navbar'
+import "./App.css"
 
 
 class App extends Component {

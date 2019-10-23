@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
 import RegionList from "./explore/RegionList"
 import MessageList from "./message/MessageList"
-import MessageCard from "./message/MessageCard"
-import AddMessageForm from "./message/AddMessageForm"
+
 
 
 class ApplicationViews extends Component {
@@ -15,14 +14,9 @@ class ApplicationViews extends Component {
                     return <RegionList {...props} />
                 }} />
                 <Route exact path="/messages" render={props => {
-                    return <MessageList {...props} />
+                    return <MessageList {...props} activeUser={this.props.activeUser}/>
                 }} />
-                 <Route exact path="/messages/new" render={props => {
-                    return <AddMessageForm {...props} />
-                }} />
-                 <Route exact path="/messages/new" render={props => {
-                    return <MessageCard {...props} />
-                }} />
+
 
             </>
 

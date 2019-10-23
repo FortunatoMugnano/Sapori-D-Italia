@@ -113,9 +113,54 @@
       "password": "napoli",
       "name": "Elizabeth",
       "id": 2
+    },
+    {
+      "userName": "Giuseppe",
+      "password": "napoli",
+      "name": "Giuseppe",
+      "id": 3
     }
   ],
-  "messages": [],
+  "messages": [
+    {
+      "userId": 1,
+      "date": "2019-10-22T23:00",
+      "message": "Hello!for this weekend. Who is coming out?",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "date": "2019-10-22T14:10",
+      "message": "Hello from Elizabeth",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "date": "2019-10-22T14:59",
+      "message": "Another message!!",
+      "id": 5
+    },
+    {
+      "date": "2019-10-22T15:00",
+      "message": "Hello from Fortunato",
+      "userId": 1,
+      "editTimeStamp": "",
+      "id": 6
+    },
+    {
+      "date": "2019-10-23T09:00",
+      "message": "Hello from Fortunato",
+      "userId": 1,
+      "editTimeStamp": "",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "date": "2019-10-22T10:00",
+      "message": "Hello!for this weekend. Who is coming out?",
+      "id": 8
+    }
+  ],
   "userRecipes": [],
   "myRecipes": [
     {
