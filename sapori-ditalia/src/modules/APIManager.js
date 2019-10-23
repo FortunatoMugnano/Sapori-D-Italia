@@ -50,5 +50,15 @@ export default {
   getMessagesById(id) {
     return fetch(`${remoteURL}/messages/${id}`)
       .then(result => result.json());
-  }
+  },
+  getRegions() {
+    return fetch (
+      `${remoteURL}/regions`
+    ).then(response => response.json());
+  },
+  getRecipesByRegionId(id) {
+    return fetch (
+      `${remoteURL}/myRecipes/?regionId=${id}&_expand=user`
+    ).then(response => response.json());
+  },
 }

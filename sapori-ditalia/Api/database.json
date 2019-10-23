@@ -137,7 +137,7 @@
     {
       "userId": 1,
       "date": "2019-10-22T14:59",
-      "message": "Another message!!",
+      "message": "Another message",
       "id": 5
     },
     {
@@ -146,13 +146,6 @@
       "userId": 1,
       "editTimeStamp": "",
       "id": 6
-    },
-    {
-      "date": "2019-10-23T09:00",
-      "message": "Hello from Fortunato",
-      "userId": 1,
-      "editTimeStamp": "",
-      "id": 7
     },
     {
       "userId": 1,

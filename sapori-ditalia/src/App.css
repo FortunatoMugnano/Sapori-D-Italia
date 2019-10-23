@@ -14,10 +14,11 @@
 }
 .addBtnContainer{
     align-self: flex-start;
-    background-color: cadetblue;
+    background-color:#F0F8FF;
     width: 60%;
     margin-left: 0.6em;
     border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .sectionHeader {
@@ -29,6 +30,7 @@
     background-color: #FCB83B;
     margin: 0.3em;
     border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
 
@@ -36,6 +38,7 @@
     background-color: #E4E8D0;
     margin: 0.3em;
     border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .msgHeader{
@@ -59,4 +62,37 @@
 
 .loginForm {
     margin-top: 2em
+}
+
+.explore-section {
+    display: flex;
+    flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.picture-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.italyMap {
+    width:50%;
+}
+.regionCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background: aliceblue;
+    margin: 0.5em;
+    width: 22%;
+    justify-content: space-between;
+}
+.recipeCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background: aliceblue;
+    margin: 0.3em;
 }
