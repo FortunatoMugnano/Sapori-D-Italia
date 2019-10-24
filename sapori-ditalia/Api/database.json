@@ -129,12 +129,6 @@
       "id": 1
     },
     {
-      "userId": 2,
-      "date": "2019-10-22T14:10",
-      "message": "Hello from Elizabeth",
-      "id": 3
-    },
-    {
       "userId": 1,
       "date": "2019-10-22T14:59",
       "message": "Another message",
@@ -152,9 +146,62 @@
       "date": "2019-10-22T10:00",
       "message": "Hello!for this weekend. Who is coming out?",
       "id": 8
+    },
+    {
+      "date": "2019-10-23T17:50",
+      "message": "Try my recipe, it is in the Lazio region!",
+      "userId": 2,
+      "editTimeStamp": "",
+      "id": 9
     }
   ],
-  "userRecipes": [],
+  "userRecipes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "myRecipeId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "myRecipeId": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "myRecipeId": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "myRecipeId": 4
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "myRecipeId": 15
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "myRecipeId": 19
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "myRecipeId": 22
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "myRecipeId": 25
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "myRecipeId": 29
+    }
+  ],
   "myRecipes": [
     {
       "id": 1,
@@ -298,7 +345,7 @@
     },
     {
       "id": 15,
-      "userId": 1,
+      "userId": 2,
       "regionId": 12,
       "name": "Pasta Carbonara",
       "ingredients": "6 ounces flat pancetta, cut into 1/4-inch dice, 2 tablespoons extra-virgin olive oil, 5 large eggs, 1 cup freshly grated Pecorino Romano, 1 cup freshly grated Parmigiano-Reggiano, 2 tablespoons freshly cracked black pepper, 1 pound bucatini",
@@ -338,7 +385,7 @@
     },
     {
       "id": 19,
-      "userId": 1,
+      "userId": 2,
       "regionId": 14,
       "name": "Baked Lamb with Cheese, Eggs and Peas (Agnello Cacio Uova e Piselli)",
       "ingredients": "2 tablespoons olive oil, 1 onion, sliced thinly, 2 pounds (1 kilogram) lamb shoulder diced, 1 cup (250 milliliters) dry white wine, 1 pound (450 grams) fresh peas in their shells (about 1 cup or 200 grams of frozen or fresh, podded peas), Salt and pepper, 4 eggs, Juice of 1/2 lemon, 2/3 cup grated Pecorino cheese, Handful of fresh parsley, chopped",
@@ -368,7 +415,7 @@
     },
     {
       "id": 22,
-      "userId": 1,
+      "userId": 2,
       "regionId": 15,
       "name": "Babà Napoletano al Rum",
       "ingredients": "For the babà: 1 teaspoon active-dry yeast, 1 tablespoon milk, 2 1/4 cups strong white flour (also known as bread flour or baker's flour), 1/4 cup sugar, 6 medium sized eggs, cold from the fridge and beaten, 1/2 cup butter room temperature, 1 pinch of salt. For the syrup: 1 cup white sugar, 1 lemon or orange peel, 9 ounces of rum, 3 cups water, 1 splash apricot jam for glazing",
@@ -398,7 +445,7 @@
     },
     {
       "id": 25,
-      "userId": 1,
+      "userId": 2,
       "regionId": 17,
       "name": "Patate alla lucana (Basilicata Potato Casserole)",
       "ingredients": "750g (1-1/2) potatoes, peeled and sliced, 500g (1 lb) tomatoes, peeled and sliced (or canned tomatoes, drained and sliced), 1 medium onion, thinly sliced, Oregano, q.b. , Pecorino cheese, q.b. , Breadcrumbs, q.b. , Olive oil, q.b. , Salt, 100-150g (3-4 oz) mozzarella or scamorza, Anchovy fillets, to taste",
@@ -438,7 +485,7 @@
     },
     {
       "id": 29,
-      "userId": 1,
+      "userId": 2,
       "regionId": 20,
       "name": "Sardinian Clam Stew With Fregola",
       "ingredients": "Fregola: 1 1/4 cups (200 grams) semolina or durum wheat flour, 1 egg yolk, 1/3 cup water, or as needed, 1 pinch salt, 1-2 tablespoons all-purpose flour. Clam Stew: 2 pounds (1 kg) clams, 1 garlic clove, finely chopped, 1 small onion, finely chopped, 1 handful parsley, finely chopped, 3 tablespoons extra virgin olive oil, 1/2 cup dry white wine, 1 cup (250 ml) tomato passata (you can also substitute with a whole fresh tomato, chopped), 1 cup water or as needed",

@@ -1,0 +1,26 @@
+.login-wrap{
+    display:flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+margin-top: 10em;
+
+}
+
+.ui.form {
+    border-style: solid;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ui.form .field, h3, span, .ui.button{
+    width: 50%;
+    align-self: center;
+    padding: 0.2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+

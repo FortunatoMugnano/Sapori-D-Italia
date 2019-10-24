@@ -35,12 +35,12 @@ class AddMessageForm extends React.Component {
     };
 
     clearForms = () => {
-        console.log("anything", this)
+
         this.setState({
             date: '',
             message: ''
         })
-        console.log("state", this.state)
+
     }
 
     handleClick = evt => {

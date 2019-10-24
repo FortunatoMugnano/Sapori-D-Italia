@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from "react-router-dom"
 import APIManager from "../../modules/APIManager";
 import Registration from "../auth/Registration"
+import "./login.css"
 
 class Login extends Component {
     // Set initial state
@@ -43,17 +44,16 @@ class Login extends Component {
                     alert('Please fill the Password Form');
                 } else if (userName === '') {
                     alert('Please enter a valid user Name');
-                 } else if (name === '') {
-                        alert('Please enter a valid Name');
+                } else if (name === '') {
+                    alert('Please enter a valid Name');
 
-                    }
-                 else if (response[0].password === password) {
+                }
+                else if (response[0].password === password) {
                     this.setState({
                         userId: response[0].id
                     })
                     this.props.setUser(response[0].id);
                     this.props.history.push(`/explore`);
-                    console.log("state", this.state)
 
                 }
             }
@@ -66,25 +66,27 @@ class Login extends Component {
 
                 {this.state.hideReg && (
                     <>
-                        <form className="ui form" onSubmit={this.handleLogin}>
-                            <h3>Please sign in</h3>
-                            <div className="field">
-                                <label htmlFor="userName">Username</label>
-                                <input placeholder="Username" onChange={this.handleFieldChange} required="" autoFocus="" id="userName" />
-                            </div>
-                            <div className="field">
-                                <label htmlFor="name">Name</label>
-                                <input placeholder="Name" onChange={this.handleFieldChange} required="" autoFocus="" id="name" />
-                            </div>
-                            <div className="field">
-                                <label htmlFor="password">Password</label>
-                                <input placeholder="Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="password" />
-                            </div>
-                            <button type="submit" className="ui button">Submit</button>
-                            <p className='regLink' onClick={this.showLogin} href=''>
-                                Or register now!
-				            </p>
-                        </form>
+                        <div className="login-wrap">
+                            <form className="ui form" onSubmit={this.handleLogin}>
+                                <h3>Please Sign in</h3>
+                                <div className="field">
+                                    <label htmlFor="userName">Username</label>
+                                    <input placeholder="Username" onChange={this.handleFieldChange} required="" autoFocus="" id="userName" />
+                                </div>
+                                <div className="field">
+                                    <label htmlFor="name">Name</label>
+                                    <input placeholder="Name" onChange={this.handleFieldChange} required="" autoFocus="" id="name" />
+                                </div>
+                                <div className="field">
+                                    <label htmlFor="password">Password</label>
+                                    <input placeholder="Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="password" />
+                                </div>
+                                <button type="submit" className="ui button">Submit</button><br />
+                                <span className='regLink' onClick={this.showLogin} href=''>
+                                    Or register now!
+				            </span>
+                            </form>
+                        </div>
                     </>
 
                 )}

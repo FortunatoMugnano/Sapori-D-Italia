@@ -3,6 +3,7 @@ import { Route, withRouter } from 'react-router-dom';
 import RegionList from "./explore/RegionList"
 import MessageList from "./message/MessageList"
 import RecipeList from "./recipe/RecipeList"
+import MyRecipeList from  "./cookbook/MyRecipeList"
 
 
 
@@ -19,6 +20,9 @@ class ApplicationViews extends Component {
                 }} />
                 <Route path="/recipes/:regionId(\d+)" render={(props) => {
                     return <RecipeList regionId={parseInt(props.match.params.regionId)} activeUser={this.props.activeUser}/>
+                }} />
+                 <Route exact path="/cookbook" render={props => {
+                    return <MyRecipeList {...props} activeUser={this.props.activeUser} />
                 }} />
 
 

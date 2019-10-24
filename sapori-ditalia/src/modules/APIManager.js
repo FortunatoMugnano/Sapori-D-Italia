@@ -61,4 +61,14 @@ export default {
       `${remoteURL}/myRecipes/?regionId=${id}&_expand=user`
     ).then(response => response.json());
   },
+  getMyRecipes(userId) {
+    return fetch (
+      `${remoteURL}/userRecipes?userId=${userId}&_expand=myRecipe`
+    ).then(response => response.json());
+  },
+  deleteRecipe(id) {
+    return fetch(`${remoteURL}/myRecipes/${id}`, {
+      method: 'DELETE'
+    }).then(result => result.json());
+  }
 }
