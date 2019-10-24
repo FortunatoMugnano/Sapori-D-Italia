@@ -37,6 +37,7 @@ class MyRecipeList extends Component {
                     {this.state.MyRecipes.map(recipe => (
                         <MyRecipeCard
                             key={recipe.id}
+                            recipeId={recipe.id}
                             recipe={recipe.myRecipe}
                             {...this.props}
                             getData={this.getData}

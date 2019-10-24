@@ -7,7 +7,7 @@ class MyRecipeCard extends Component {
 
 
     handleDelete = (id) => {
-        APIManager.deleteRecipe(id).then(() => {
+        APIManager.deleteRecipeFromCookbook(id).then(() => {
             this.props.getData();
         });
     };
@@ -60,7 +60,7 @@ class MyRecipeCard extends Component {
                     </div>
                     <div>{this.props.recipe.rate}</div>
                     <div>
-                        <button className="ui icon button" onClick={ () => this.handleDelete(this.props.recipe.id)}><i aria-hidden="true" className="delete icon" ></i>Delete Recipe</button>
+                        <button className="ui icon button" onClick={ () => this.handleDelete(this.props.recipeId)}><i aria-hidden="true" className="delete icon" ></i>Delete Recipe</button>
                         <button className="ui icon button"
                             onClick={this.handleClick}><i aria-hidden="true" className="edit icon"></i>Edit Recipe</button>
                     </div>

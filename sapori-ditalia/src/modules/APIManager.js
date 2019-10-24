@@ -66,8 +66,8 @@ export default {
       `${remoteURL}/userRecipes?userId=${userId}&_expand=myRecipe`
     ).then(response => response.json());
   },
-  deleteRecipe(id) {
-    return fetch(`${remoteURL}/myRecipes/${id}`, {
+  deleteRecipeFromCookbook(id) {
+    return fetch(`${remoteURL}/userRecipes/${id}`, {
       method: 'DELETE'
     }).then(result => result.json());
   }
