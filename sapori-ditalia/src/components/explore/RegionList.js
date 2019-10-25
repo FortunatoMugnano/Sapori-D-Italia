@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import APIManager from '../../modules/APIManager';
 import RegionCard from "./RegionCard"
+import ModalExample from "../modal"
 
 class RegionList extends Component {
     state = {
@@ -33,6 +34,7 @@ class RegionList extends Component {
                             {...this.props}
                         />
                     ))}
+                    <ModalExample />
                 </section>
             </>
         )

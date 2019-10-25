@@ -88,5 +88,10 @@ export default {
       },
       body: JSON.stringify(newRecipeObj)
     }).then(data => data.json())
-  }
+  },
+  deleteRecipe(id) {
+    return fetch(`${remoteURL}/myRecipes/${id}`, {
+      method: 'DELETE'
+    }).then(result => result.json());
+  },
 }

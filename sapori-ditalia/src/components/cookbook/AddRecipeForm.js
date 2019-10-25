@@ -1,6 +1,7 @@
 import React from 'react';
 import APIManager from '../../modules/APIManager';
 import { withRouter } from "react-router-dom"
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 
 
@@ -13,7 +14,8 @@ class AddRecipeForm extends React.Component {
         rate: "",
         loadingStatus: false,
         regionId: "1",
-        regions: []
+        regions: [],
+        userId: ""
 
     };
 
@@ -38,13 +40,15 @@ class AddRecipeForm extends React.Component {
         if (this.state.name === "" || this.state.ingredients === "" || this.state.difficulty === "" || this.state.rate === "" || this.state.direction === "") {
             window.alert("Please fill up all the fields");
         } else {
+            let userId = parseInt(sessionStorage.getItem('activeUser'));
             const recipe = {
                 name: this.state.name,
                 ingredients: this.state.ingredients,
                 regionId: parseInt(this.state.regionId),
                 difficulty: this.state.difficulty,
                 rate: this.state.rate,
-                direction: this.state.direction
+                direction: this.state.direction,
+                userId: userId
             };
             APIManager.postRecipe(recipe)
                 .then(() => this.props.history.push("/explore"))

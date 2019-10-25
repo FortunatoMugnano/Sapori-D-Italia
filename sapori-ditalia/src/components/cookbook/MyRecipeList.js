@@ -11,6 +11,7 @@ class MyRecipeList extends Component {
     getData = () => {
         let userId = parseInt(sessionStorage.getItem('activeUser'));
         APIManager.getMyRecipes(userId).then(recipes => {
+            console.log("get data props", recipes)
             this.setState({
                 MyRecipes: recipes
             });

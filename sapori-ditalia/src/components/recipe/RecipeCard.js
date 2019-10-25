@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Rating } from 'semantic-ui-react'
 import APIManager from '../../modules/APIManager';
-import { Link, withRouter } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 
 
 class RecipeCard extends Component {
@@ -35,6 +35,13 @@ class RecipeCard extends Component {
         }
         APIManager.addRecipeToYourCookbook(recipeObj).then(() => {
             this.props.history.push("/cookbook")
+        })
+    }
+
+    handleDelete = () => {
+        console.log("recipeId",this.props.recipe.id)
+        APIManager.deleteRecipe(this.props.recipe.id).then(() => {
+            this.props.history.push("/explore")
         })
     }
 
@@ -135,6 +142,11 @@ class RecipeCard extends Component {
                                 ></i>
                             </div>
                             <div>{this.props.recipe.rate}</div>
+                            <button
+                                className="ui icon button" onClick={this.handleDelete}
+                            ><i aria-hidden="true" className="add icon"></i>
+                                Delete it
+                    </button>
 
                         </div>
                     )}
