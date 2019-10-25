@@ -3,6 +3,7 @@ import APIManager from '../../modules/APIManager';
 import { withRouter } from "react-router-dom"
 import "./login.css"
 
+
 class Registration extends Component {
     // Set initial state
     state = {

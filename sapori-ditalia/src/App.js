@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../src/components/nav/navbar'
 import "./App.css"
 
-
+//starting the App main page
 class App extends Component {
 	state = {
 		user: sessionStorage.getItem('activeUser') !== null,
