@@ -153,6 +153,13 @@
       "userId": 2,
       "editTimeStamp": "",
       "id": 9
+    },
+    {
+      "date": "2019-10-25T15:00",
+      "message": "I have updated my recipe",
+      "userId": 1,
+      "editTimeStamp": "",
+      "id": 10
     }
   ],
   "userRecipes": [
@@ -168,45 +175,45 @@
     },
     {
       "userId": 1,
-      "myRecipeId": 15,
-      "id": 9
+      "myRecipeId": 29,
+      "id": 10
     },
     {
       "userId": 1,
-      "myRecipeId": 29,
-      "id": 10
+      "myRecipeId": 15,
+      "id": 11
     }
   ],
   "myRecipes": [
     {
       "id": 2,
-      "userId": 1,
-      "regionId": 1,
       "name": "Apple Strudel (Strudel di Mele)",
+      "userId": 1,
       "ingredients": "For the pastry: 2 1/2 cups flour, 1/2 cup  warm water, 1 egg, 2 teaspoons olive oil, plus more for brushing, 1 pinch of salt, 1 teaspoon vinegar; For the filling: 4 apples, about 750 grams Zest and juice of 1 lemon, 3 tablespoons currants, 2 tablespoons pine nuts, 1/4 cup turbinado sugar, 1 teaspoon ground cinnamon, 2/3 cup breadcrumbs, 1/3 cup butter, 2 tablespoons rum, optional, confectioners' sugar, for dusting",
-      "direction": "For the pastry: Place the flour in a bowl and make a well in the center. Place the water, egg, 2 teaspoons olive oil, salt, and vinegar in the center and whisk with a fork to combine, until it begins to get too difficult to whisk. From here, knead the dough until soft, elastic, and well-combined. Brush the dough with olive oil and let rest, covered, in a bowl for 30 minutes. For the filling: Peel and core the apples, and chop them into thin slices, then place immediately in a bowl with the zest and juice of the lemon and toss. Set aside. In a separate bowl, combine the currants, pine nuts, turbinado sugar, and cinnamon. Set aside. In a small skillet, toast the breadcrumbs in half of the butter over a medium heat for 2 to 3 minutes, until the breadcrumbs become coated in the butter. Set aside. For the assembly: Divide the pastry into 2 balls. Roll out 1 ball of pastry on a floured tea towel to a rectangle roughly 12 x 16 inches and thin enough to see your hand through the other side. Brush melted butter over the whole pastry. Scatter half of the toasted breadcrumbs evenly over the pastry, leaving a border of about 4 inches. Combine the chopped apples with the currant mixture and the rum, then toss to combine. Place half of the apple mixture over the breadcrumbs and, with the help of the tea towel, gently fold the pastry from the long side, then roll to close the pastry firmly. Fold the ends underneath. Transfer the pastry to a baking sheet lined with parchment paper and brush with melted butter to cover entirely. Repeat with the rest of the pastry and filling to create the second strudel. Bake the strudels at 350ºF for about 30 minutes, or until the top is golden brown. Let cool slightly, then transfer to a baking rack. You can serve this warm or cold, with a simple dusting of confectioners' sugar or a dollop of unsweetened, fresh whipped cream or ice cream.",
-      "difficulty": "Hard",
-      "rate": 4
+      "difficulty": "Very Hard",
+      "regionId": 1,
+      "rate": 4,
+      "direction": "For the pastry: Place the flour in a bowl and make a well in the center. Place the water, egg, 2 teaspoons olive oil, salt, and vinegar in the center and whisk with a fork to combine, until it begins to get too difficult to whisk. From here, knead the dough until soft, elastic, and well-combined. Brush the dough with olive oil and let rest, covered, in a bowl for 30 minutes. For the filling: Peel and core the apples, and chop them into thin slices, then place immediately in a bowl with the zest and juice of the lemon and toss. Set aside. In a separate bowl, combine the currants, pine nuts, turbinado sugar, and cinnamon. Set aside. In a small skillet, toast the breadcrumbs in half of the butter over a medium heat for 2 to 3 minutes, until the breadcrumbs become coated in the butter. Set aside. For the assembly: Divide the pastry into 2 balls. Roll out 1 ball of pastry on a floured tea towel to a rectangle roughly 12 x 16 inches and thin enough to see your hand through the other side. Brush melted butter over the whole pastry. Scatter half of the toasted breadcrumbs evenly over the pastry, leaving a border of about 4 inches. Combine the chopped apples with the currant mixture and the rum, then toss to combine. Place half of the apple mixture over the breadcrumbs and, with the help of the tea towel, gently fold the pastry from the long side, then roll to close the pastry firmly. Fold the ends underneath. Transfer the pastry to a baking sheet lined with parchment paper and brush with melted butter to cover entirely. Repeat with the rest of the pastry and filling to create the second strudel. Bake the strudels at 350ºF for about 30 minutes, or until the top is golden brown. Let cool slightly, then transfer to a baking rack. You can serve this warm or cold, with a simple dusting of confectioners' sugar or a dollop of unsweetened, fresh whipped cream or ice cream."
     },
     {
       "id": 3,
-      "userId": 1,
-      "regionId": 2,
       "name": "Mostarda Mantovana",
       "ingredients": "2 pounds (1 kg) quince (or apples), on the underripe side, 1 1/2 cups (300 grams) sugar, 1/2 lemon, sliced (optional), mustard essence, as needed (10-20 drops per kilogram of cooked fruit)",
-      "direction": "Day one: Peel and finely chop the fruit. Place in a non-reactive bowl with the sugar and lemon slices (if using) and toss until well-combined. Leave to sit in a cool place to macerate for 24 hours. Day two: Strain the liquid created by the fruit into a small saucepan. Return the fruit to the bowl. Bring the liquid to a rapid boil, cook for 5 minutes. Remove from the heat and pour the liquid over the fruit. Let cool, then cover and let sit in a cool place for another 24 hours. Day three: Strain off the liquid again, into a saucepan. Return the fruit to the bowl. Bring the liquid, which should be more syrupy now, to the boil and cook 5 minutes. Pour it back over the fruit. Let cool, then cover and let sit in a cool place for 24 hours. Day four: Place the fruit and its syrup in a saucepan and bring to the boil. Turn the heat down to a simmer and let cook, turning the fruit with a wooden spoon to cook it evenly, for about 10 minutes (if there is not enough liquid left to cook the fruit through, add a splash of water to help it along). The fruit should still have some bite to it, it should keep its shape, but be evenly cooked. It should all be held together with a light syrup. Let it cool completely, then, weigh the fruit (you do need scales for this! In my experience with this recipe, it produces about 750 grams of cooked fruit, so 3/4 of a kilogram). In a well-ventilated area, open the bottle of mustard essence (do not put your face close to it or try to sniff it directly and do not try to taste it or get it on your skin!) and carefully add 10-20 drops of mustard essence per kilogram of fruit or to taste—10 drops will produce a mildy spiced mostarda, 20 is not for the faint hearted! I would recommend 10-12 drops per kilogram (so 8-9 drops for 3/4 of a kilogram of cooked fruit). Bottle in sterilised jars and, if not planning on eating within the month, process the cans to seal. This is best consumed within six months as the mustard essence begins to weaken significantly after this time, even if unopened. As the essence diminishes with heat, it is best to keep the mostarda somewhere cool.",
       "difficulty": "Hard",
-      "rate": 4
+      "regionId": 2,
+      "rate": "5",
+      "direction": "Day one: Peel and finely chop the fruit. Place in a non-reactive bowl with the sugar and lemon slices (if using) and toss until well-combined. Leave to sit in a cool place to macerate for 24 hours. Day two: Strain the liquid created by the fruit into a small saucepan. Return the fruit to the bowl. Bring the liquid to a rapid boil, cook for 5 minutes. Remove from the heat and pour the liquid over the fruit. Let cool, then cover and let sit in a cool place for another 24 hours. Day three: Strain off the liquid again, into a saucepan. Return the fruit to the bowl. Bring the liquid, which should be more syrupy now, to the boil and cook 5 minutes. Pour it back over the fruit. Let cool, then cover and let sit in a cool place for 24 hours. Day four: Place the fruit and its syrup in a saucepan and bring to the boil. Turn the heat down to a simmer and let cook, turning the fruit with a wooden spoon to cook it evenly, for about 10 minutes (if there is not enough liquid left to cook the fruit through, add a splash of water to help it along). The fruit should still have some bite to it, it should keep its shape, but be evenly cooked. It should all be held together with a light syrup. Let it cool completely, then, weigh the fruit (you do need scales for this! In my experience with this recipe, it produces about 750 grams of cooked fruit, so 3/4 of a kilogram). In a well-ventilated area, open the bottle of mustard essence (do not put your face close to it or try to sniff it directly and do not try to taste it or get it on your skin!) and carefully add 10-20 drops of mustard essence per kilogram of fruit or to taste—10 drops will produce a mildy spiced mostarda, 20 is not for the faint hearted! I would recommend 10-12 drops per kilogram (so 8-9 drops for 3/4 of a kilogram of cooked fruit). Bottle in sterilised jars and, if not planning on eating within the month, process the cans to seal. This is best consumed within six months as the mustard essence begins to weaken significantly after this time, even if unopened. As the essence diminishes with heat, it is best to keep the mostarda somewhere cool.",
+      "userId": 1
     },
     {
       "id": 4,
-      "userId": 1,
-      "regionId": 3,
       "name": "Risotto Like a Chef",
       "ingredients": "1 1/2 cups arborio rice, 4 cups chicken stock, 1/2 cup vermouth (or another dry white wine), 1 medium shallot (about 1/2 cup or 1/2 small onion, chopped), 3 tablespoons whole butter (divided), 1 tablespoon vegetable oil, 1/4 cup Parmesan cheese (grated), 1 tablespoon Italian parsley (chopped), Kosher salt (to taste)",
-      "direction": "Gather the ingredients. Heat the stock to a simmer in a medium saucepan, then lower the heat so that the stock just stays hot. In a large, heavy-bottomed saucepan, heat the oil and 1 tablespoon of the butter over medium heat. When the butter has melted, add the chopped shallot or onion. Sauté for 2 to 3 minutes or until slightly translucent. Add the rice to the pot and stir it briskly with a wooden spoon so that the grains are coated with the oil and melted butter. Sauté for another minute or so, until there is a slightly nutty aroma. But don't let the rice turn brown. Add the wine and cook while stirring, until the liquid is fully absorbed. Add a ladle of hot chicken stock to the rice and stir until the liquid is fully absorbed. When the rice appears almost dry, add another ladle of stock and repeat the process. Continue adding stock, a ladle at a time, for 20 to 30 minutes or until the grains are tender but still firm to the bite, without being crunchy. Stir in the remaining 2 tablespoons butter, the Parmesan cheese, and the parsley, and season to taste with Kosher salt. Serve in bowls and enjoy",
       "difficulty": "Easy",
-      "rate": 4
+      "regionId": 3,
+      "rate": 4,
+      "direction": "Gather the ingredients. Heat the stock to a simmer in a medium saucepan, then lower the heat so that the stock just stays hot. In a large, heavy-bottomed saucepan, heat the oil and 1 tablespoon of the butter over medium heat. When the butter has melted, add the chopped shallot or onion. Sauté for 2 to 3 minutes or until slightly translucent. Add the rice to the pot and stir it briskly with a wooden spoon so that the grains are coated with the oil and melted butter. Sauté for another minute or so, until there is a slightly nutty aroma. But don't let the rice turn brown. Add the wine and cook while stirring, until the liquid is fully absorbed. Add a ladle of hot chicken stock to the rice and stir until the liquid is fully absorbed. When the rice appears almost dry, add another ladle of stock and repeat the process. Continue adding stock, a ladle at a time, for 20 to 30 minutes or until the grains are tender but still firm to the bite, without being crunchy. Stir in the remaining 2 tablespoons butter, the Parmesan cheese, and the parsley, and season to taste with Kosher salt. Serve in bowls and enjoy",
+      "userId": 1
     },
     {
       "id": 5,
@@ -310,13 +317,13 @@
     },
     {
       "id": 15,
-      "userId": 2,
-      "regionId": 12,
       "name": "Pasta Carbonara",
       "ingredients": "6 ounces flat pancetta, cut into 1/4-inch dice, 2 tablespoons extra-virgin olive oil, 5 large eggs, 1 cup freshly grated Pecorino Romano, 1 cup freshly grated Parmigiano-Reggiano, 2 tablespoons freshly cracked black pepper, 1 pound bucatini",
+      "difficulty": "Medium",
+      "regionId": 12,
+      "rate": 4,
       "direction": "In a medium skillet, cook the pancetta and oil over medium-low heat, stirring occasionally, until the pancetta is browned and the fat has rendered, about 10 minutes. Remove from heat. In a large bowl, whisk together the eggs, Pecorino, Parmesan, and pepper. Bring a pot of salted water to boil; cook pasta until al dente, drain, and immediately toss with the egg mixture. Add the pancetta along with its rendered fat, toss well, and serve immediately with extra pepper, if desired. If the heat of the cooked pasta does not quite set the eggs, you can gently toss it again over very low heat in the pan you cooked the pancetta in. But stir continuously and make sure the heat is as low as it can go so that you don’t wind up with scrambled eggs.",
-      "difficulty": "Easy",
-      "rate": 4
+      "userId": 2
     },
     {
       "id": 16,
@@ -446,7 +453,7 @@
       "ingredients": "10 ripe plum tomatoes (San Marzano and Roma are best), 1/2 cup (85 grams) blanched almonds, 4 garlic cloves, peeled and roughly chopped, Handful of basil leaves, 3 to 4 tablespoons extra-virgin olive oil, 1/3 cup (40 grams) dried breadcrumbs, optional (or Parmesan cheese, grated), Salt and pepper, to taste",
       "direction": "Score the underside of the tomatoes with a cross and blanch in a pot of boiling water for about 1 minute. Peel off the skins then chop into quarters. Remove the seeds and then roughly chop the rest of the flesh. Set aside. Toast almonds in a moderate oven until golden, about 5 to 10 minutes. In a mortar, grind the garlic, basil leaves, and a pinch of salt with a drizzle of olive oil until creamy. Add the almonds and continue grinding until fine and creamy (it will still be slightly grainy or chunky). Add the tomatoes; depending on your preferences, squash them gently or leave them slightly chunky. Add the rest of the olive oil in a drizzle until well combined and creamy. Taste for seasoning, then add salt and pepper if necessary. If desired, toast the breadcrumbs in a wide skillet with some olive oil until they're golden and serve this over the pasta in place of Parmesan cheese.",
       "difficulty": "Easy",
-      "rate": 4
+      "rate": 3
     },
     {
       "id": 29,
@@ -457,6 +464,16 @@
       "direction": "Fregola: Pour the semolina flour into a wide shallow ceramic bowl or onto a wooden surface (wood is an ideal material for this as it tends to add some traction as you rub the liquid into the egg). Combine the yolk, water, and salt in a small bowl. Dribble a teaspoon of the egg mixture onto the semolina, and with the fingertips of one hand, drag the liquid through the semolina to create little, irregular-shaped balls. Dribble and drag, rubbing the egg mixture into the flour in a circular motion, until all the flour or all the egg is used up. If you find the mixture feels too moist, a spoonful or two of regular flour can be added to avoid clumping. Heat oven to 150° C/300° F. Place the fregola in a single layer on a baking tray and bake for about 10-15 minutes, or until they feel dry to the touch. You can also leave them out, uncovered, for several days to dry naturally. Let cool. Clam Stew: Rinse the clams and remove any with broken shells. If you need to purge the clams (if they haven't already been purged and de-sanded where you bought them), at about 1 hour before you plan on cooking them, place the clams in a large, wide shallow dish such as a lasagne tray, cover with an inch of salt water (for 4 cups of fresh water, 2 tablespoons of salt, which is similar to the salinity of seawater). Let the clams purge 1 hour at most. Discard the water, being careful not to pour the filtered grit back over the shells. In a wide skillet, open the clams over high heat. A tight-fitting lid helps this along, it should take a few minutes of shaking the pan to move them around and let the ones on the bottom come to the top to open. When they've opened, turn off heat and strain the liquid produced from the clams—set this aside. Remove the clams from their shells (save a handful in their shells for garnish, if you like). Set aside. In the same pan, saute the garlic, onion, and parsley with the olive oil over low heat until the onion is translucent and soft. Add the white wine and turn the heat to medium-high. Let the alcohol cook off for a few minutes, then add the tomato, along with the clam water. Bring to the boil then turn down to a low simmer. Let cook for about 10 minutes. Taste and add salt and pepper if needed. At this point, you can add the fregola (you can also use store-bought fregola, though you may need to check the cooking times recommended on the packet), along with 1 cup of water or as needed. Bring to a boil, then turn down to a low simmer and cook, uncovered, for 10-12 minutes or until the fregola is cooked through. You are looking for a mixture that is the texture of risotto—soupy but not too stiff/solid. You may need to add a splash of water if the mixture gets too thick and the fregola are still too al dente. Add the clams at the very end to heat through, then serve immediately.",
       "difficulty": "Medium",
       "rate": 4
+    },
+    {
+      "name": "Fake recipes",
+      "ingredients": "gregergregergergerg",
+      "regionId": 12,
+      "difficulty": "medium",
+      "rate": "3",
+      "direction": "bhbhjbjhbhj",
+      "userId": 1,
+      "id": 30
     }
   ]
 }

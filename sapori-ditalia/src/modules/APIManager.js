@@ -1,4 +1,4 @@
-const remoteURL = "http://localhost:5002";
+const remoteURL = "http://localhost:5001";
 
 export default {
   addUser(newUser) {
@@ -93,5 +93,23 @@ export default {
     return fetch(`${remoteURL}/myRecipes/${id}`, {
       method: 'DELETE'
     }).then(result => result.json());
+  },
+  updateRecipe(editedRecipe) {
+    return fetch(`${remoteURL}/myRecipes/${editedRecipe.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(editedRecipe)
+    }).then(data => data.json());
+  },
+  getSingleRecipe(id) {
+    return fetch(`${remoteURL}/myRecipes/${id}`)
+            .then(result => result.json())
+  },
+  searchMyRecipeId(myRecipeId) {
+    return fetch(`${remoteURL}/userRecipes?myRecipeId=${myRecipeId}`)
+      .then(e => e.json()
+      )
   },
 }

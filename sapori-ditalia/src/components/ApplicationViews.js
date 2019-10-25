@@ -4,6 +4,7 @@ import RegionList from "./explore/RegionList"
 import MessageList from "./message/MessageList"
 import RecipeList from "./recipe/RecipeList"
 import MyRecipeList from  "./cookbook/MyRecipeList"
+import EditRecipeForm from "./cookbook/EditRecipeForm"
 
 
 
@@ -25,6 +26,9 @@ class ApplicationViews extends Component {
                 }} />
                  <Route exact path="/cookbook" render={props => {
                     return <MyRecipeList {...props} activeUser={this.props.activeUser} />
+                }} />
+                <Route path="/cookbook/:myRecipeId(\d+)/edit" render={props => {
+                    return <EditRecipeForm {...props} myRecipeId={parseInt(props.match.params.myRecipeId)}/>
                 }} />
 
 
