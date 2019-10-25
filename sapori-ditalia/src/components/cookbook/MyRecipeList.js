@@ -46,7 +46,7 @@ class MyRecipeList extends Component {
                             getData={this.getData}
                         />
                     ))}
-                    <AddRecipeForm />
+                    <AddRecipeForm getData={this.getData}/>
                 </section>
             </>
         )

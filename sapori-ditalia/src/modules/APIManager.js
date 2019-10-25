@@ -58,7 +58,7 @@ export default {
   },
   getRecipesByRegionId(id) {
     return fetch (
-      `${remoteURL}/myRecipes/?regionId=${id}&_expand=user`
+      `${remoteURL}/myRecipes/?regionId=${id}`
     ).then(response => response.json());
   },
   getMyRecipes(userId) {
@@ -78,6 +78,15 @@ export default {
         "Content-Type": "application/json"
       },
       body: JSON.stringify(recipe)
+    }).then(data => data.json())
+  },
+  postRecipe(newRecipeObj) {
+    return fetch(`${remoteURL}/myRecipes`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newRecipeObj)
     }).then(data => data.json())
   }
 }
