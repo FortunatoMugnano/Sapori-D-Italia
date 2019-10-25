@@ -63,12 +63,21 @@ export default {
   },
   getMyRecipes(userId) {
     return fetch (
-      `${remoteURL}/userRecipes?userId=${userId}&_expand=myRecipe`
+      `${remoteURL}/userRecipes?userId=${userId}&_expand=myRecipe&_expand=user`
     ).then(response => response.json());
   },
   deleteRecipeFromCookbook(id) {
     return fetch(`${remoteURL}/userRecipes/${id}`, {
       method: 'DELETE'
     }).then(result => result.json());
+  },
+  addRecipeToYourCookbook(recipe) {
+    return fetch(`${remoteURL}/userRecipes`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(recipe)
+    }).then(data => data.json())
   }
 }

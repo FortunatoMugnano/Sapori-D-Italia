@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Rating } from 'semantic-ui-react'
+import APIManager from '../../modules/APIManager';
+import { Link, withRouter } from "react-router-dom"
 
 
 class RecipeCard extends Component {
@@ -23,6 +25,17 @@ class RecipeCard extends Component {
                 },
             );
         }
+    }
+
+    handleClick = () => {
+        let userId = parseInt(sessionStorage.getItem('activeUser'));
+        const recipeObj = {
+            userId: userId,
+            myRecipeId: this.props.recipe.id
+        }
+        APIManager.addRecipeToYourCookbook(recipeObj).then(() => {
+            this.props.history.push("/cookbook")
+        })
     }
 
     render() {
@@ -75,7 +88,7 @@ class RecipeCard extends Component {
 
 
                         <button
-                            className="ui icon button"
+                            className="ui icon button" onClick={this.handleClick}
                         ><i aria-hidden="true" className="add icon"></i>
                             Add to your CookBook
                     </button>
@@ -130,4 +143,4 @@ class RecipeCard extends Component {
     }
 }
 
-export default RecipeCard
+export default withRouter(RecipeCard)

@@ -15,12 +15,15 @@ class MyRecipeCard extends Component {
 
     render() {
 
-
+        console.log("recipe props", this.props)
 
         return (
+
+
             <>
                 <div className="MyRecipeCard">
-                    <h2>{this.props.recipe.name}</h2>
+                    <h4>{this.props.recipe.name}</h4>
+                    <h3>Created By: {this.props.recipe.user}</h3>
                     <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                     <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                     <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
@@ -60,9 +63,7 @@ class MyRecipeCard extends Component {
                     </div>
                     <div>{this.props.recipe.rate}</div>
                     <div>
-                        <button className="ui icon button" onClick={ () => this.handleDelete(this.props.recipeId)}><i aria-hidden="true" className="delete icon" ></i>Delete Recipe</button>
-                        <button className="ui icon button"
-                            onClick={this.handleClick}><i aria-hidden="true" className="edit icon"></i>Edit Recipe</button>
+                        <button className="ui icon button" onClick={() => this.handleDelete(this.props.recipeId)}><i aria-hidden="true" className="delete icon" ></i>Delete from Cookbook</button>
                     </div>
                 </div>
             </>

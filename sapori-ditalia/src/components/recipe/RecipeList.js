@@ -15,6 +15,14 @@ class RecipeList extends Component {
         });
     }
 
+    getData = () => {
+        APIManager.getRecipesByRegionId(this.props.regionId).then(recipes => {
+            this.setState({
+                recipes: recipes
+            });
+        });
+	};
+
 
     render() {
 
@@ -28,6 +36,7 @@ class RecipeList extends Component {
                             key={recipe.id}
                             recipe={recipe}
                             {...this.props}
+                            getData={this.getData}
                         />
                     ))}
                 </section>

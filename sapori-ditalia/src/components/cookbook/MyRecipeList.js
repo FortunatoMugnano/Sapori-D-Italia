@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import APIManager from '../../modules/APIManager';
 import MyRecipeCard from "./MyRecipeCard"
+import AddRecipeForm from "./AddRecipeForm"
 
 class MyRecipeList extends Component {
     state = {
@@ -9,16 +10,17 @@ class MyRecipeList extends Component {
 
     getData = () => {
         let userId = parseInt(sessionStorage.getItem('activeUser'));
-		APIManager.getMyRecipes(userId).then(recipes => {
-			this.setState({
-				MyRecipes: recipes
-			});
-		});
-	};
+        APIManager.getMyRecipes(userId).then(recipes => {
+            this.setState({
+                MyRecipes: recipes
+            });
+        });
+    };
 
     componentDidMount() {
-     let userId = parseInt(sessionStorage.getItem('activeUser'));
+        let userId = parseInt(sessionStorage.getItem('activeUser'));
         APIManager.getMyRecipes(userId).then(recipes => {
+            console.log("recipes prop", recipes)
             this.setState({
                 MyRecipes: recipes
             });
@@ -32,10 +34,11 @@ class MyRecipeList extends Component {
         return (
 
             <>
-
                 <section className="cookbook-section">
+                    <h1>MY COOKBOOK</h1>
                     {this.state.MyRecipes.map(recipe => (
                         <MyRecipeCard
+                            userName={recipe.user.userName}
                             key={recipe.id}
                             recipeId={recipe.id}
                             recipe={recipe.myRecipe}
@@ -43,6 +46,7 @@ class MyRecipeList extends Component {
                             getData={this.getData}
                         />
                     ))}
+                    <AddRecipeForm />
                 </section>
             </>
         )

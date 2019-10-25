@@ -157,49 +157,29 @@
   ],
   "userRecipes": [
     {
-      "id": 1,
+      "userId": 2,
+      "myRecipeId": 1,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "myRecipeId": 2,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "myRecipeId": 4,
+      "id": 8
+    },
+    {
       "userId": 1,
-      "myRecipeId": 1
+      "myRecipeId": 15,
+      "id": 9
     },
     {
-      "id": 2,
       "userId": 1,
-      "myRecipeId": 2
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "myRecipeId": 3
-    },
-    {
-      "id": 4,
-      "userId": 1,
-      "myRecipeId": 4
-    },
-    {
-      "id": 5,
-      "userId": 2,
-      "myRecipeId": 15
-    },
-    {
-      "id": 6,
-      "userId": 2,
-      "myRecipeId": 19
-    },
-    {
-      "id": 7,
-      "userId": 2,
-      "myRecipeId": 22
-    },
-    {
-      "id": 8,
-      "userId": 2,
-      "myRecipeId": 25
-    },
-    {
-      "id": 9,
-      "userId": 2,
-      "myRecipeId": 29
+      "myRecipeId": 29,
+      "id": 10
     }
   ],
   "myRecipes": [

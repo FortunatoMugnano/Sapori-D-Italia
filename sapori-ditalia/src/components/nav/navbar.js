@@ -12,7 +12,7 @@ class Navbar extends Component {
 
 
     render() {
-        console.log("My props", (sessionStorage.getItem("activeUser")));
+        console.log("My Active user number", (sessionStorage.getItem("activeUser")));
         return (
 
             <Nav justify variant="tabs" defaultActiveKey="/home">

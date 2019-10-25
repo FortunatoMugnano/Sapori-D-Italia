@@ -7,9 +7,11 @@ import MyRecipeList from  "./cookbook/MyRecipeList"
 
 
 
+
 class ApplicationViews extends Component {
 
     render() {
+
         return (
             <>
                 <Route exact path="/explore" render={props => {
