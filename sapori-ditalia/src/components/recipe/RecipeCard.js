@@ -34,18 +34,18 @@ class RecipeCard extends Component {
             myRecipeId: this.props.recipe.id
         }
         APIManager.searchMyRecipeId(this.props.recipe.id).then((results) => {
-         if(results.length > 0) {
-             alert("Recipe already in your Cookbook")
-         }else{
-            APIManager.addRecipeToYourCookbook(recipeObj).then(() => {
-                this.props.history.push("/cookbook")
-            })
-         }
+            if (results.length > 0) {
+                alert("Recipe already in your Cookbook")
+            } else {
+                APIManager.addRecipeToYourCookbook(recipeObj).then(() => {
+                    this.props.history.push("/cookbook")
+                })
+            }
         })
     }
 
     handleDelete = () => {
-        console.log("recipeId",this.props.recipe.id)
+        console.log("recipeId", this.props.recipe.id)
         APIManager.deleteRecipe(this.props.recipe.id).then(() => {
             this.props.history.push("/explore")
         })
@@ -98,6 +98,9 @@ class RecipeCard extends Component {
                             ></i>
                         </div>
                         <div>{this.props.recipe.rate}</div>
+                        <picture>
+                            <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                        </picture>
 
 
                         <button
@@ -148,12 +151,16 @@ class RecipeCard extends Component {
                                 ></i>
                             </div>
                             <div>{this.props.recipe.rate}</div>
+                            <picture>
+                                <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                            </picture>
+
                             <button
                                 className="ui icon button" onClick={this.handleDelete}
                             ><i aria-hidden="true" className="add icon"></i>
                                 Delete it
                     </button>
-                    <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
+                            <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
 
                         </div>
                     )}

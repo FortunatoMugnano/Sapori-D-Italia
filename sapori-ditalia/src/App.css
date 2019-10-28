@@ -126,3 +126,7 @@
     margin: 0.5em;
     order: 1;
 }
+
+picture > img{
+    width: 80%;
+}
