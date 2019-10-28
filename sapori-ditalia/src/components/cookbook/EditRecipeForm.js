@@ -1,6 +1,11 @@
 import React, { Component } from "react"
 import APIManager from "../../modules/APIManager"
 import { withRouter } from 'react-router-dom';
+import Dropzone from 'react-dropzone';
+import request from 'superagent';
+
+const uploadPreset = 'sapori';
+const uploadURL = 'https://api.cloudinary.com/v1_1/fortunato/image/upload';
 
 
 class EditRecipeForm extends Component {
@@ -11,16 +16,46 @@ class EditRecipeForm extends Component {
         difficulty: "",
         rate: "",
         loadingStatus: true,
+        uploadURL: null,
+        file: null,
+        imageUrl: "",
         direction: "",
         regionId: "",
         regions: [],
         userId: ""
     };
 
+    // this is the functionality for react-dropzone to upload images
+    onImageDrop(files) {
+        this.setState({
+            uploadedFile: files[0]
+        });
+        this.handleImageUpload(files[0]);
+    }
+
     handleFieldChange = evt => {
         const stateToChange = {}
         stateToChange[evt.target.id] = evt.target.value
         this.setState(stateToChange)
+    }
+
+    // this uploads the image to cloudinary, and sends a URL to the image back in its place
+    handleImageUpload(file) {
+        let upload = request.post(uploadURL)
+            .field('upload_preset', uploadPreset)
+            .field('file', file);
+
+        upload.end((err, response) => {
+            if (err) {
+                console.error(err);
+            }
+
+            if (response.body.secure_url !== '') {
+                this.setState({
+                    imageUrl: response.body.secure_url
+                });
+            }
+        });
     }
 
     updateExistingRecipe = evt => {
@@ -30,6 +65,7 @@ class EditRecipeForm extends Component {
         const editedRecipe = {
             id: this.props.match.params.myRecipeId,
             name: this.state.name,
+            imageUrl: this.state.imageUrl,
             ingredients: this.state.ingredients,
             difficulty: this.state.difficulty,
             regionId: parseInt(this.state.regionId),
@@ -42,6 +78,8 @@ class EditRecipeForm extends Component {
             .then(() => this.props.history.push("/explore"))
     }
 
+
+
     componentDidMount() {
         APIManager.getRegions()
             .then(allRegions => {
@@ -50,6 +88,7 @@ class EditRecipeForm extends Component {
                         this.setState({
                             name: recipe.name,
                             ingredients: recipe.ingredients,
+                            imageUrl: recipe.imageUrl,
                             difficulty: recipe.difficulty,
                             rate: recipe.rate,
                             direction: recipe.direction,
@@ -126,6 +165,36 @@ class EditRecipeForm extends Component {
                                     </option>
                                 )}
                             </select>
+                            <div>
+                                <div className="FileUpload">
+                                    <Dropzone
+                                        onDrop={this.onImageDrop.bind(this)}
+                                        accept="image/*"
+                                        multiple={false}>
+                                        {({ getRootProps, getInputProps }) => {
+                                            return (
+                                                <div
+                                                    {...getRootProps()}
+                                                >
+                                                    <input {...getInputProps()} /> EDIT THE PICTURE:
+                                                    {
+                                                        <p>Try dropping some files here, or click to select files to upload.</p>
+                                                    }
+                                                </div>
+                                            )
+                                        }}
+                                    </Dropzone>
+
+                                </div>
+
+                                <div>
+                                    {this.state.imageUrl === '' ? null :
+                                        <div>
+                                            <p>{this.state.name}</p>
+                                            <img src={this.state.imageUrl} />
+                                        </div>}
+                                </div>
+                            </div>
                         </div>
 
                         <div className="alignRight">

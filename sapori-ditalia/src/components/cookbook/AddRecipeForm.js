@@ -136,7 +136,7 @@ class AddRecipeForm extends React.Component {
                                                 <div
                                                     {...getRootProps()}
                                                 >
-                                                    <input {...getInputProps()} />
+                                                    <input {...getInputProps()} /> ADD PICTURES:
                                                     {
                                                         <p>Try dropping some files here, or click to select files to upload.</p>
                                                     }

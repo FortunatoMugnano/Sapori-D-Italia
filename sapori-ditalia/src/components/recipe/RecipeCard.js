@@ -6,7 +6,8 @@ import { withRouter } from "react-router-dom"
 
 class RecipeCard extends Component {
     state = {
-        myCard: ''
+        myCard: '',
+        imageUrl: false
     };
 
 
@@ -98,11 +99,14 @@ class RecipeCard extends Component {
                             ></i>
                         </div>
                         <div>{this.props.recipe.rate}</div>
-                        <picture>
-                            <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
-                        </picture>
 
-
+                        {this.props.recipe.imageUrl === "" ? (
+                            <div></div>
+                        ) : (
+                                <picture>
+                                    <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                                </picture>
+                            )}
                         <button
                             className="ui icon button" onClick={this.handleClick}
                         ><i aria-hidden="true" className="add icon"></i>
@@ -151,9 +155,13 @@ class RecipeCard extends Component {
                                 ></i>
                             </div>
                             <div>{this.props.recipe.rate}</div>
-                            <picture>
-                                <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
-                            </picture>
+                            {this.props.recipe.imageUrl === "" ? (
+                                <div></div>
+                            ) : (
+                                    <picture>
+                                        <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                                    </picture>
+                                )}
 
                             <button
                                 className="ui icon button" onClick={this.handleDelete}

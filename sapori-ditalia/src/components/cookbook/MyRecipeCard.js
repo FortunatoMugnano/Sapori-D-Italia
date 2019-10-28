@@ -4,6 +4,9 @@ import APIManager from "../../modules/APIManager"
 
 
 class MyRecipeCard extends Component {
+    state = {
+        imageUrl: ""
+    }
 
 
     handleDelete = (id) => {
@@ -62,6 +65,13 @@ class MyRecipeCard extends Component {
                         ></i>
                     </div>
                     <div>{this.props.recipe.rate}</div>
+                    {this.props.recipe.imageUrl === "" ? (
+                        <div></div>
+                    ) : (
+                            <picture>
+                                <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                            </picture>
+                        )}
                     <div>
                         <button className="ui icon button" onClick={() => this.handleDelete(this.props.recipeId)}><i aria-hidden="true" className="delete icon" ></i>Delete from Cookbook</button>
                     </div>
