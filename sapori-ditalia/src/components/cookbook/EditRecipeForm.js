@@ -3,7 +3,7 @@ import APIManager from "../../modules/APIManager"
 import { withRouter } from 'react-router-dom';
 import Dropzone from 'react-dropzone';
 import request from 'superagent';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const uploadPreset = 'sapori';
 const uploadURL = 'https://api.cloudinary.com/v1_1/fortunato/image/upload';

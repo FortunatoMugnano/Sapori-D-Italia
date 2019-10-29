@@ -177,3 +177,18 @@ margin-left: 0.5em;
 .main {
     align-self: center;
 }
+.edit-form{
+    margin:1.4em;
+}
+
+.myCard > p{
+margin-left: 1.4em;
+}
+
+.cardButtonRow > .ui.button {
+    margin-left: 1.4em;
+}
+
+span:hover {
+    color: #FCB83B
+}

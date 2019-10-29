@@ -3,6 +3,8 @@ import { withRouter } from "react-router-dom"
 import APIManager from "../../modules/APIManager";
 import Registration from "../auth/Registration"
 import "./login.css"
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+
 
 class Login extends Component {
     // Set initial state
@@ -66,26 +68,28 @@ class Login extends Component {
 
                 {this.state.hideReg && (
                     <>
-                        <div className="login-wrap">
-                            <form className="ui form" onSubmit={this.handleLogin}>
-                                <h3>Please Sign in</h3>
-                                <div className="field">
-                                    <label htmlFor="userName">Username</label>
-                                    <input placeholder="Username" onChange={this.handleFieldChange} required="" autoFocus="" id="userName" />
-                                </div>
-                                <div className="field">
-                                    <label htmlFor="name">Name</label>
-                                    <input placeholder="Name" onChange={this.handleFieldChange} required="" autoFocus="" id="name" />
-                                </div>
-                                <div className="field">
-                                    <label htmlFor="password">Password</label>
-                                    <input placeholder="Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="password" />
-                                </div>
-                                <button type="submit" className="ui button">Submit</button><br />
-                                <span className='regLink' onClick={this.showLogin} href=''>
-                                    Or register now!
+                        <div className="loginPic">
+                            <div className="login-wrap">
+                                <Form className="ui form" onSubmit={this.handleLogin}>
+                                    <h3>Please Sign in</h3>
+                                    <FormGroup className="field">
+                                        <Label htmlFor="userName">Username</Label>
+                                        <Input placeholder="Username" onChange={this.handleFieldChange} required="" autoFocus="" id="userName" />
+                                    </FormGroup>
+                                    <FormGroup className="field">
+                                        <Label htmlFor="name">Name</Label>
+                                        <Input placeholder="Name" onChange={this.handleFieldChange} required="" autoFocus="" id="name" />
+                                    </FormGroup>
+                                    <FormGroup className="field">
+                                        <Label htmlFor="password">Password</Label>
+                                        <Input placeholder="Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="password" />
+                                    </FormGroup>
+                                    <Button type="submit" className="ui button">Submit</Button><br />
+                                    <span className='regLink' onClick={this.showLogin} href=''>
+                                        Or Register now!
 				            </span>
-                            </form>
+                                </Form>
+                            </div>
                         </div>
                     </>
 

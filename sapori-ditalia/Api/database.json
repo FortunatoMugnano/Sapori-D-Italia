@@ -137,20 +137,19 @@
     {
       "userId": 1,
       "date": "2019-10-22T23:00",
-      "message": "Hello!for this weekend. Who is coming out?",
+      "message": "Hello!for this weekend. Who is coming out?\n",
       "id": 1
     },
     {
       "userId": 1,
       "date": "2019-10-22T14:59",
-      "message": "Another message",
+      "message": "Another message from Fortunato",
       "id": 5
     },
     {
       "date": "2019-10-22T15:00",
       "message": "Hello from Fortunato",
       "userId": 1,
-      "editTimeStamp": "",
       "id": 6
     },
     {
@@ -164,13 +163,6 @@
       "date": "2019-10-28T17:50",
       "message": "Try my recipe, it is in the Lazio region!",
       "id": 9
-    },
-    {
-      "date": "2019-10-25T15:00",
-      "message": "I have updated my recipe",
-      "userId": 1,
-      "editTimeStamp": "",
-      "id": 10
     },
     {
       "userId": 2,

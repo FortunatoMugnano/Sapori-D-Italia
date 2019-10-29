@@ -51,6 +51,11 @@ class MyRecipeList extends Component {
             <>
                 <section className="cookbook-section">
                     <h1 className="main">MY COOKBOOK</h1>
+                    <AddRecipeForm getData={this.getData}
+                        modal={this.state.modal}
+                        toggle={this.toggle} />
+                </section>
+                <div>
                     {this.state.MyRecipes.map(recipe => (
                         <MyRecipeCard
                             userName={recipe.user.userName}
@@ -61,10 +66,9 @@ class MyRecipeList extends Component {
                             getData={this.getData}
                         />
                     ))}
-                    <AddRecipeForm getData={this.getData}
-                     modal={this.state.modal}
-                     toggle={this.toggle}/>
-                </section>
+
+                </div>
+
             </>
         )
     }

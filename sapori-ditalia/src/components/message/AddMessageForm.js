@@ -1,5 +1,7 @@
 import React from 'react';
 import APIManager from '../../modules/APIManager';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Input } from 'reactstrap';
+import { withRouter } from "react-router-dom"
 
 
 
@@ -19,6 +21,7 @@ class AddMessageForm extends React.Component {
     };
 
     addNewMessage = () => {
+        console.log("my props", this.props)
         if (this.state.message === '') {
             window.alert('Please fill out all the fields');
         } else {
@@ -30,7 +33,8 @@ class AddMessageForm extends React.Component {
                 editTimeStamp: ''
             };
             APIManager.postMessages(message)
-                .then(this.props.getData);
+                .then(this.props.getData)
+                .then(() => this.props.history.push("/messages"))
         }
     };
 
@@ -47,48 +51,71 @@ class AddMessageForm extends React.Component {
         evt.preventDefault();
         this.addNewMessage();
         this.clearForms();
+        this.props.toggle()
     };
 
     render() {
         return (
-            <div className='addBtnContainer'>
-                <form className="myForm">
-                    <div className='msgSubmitRow'>
-                        <div className='formField'>
-                            <input
-                                type='textarea'
-                                required
-                                onChange={this.handleFieldChange}
-                                id='message'
-                                placeholder='Message'
-                                value={this.state.message}
-                            />
-                        </div>
-                        <div className='formField'>
-                            <input
-                                type='datetime-local'
-                                required
-                                onChange={this.handleFieldChange}
-                                id='date'
-                                placeholder='Message'
-                                value={this.state.date}
-                            />
-                        </div>
 
-                        <div className='formField'>
-                            <button
-                                className="ui icon button"
-                                disabled={this.state.loadingStatus}
-                                onClick={this.handleClick}
-                            ><i aria-hidden="true" className="add icon"></i>
-                                Add a Message
-							</button>
+            <div className="buttonWrap">
+                <Button color="danger" onClick={this.props.toggle}>Add a Message</Button>
+                <Modal isOpen={this.props.modal} toggle={this.props.toggle}>
+                    <ModalHeader toggle={this.props.toggle}>Share your message</ModalHeader>
+                    <ModalBody>
+                        <div className='addBtnContainer'>
+                            <Form className="myForm">
+
+                                <FormGroup className='formField'>
+                                    <Input
+                                        type='textarea'
+                                        required
+                                        onChange={this.handleFieldChange}
+                                        id='message'
+                                        placeholder='Message'
+                                        value={this.state.message}
+                                    />
+                                </FormGroup>
+                                <FormGroup className='formField'>
+                                    <Input
+                                        type='datetime-local'
+                                        required
+                                        onChange={this.handleFieldChange}
+                                        id='date'
+                                        placeholder='Message'
+                                        value={this.state.date}
+                                    />
+                                </FormGroup>
+
+
+                            </Form>
                         </div>
-                    </div>
-                </form>
+                    </ModalBody>
+                    <ModalFooter>
+                        <Button
+                            color="primary"
+                            disabled={this.state.loadingStatus}
+                            onClick={this.handleClick}
+                        >
+                            Add a Message
+							</Button>
+                        <Button color="secondary" onClick={this.props.toggle}>Cancel</Button>
+                    </ModalFooter>
+                </Modal>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
         );
     }
 }
 
-export default AddMessageForm;
+export default withRouter(AddMessageForm);

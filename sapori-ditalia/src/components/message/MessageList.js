@@ -5,9 +5,23 @@ import AddMessageForm from '../message/AddMessageForm';
 
 class MessagesList extends Component {
 	//define what this component needs to render
-	state = {
-		messages: []
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			modal: false,
+			messages: [],
+
+		};
+
+		this.toggle = this.toggle.bind(this);
+
+	}
+
+	toggle = () => {
+		this.setState({
+			modal: !this.state.modal
+		});
+	}
 
 	componentDidMount() {
 		APIManager.getMessages(this.props.activeUser).then(messages => {
@@ -25,12 +39,7 @@ class MessagesList extends Component {
 		});
 	};
 
-	scrollToMyRef = () => {
-        window.scrollTo({
-            top: 5000,
-            behavior: 'smooth'
-        });
-    };
+
 
 	render() {
 		return (
@@ -38,7 +47,8 @@ class MessagesList extends Component {
 				<div className='sectionHeader'>
 					<h1>MESSAGES</h1>
 				</div>
-                <AddMessageForm getData={this.getData} />
+				<AddMessageForm getData={this.getData} modal={this.state.modal}
+					toggle={this.toggle} />
 				{this.state.messages.map(message => (
 					<MessageCard
 						key={message.id}

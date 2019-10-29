@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import APIManager from '../../modules/APIManager';
 import { withRouter } from "react-router-dom"
 import "./login.css"
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
 class Registration extends Component {
@@ -55,29 +56,29 @@ class Registration extends Component {
         return (
             <>
                 <div className="login-wrap">
-                    <form className="ui form" onSubmit={this.handleRegistration}>
+                    <Form className="ui form" onSubmit={this.handleRegistration}>
                         <h3>Please Register </h3>
-                        <div className="field">
-                            <label htmlFor="userName">Username</label>
-                            <input placeholder="Username" onChange={this.handleFieldChange} required="" autoFocus="" id="regUserName" />
-                        </div>
-                        <div className="field">
-                            <label htmlFor="name">Name</label>
-                            <input placeholder="Name" onChange={this.handleFieldChange} required="" autoFocus="" id="regName" />
-                        </div>
-                        <div className="field">
-                            <label htmlFor="password">Password</label>
-                            <input placeholder="Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="regPassword" />
-                        </div>
-                        <div className="field">
-                            <label htmlFor="password">Confirm Password</label>
-                            <input placeholder="Confirm Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="regPasswordConfirm" />
-                        </div>
-                        <button type="submit" className="ui button" >Submit</button><br />
+                        <FormGroup className="field">
+                            <Label htmlFor="userName">Username</Label>
+                            <Input placeholder="Username" onChange={this.handleFieldChange} required="" autoFocus="" id="regUserName" />
+                        </FormGroup>
+                        <FormGroup className="field">
+                            <Label htmlFor="name">Name</Label>
+                            <Input placeholder="Name" onChange={this.handleFieldChange} required="" autoFocus="" id="regName" />
+                        </FormGroup>
+                        <FormGroup className="field">
+                            <Label htmlFor="password">Password</Label>
+                            <Input placeholder="Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="regPassword" />
+                        </FormGroup>
+                        <FormGroup className="field">
+                            <Label htmlFor="password">Confirm Password</Label>
+                            <Input placeholder="Confirm Password" onChange={this.handleFieldChange} type="password" required="" autoFocus="" id="regPasswordConfirm" />
+                        </FormGroup>
+                        <Button type="submit" className="ui button" >Submit</Button><br />
                         <span className='regLink' onClick={this.props.hideReg} href=''>
                             Go to Login!
 						    </span>
-                    </form>
+                    </Form>
                 </div>
             </>
         );

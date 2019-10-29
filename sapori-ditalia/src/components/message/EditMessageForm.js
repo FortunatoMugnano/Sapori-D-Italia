@@ -1,6 +1,8 @@
 import React from 'react';
 import APIManager from '../../modules/APIManager';
 import moment from "react-moment"
+import { Button, Form, Input } from 'reactstrap';
+
 
 class EditMessageForm extends React.Component {
 	state = {
@@ -51,15 +53,14 @@ class EditMessageForm extends React.Component {
 		return (
 
 
-					<form className='login-form'>
-						<div className='formField'>
-							<input type="datetime-local"
+					<Form className='edit-form'>
+							<Input type="datetime-local"
                         required onChange={this.handleFieldChange}
                         id="date" placeholder="Date"
                         value={this.state.date} />
-						</div>
-						<div className='formField'>
-							<input
+
+
+							<Input
 								type="textarea"
 								required
 								onChange={this.handleFieldChange}
@@ -67,13 +68,13 @@ class EditMessageForm extends React.Component {
 								placeholder='Message'
 								value={this.state.message}
 							/>
-						</div>
 
-						<div className='formField'>
-							<button className="ui icon button" disabled={this.state.loadingStatus}
-								onClick={this.handleClick}><i aria-hidden="true" className="edit icon"></i>Edit</button>
-						</div>
-					</form>
+
+
+							<Button className="ui icon button" disabled={this.state.loadingStatus}
+								onClick={this.handleClick}><i aria-hidden="true" className="edit icon"></i>Edit</Button>
+
+					</Form>
 
 		);
 	}
