@@ -4,6 +4,16 @@
     margin-bottom: 0.3em;
     background-color: #FCB83B;
     width: fit-content;
+
+}
+
+.ui.icon.button{
+    padding: 0.8em;
+    padding-left: 0.3em;
+}
+
+.btn {
+    margin-top: 1.5em;
 }
 
 .mainContainer {
@@ -59,8 +69,9 @@
     margin-top: 0.6em;
 }
 
-.myCard>p, h4 {
-    margin-left: 0.8em;
+.recipeCard > p, h4 {
+    margin-left: 1em;
+    line-height: 1.8em;
 }
 
 .loginForm {
@@ -98,6 +109,12 @@
     flex-direction: column;
 }
 
+.regionCard > p {
+    margin-left: 1em;
+    line-height: 1.8em;
+    margin-right: 1em;
+}
+
 .recipeCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -108,10 +125,12 @@
 
 .recipeCard .ui.button {
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
-.recipeCard, p {
-    margin-left: 0.4em;
+.MyRecipeCard  p, h3, h2{
+    margin-left: 0.5em;
+    line-height: 1.8em;
 }
 
 .cookbook-section {
@@ -131,4 +150,30 @@
 
 picture > img{
     width: 80%;
+    margin-left: 1em;
+}
+
+.buttonWrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-danger {
+    align-self: flex-end;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.ui.rating {
+margin-left: 0.5em;
+}
+
+.form-group {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.main {
+    align-self: center;
 }

@@ -107,11 +107,13 @@ class RecipeCard extends Component {
                                     <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
                                 </picture>
                             )}
-                        <button
-                            className="ui icon button" onClick={this.handleClick}
-                        ><i aria-hidden="true" className="add icon"></i>
-                            Add to your CookBook
+                        <div className="buttonWrap">
+                            <button
+                                className="ui icon button" onClick={this.handleClick}
+                            ><i aria-hidden="true" className="add icon"></i>
+                                Add to your CookBook
                     </button>
+                        </div>
                     </div>
                 ) : (
                         <div className="recipeCard">
@@ -154,7 +156,7 @@ class RecipeCard extends Component {
                                     role="radio"
                                 ></i>
                             </div>
-                            <div>{this.props.recipe.rate}</div>
+                            <p>{this.props.recipe.rate}</p>
                             {this.props.recipe.imageUrl === "" ? (
                                 <div></div>
                             ) : (
@@ -162,14 +164,14 @@ class RecipeCard extends Component {
                                         <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
                                     </picture>
                                 )}
-
-                            <button
-                                className="ui icon button" onClick={this.handleDelete}
-                            ><i aria-hidden="true" className="add icon"></i>
-                                Delete it
-                    </button>
-                            <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
-
+                            <div className="buttonWrap">
+                                <button
+                                    className="ui icon button" onClick={this.handleDelete}
+                                ><i aria-hidden="true" className="add icon"></i>
+                                    Delete it
+                                </button>
+                                <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
+                            </div>
                         </div>
                     )}
             </>

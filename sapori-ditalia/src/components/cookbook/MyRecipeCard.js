@@ -25,8 +25,7 @@ class MyRecipeCard extends Component {
 
             <>
                 <div className="MyRecipeCard">
-                    <h4>{this.props.recipe.name}</h4>
-                    <h3>Created By: {this.props.recipe.user}</h3>
+                    <h2>{this.props.recipe.name}</h2>
                     <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                     <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                     <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
@@ -64,7 +63,7 @@ class MyRecipeCard extends Component {
                             role="radio"
                         ></i>
                     </div>
-                    <div>{this.props.recipe.rate}</div>
+                    <p>{this.props.recipe.rate}</p>
                     {this.props.recipe.imageUrl === "" ? (
                         <div></div>
                     ) : (
@@ -72,7 +71,7 @@ class MyRecipeCard extends Component {
                                 <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
                             </picture>
                         )}
-                    <div>
+                    <div className="buttonWrap">
                         <button className="ui icon button" onClick={() => this.handleDelete(this.props.recipeId)}><i aria-hidden="true" className="delete icon" ></i>Delete from Cookbook</button>
                     </div>
                 </div>

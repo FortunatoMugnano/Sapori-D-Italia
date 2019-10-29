@@ -3,6 +3,7 @@ import APIManager from "../../modules/APIManager"
 import { withRouter } from 'react-router-dom';
 import Dropzone from 'react-dropzone';
 import request from 'superagent';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const uploadPreset = 'sapori';
 const uploadURL = 'https://api.cloudinary.com/v1_1/fortunato/image/upload';
@@ -104,10 +105,10 @@ class EditRecipeForm extends Component {
     render() {
         return (
             <>
-                <form>
-                    <fieldset>
-                        <div className="formgrid">
-                            <input
+                <Form>
+                    <FormGroup>
+                    <Label htmlFor="Name">Name</Label>
+                            <Input
                                 type="text"
                                 required
                                 className="form-control"
@@ -115,27 +116,27 @@ class EditRecipeForm extends Component {
                                 id="name"
                                 value={this.state.name}
                             />
-                            <label htmlFor="Name">Name</label>
 
-                            <input
-                                type="text"
+<Label htmlFor="ingredients">Ingredients</Label>
+                            <Input
+                                type="textarea"
                                 required
                                 className="form-control"
                                 onChange={this.handleFieldChange}
                                 id="ingredients"
                                 value={this.state.ingredients}
                             />
-                            <label htmlFor="ingredients">Ingredients</label>
-                            <input
-                                type="text"
+<Label htmlFor="direction">Direction</Label>
+                            <Input
+                                type="textarea"
                                 required
                                 className="form-control"
                                 onChange={this.handleFieldChange}
                                 id="direction"
                                 value={this.state.direction}
                             />
-                            <label htmlFor="direction">Direction</label>
-                            <input
+                            <Label htmlFor="difficulty">Difficulty</Label>
+                            <Input
                                 type="text"
                                 required
                                 className="form-control"
@@ -143,8 +144,8 @@ class EditRecipeForm extends Component {
                                 id="difficulty"
                                 value={this.state.difficulty}
                             />
-                            <label htmlFor="difficulty">Difficulty</label>
-                            <input
+                            <Label htmlFor="Rate">Rate</Label>
+                            <Input
                                 type="text"
                                 required
                                 className="form-control"
@@ -152,8 +153,8 @@ class EditRecipeForm extends Component {
                                 id="rate"
                                 value={this.state.rate}
                             />
-                            <label htmlFor="Rate">Rate</label>
-                            <select
+                            <Label htmlFor="regionId">Region </Label>
+                            <Input type="select"
                                 className="form-control"
                                 id="regionId"
                                 value={this.state.regionId}
@@ -164,7 +165,7 @@ class EditRecipeForm extends Component {
                                         {regions.name}
                                     </option>
                                 )}
-                            </select>
+                            </Input>
                             <div>
                                 <div className="FileUpload">
                                     <Dropzone
@@ -195,17 +196,17 @@ class EditRecipeForm extends Component {
                                         </div>}
                                 </div>
                             </div>
-                        </div>
+
 
                         <div className="alignRight">
-                            <button
-                                type="button" disabled={this.state.loadingStatus}
+                            <Button
+                                type="button" color="primary" disabled={this.state.loadingStatus}
                                 onClick={this.updateExistingRecipe}
                                 className="btn btn-primary"
-                            >Submit</button>
+                            >Submit</Button>
                         </div>
-                    </fieldset>
-                </form>
+                    </FormGroup>
+                </Form>
             </>
         );
     }

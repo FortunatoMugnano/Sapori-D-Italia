@@ -4,8 +4,22 @@ import MyRecipeCard from "./MyRecipeCard"
 import AddRecipeForm from "./AddRecipeForm"
 
 class MyRecipeList extends Component {
-    state = {
-        MyRecipes: []
+    constructor(props) {
+        super(props);
+        this.state = {
+            modal: false,
+            MyRecipes: [],
+
+        };
+
+        this.toggle = this.toggle.bind(this);
+
+    }
+
+    toggle = () => {
+        this.setState({
+            modal: !this.state.modal
+        });
     }
 
     getData = () => {
@@ -36,7 +50,7 @@ class MyRecipeList extends Component {
 
             <>
                 <section className="cookbook-section">
-                    <h1>MY COOKBOOK</h1>
+                    <h1 className="main">MY COOKBOOK</h1>
                     {this.state.MyRecipes.map(recipe => (
                         <MyRecipeCard
                             userName={recipe.user.userName}
@@ -47,7 +61,9 @@ class MyRecipeList extends Component {
                             getData={this.getData}
                         />
                     ))}
-                    <AddRecipeForm getData={this.getData}/>
+                    <AddRecipeForm getData={this.getData}
+                     modal={this.state.modal}
+                     toggle={this.toggle}/>
                 </section>
             </>
         )
