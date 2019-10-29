@@ -119,6 +119,18 @@
       "password": "napoli",
       "name": "Giuseppe",
       "id": 3
+    },
+    {
+      "userName": "Bryan",
+      "password": "chester823",
+      "name": "Bryan",
+      "id": 4
+    },
+    {
+      "userName": "Elizabeth",
+      "password": "Nashville",
+      "name": "Elizabeth",
+      "id": 5
     }
   ],
   "messages": [
@@ -165,6 +177,12 @@
       "date": "2019-10-26T10:40",
       "message": "New recipe- check it out!",
       "id": 11
+    },
+    {
+      "userId": 4,
+      "date": "2019-10-28T18:00",
+      "message": "Hey I made a Meatball recipe, check it out in the Sicilia Region",
+      "id": 12
     }
   ],
   "userRecipes": [
@@ -197,6 +215,11 @@
       "userId": 2,
       "myRecipeId": 16,
       "id": 17
+    },
+    {
+      "userId": 1,
+      "myRecipeId": 32,
+      "id": 18
     }
   ],
   "myRecipes": [
@@ -529,6 +552,17 @@
       "rate": "3",
       "direction": "cscscscsc",
       "userId": 1
+    },
+    {
+      "id": 32,
+      "name": "Bryan Meatballs ",
+      "imageUrl": "https://res.cloudinary.com/fortunato/image/upload/v1572303470/oknqpjdavx65wiyupr90.jpg",
+      "ingredients": "Meat, milk....",
+      "difficulty": "hard",
+      "regionId": 19,
+      "rate": "4",
+      "direction": "Cook it properly and enjoy",
+      "userId": 4
     }
   ]
 }

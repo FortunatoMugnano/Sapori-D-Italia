@@ -1,7 +1,9 @@
 .ui.button {
-    color: #FCB83B;
+    color: black;
     margin-left: 0.7em;
     margin-bottom: 0.3em;
+    background-color: #FCB83B;
+    width: fit-content;
 }
 
 .mainContainer {

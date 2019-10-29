@@ -60,7 +60,7 @@ class EditMessageForm extends React.Component {
 						</div>
 						<div className='formField'>
 							<input
-								type='textarea'
+								type="textarea"
 								required
 								onChange={this.handleFieldChange}
 								id='message'
