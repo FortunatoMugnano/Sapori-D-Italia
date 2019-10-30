@@ -5,7 +5,7 @@ import APIManager from "../../modules/APIManager"
 
 class MyRecipeCard extends Component {
     state = {
-        imageUrl: ""
+        imageUrl: "",
     }
 
 
@@ -16,9 +16,11 @@ class MyRecipeCard extends Component {
     };
 
 
+
+
     render() {
 
-        console.log("recipe props", this.props)
+
 
         return (
 
@@ -26,6 +28,7 @@ class MyRecipeCard extends Component {
             <>
                 <div className="MyRecipeCard">
                     <h2>{this.props.recipe.name}</h2>
+                    {/* <h2>Made by: {this.props.recipe.user.userName}</h2> */}
                     <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                     <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                     <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>

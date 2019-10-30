@@ -58,12 +58,17 @@ export default {
   },
   getRecipesByRegionId(id) {
     return fetch (
-      `${remoteURL}/myRecipes/?regionId=${id}`
+      `${remoteURL}/myRecipes/?regionId=${id}&_expand=user`
     ).then(response => response.json());
   },
   getMyRecipes(userId) {
     return fetch (
-      `${remoteURL}/userRecipes?userId=${userId}&_expand=myRecipe&_expand=user`
+      `${remoteURL}/userRecipes?userId=${userId}&_expand=myRecipe`
+    ).then(response => response.json());
+  },
+  getMyRecipesWithUser() {
+    return fetch (
+      `${remoteURL}/userRecipes?_expand=user`
     ).then(response => response.json());
   },
   deleteRecipeFromCookbook(id) {
@@ -107,9 +112,19 @@ export default {
     return fetch(`${remoteURL}/myRecipes/${id}`)
             .then(result => result.json())
   },
-  searchMyRecipeId(myRecipeId) {
-    return fetch(`${remoteURL}/userRecipes?myRecipeId=${myRecipeId}`)
+  searchMyRecipeId(myRecipeId, userId) {
+    return fetch(`${remoteURL}/userRecipes?myRecipeId=${myRecipeId}&userId=${userId}`)
       .then(e => e.json()
       )
   },
+  // getCookBookRecipe(userId) {
+  //   return fetch (
+  //     `${remoteURL}/userRecipes?userId=${userId}`
+  //   ).then(response => response.json());
+  // },
+  // getOneRecipe(id) {
+  //   return fetch (
+  //     `${remoteURL}/myRecipes/${id}_expand=user`
+  //   ).then(response => response.json());
+  // }
 }

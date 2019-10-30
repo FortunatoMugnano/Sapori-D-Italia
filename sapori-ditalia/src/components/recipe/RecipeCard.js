@@ -34,7 +34,7 @@ class RecipeCard extends Component {
             userId: userId,
             myRecipeId: this.props.recipe.id
         }
-        APIManager.searchMyRecipeId(this.props.recipe.id).then((results) => {
+        APIManager.searchMyRecipeId(this.props.recipe.id, userId).then((results) => {
             if (results.length > 0) {
                 alert("Recipe already in your Cookbook")
             } else {
@@ -60,7 +60,7 @@ class RecipeCard extends Component {
                 {this.state.myCard ? (
                     <div className="recipeCard">
                         <h2>{this.props.recipe.name}</h2>
-                        {/* <h3>By:{this.props.recipe.user.name}</h3> */}
+                        <h3>Created By:{this.props.recipe.user.userName}</h3>
                         <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                         <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                         <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
@@ -118,7 +118,7 @@ class RecipeCard extends Component {
                 ) : (
                         <div className="recipeCard">
                             <h2>{this.props.recipe.name}</h2>
-                            {/* <h3>Created By: <p>{this.props.recipe.user.name}</p></h3> */}
+                            <h3>Created By: <p>Me</p></h3>
                             <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                             <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                             <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>

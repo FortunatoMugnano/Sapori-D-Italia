@@ -8,7 +8,7 @@ class MyRecipeList extends Component {
         super(props);
         this.state = {
             modal: false,
-            MyRecipes: [],
+            MyRecipes: []
 
         };
 
@@ -25,7 +25,6 @@ class MyRecipeList extends Component {
     getData = () => {
         let userId = parseInt(sessionStorage.getItem('activeUser'));
         APIManager.getMyRecipes(userId).then(recipes => {
-            console.log("get data props", recipes)
             this.setState({
                 MyRecipes: recipes
             });
@@ -35,16 +34,16 @@ class MyRecipeList extends Component {
     componentDidMount() {
         let userId = parseInt(sessionStorage.getItem('activeUser'));
         APIManager.getMyRecipes(userId).then(recipes => {
-            console.log("recipes prop", recipes)
             this.setState({
                 MyRecipes: recipes
             });
-        });
+        })
     }
 
 
 
     render() {
+
 
         return (
 
@@ -58,7 +57,6 @@ class MyRecipeList extends Component {
                 <div>
                     {this.state.MyRecipes.map(recipe => (
                         <MyRecipeCard
-                            userName={recipe.user.userName}
                             key={recipe.id}
                             recipeId={recipe.id}
                             recipe={recipe.myRecipe}
