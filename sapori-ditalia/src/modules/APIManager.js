@@ -117,14 +117,14 @@ export default {
       .then(e => e.json()
       )
   },
-  // getCookBookRecipe(userId) {
-  //   return fetch (
-  //     `${remoteURL}/userRecipes?userId=${userId}`
-  //   ).then(response => response.json());
-  // },
-  // getOneRecipe(id) {
-  //   return fetch (
-  //     `${remoteURL}/myRecipes/${id}_expand=user`
-  //   ).then(response => response.json());
-  // }
+  getCookBookRecipe(userId) {
+    return fetch (
+      `${remoteURL}/userRecipes?userId=${userId}`
+    ).then(response => response.json());
+  },
+  getOneRecipe(id) {
+    return fetch (
+      `${remoteURL}/myRecipes?${id}_expand=user`
+    ).then(response => response.json());
+  }
 }
