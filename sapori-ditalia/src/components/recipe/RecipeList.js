@@ -4,7 +4,8 @@ import RecipeCard from "./RecipeCard"
 
 class RecipeList extends Component {
     state = {
-        recipes: []
+        recipes: [],
+        region: "",
     }
 
     componentDidMount() {
@@ -12,7 +13,13 @@ class RecipeList extends Component {
             this.setState({
                 recipes: recipes
             });
-        });
+        }).then(
+            APIManager.getRegionsById(this.props.regionId).then(region => {
+                this.setState({
+                    region: region
+                });
+            })
+        )
     }
 
     getData = () => {
@@ -37,6 +44,7 @@ class RecipeList extends Component {
                             recipe={recipe}
                             {...this.props}
                             getData={this.getData}
+                            regionName={this.state.region.name}
                         />
                     ))}
                 </section>

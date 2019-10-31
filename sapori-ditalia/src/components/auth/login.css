@@ -9,12 +9,13 @@ margin-top: 10em;
 }
 
 .ui.form {
-    border-style: solid;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 60%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-self: center;
+    margin: 14em;
+    background-color: white;
 }
 
 .ui.form .field, h3, span, .ui.button{
@@ -24,6 +25,22 @@ margin-top: 10em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
 }
+.body-login{
+    display: flex;
+    flex-direction: column;
+   
+}
 
-
-
+.logo-login{
+    width: 34%;
+    height: 10%;
+    align-self: flex-start;
+}
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+.login-section {
+    background-color:   #F2CEA7  ;
+}

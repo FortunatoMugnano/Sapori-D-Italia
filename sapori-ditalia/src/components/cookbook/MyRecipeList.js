@@ -54,7 +54,7 @@ class MyRecipeList extends Component {
                         modal={this.state.modal}
                         toggle={this.toggle} />
                 </section>
-                <div>
+                <div className="body-myRecipes">
                     {this.state.MyRecipes.map(recipe => (
                         <MyRecipeCard
                             key={recipe.id}

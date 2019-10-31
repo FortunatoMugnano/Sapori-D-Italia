@@ -51,7 +51,7 @@ h4, h5, p, span, a {
 }
 
 .friendCard {
-    background-color: #FCB83B;
+    background-color: #F2CEA7;
     margin: 0.3em;
     border-style: solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -164,7 +164,7 @@ h4, h5, p, span, a {
 }
 
 picture>img {
-    width: 80%;
+    width: 70%;
     margin-left: 1em;
 }
 
@@ -232,8 +232,31 @@ span:hover {
     display: flex;
     flex-direction: row;
 }
-.text-muted{
-position: sticky;
-background-color: #FCB83B;
-margin-top: 0.3em;
+
+.text-muted {
+    position: sticky;
+    background-color: #FCB83B;
+    margin-top: 0.3em;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.body-myRecipes {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: auto;
+    height: 750px;
+}
+.body-messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: auto;
+    height: 750px;
 }
