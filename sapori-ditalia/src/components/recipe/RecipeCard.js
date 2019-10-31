@@ -120,6 +120,8 @@ class RecipeCard extends Component {
                         </div>
                     </>
                 ) : (
+                    <>
+                    <div className="top"><h1 className="main">{this.props.regionName}</h1></div>
                         <div className="recipeCard">
                             <h2>{this.props.recipe.name}</h2>
                             <h3>Created By: <p>Me</p></h3>
@@ -177,6 +179,7 @@ class RecipeCard extends Component {
                                 <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
                             </div>
                         </div>
+                        </>
                     )}
             </>
         );

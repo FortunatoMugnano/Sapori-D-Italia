@@ -204,11 +204,6 @@
     },
     {
       "userId": 1,
-      "myRecipeId": 32,
-      "id": 4
-    },
-    {
-      "userId": 1,
       "myRecipeId": 30,
       "id": 6
     },
@@ -241,6 +236,11 @@
       "userId": 4,
       "myRecipeId": 15,
       "id": 13
+    },
+    {
+      "userId": 1,
+      "myRecipeId": 32,
+      "id": 14
     }
   ],
   "myRecipes": [
