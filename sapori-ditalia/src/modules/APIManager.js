@@ -56,6 +56,11 @@ export default {
       `${remoteURL}/regions`
     ).then(response => response.json());
   },
+  getRegionsById(id) {
+    return fetch (
+      `${remoteURL}/regions/${id}`
+    ).then(response => response.json());
+  },
   getRecipesByRegionId(id) {
     return fetch (
       `${remoteURL}/myRecipes/?regionId=${id}&_expand=user`

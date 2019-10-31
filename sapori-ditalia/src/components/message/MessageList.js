@@ -49,14 +49,16 @@ class MessagesList extends Component {
 				</div>
 				<AddMessageForm getData={this.getData} modal={this.state.modal}
 					toggle={this.toggle} />
-				{this.state.messages.map(message => (
-					<MessageCard
-						key={message.id}
-						message={message}
-						{...this.props}
-						getData={this.getData}
-					/>
-				))}
+				<div className="body-messages">
+					{this.state.messages.map(message => (
+						<MessageCard
+							key={message.id}
+							message={message}
+							{...this.props}
+							getData={this.getData}
+						/>
+					))}
+				</div>
 
 			</div>
 		);

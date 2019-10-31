@@ -68,9 +68,13 @@ class Login extends Component {
 
                 {this.state.hideReg && (
                     <>
-                        <div className="loginPic">
-                            <div className="login-wrap">
+                    <section className="login-section">
+                        <div className="body-login">
+
                                 <Form className="ui form" onSubmit={this.handleLogin}>
+                                    <div className="logo-wrapper">
+                                <img className="logo-login" src="../images/Sapori-D-Italia_logo.jpg" alt="logo" />
+                                </div>
                                     <h3>Please Sign in</h3>
                                     <FormGroup className="field">
                                         <Label htmlFor="userName">Username</Label>
@@ -87,10 +91,10 @@ class Login extends Component {
                                     <Button type="submit" className="ui button">Submit</Button><br />
                                     <span className='regLink' onClick={this.showLogin} href=''>
                                         Or Register now!
-				            </span>
+				                    </span>
                                 </Form>
-                            </div>
                         </div>
+                        </section>
                     </>
 
                 )}
