@@ -6,7 +6,7 @@ import APIManager from "../../modules/APIManager"
 class MyRecipeCard extends Component {
     state = {
         imageUrl: "",
-       
+
     }
 
 

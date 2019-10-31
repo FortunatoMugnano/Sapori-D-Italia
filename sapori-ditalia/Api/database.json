@@ -234,6 +234,11 @@
       "userId": 2,
       "myRecipeId": 2,
       "id": 12
+    },
+    {
+      "userId": 4,
+      "myRecipeId": 15,
+      "id": 13
     }
   ],
   "myRecipes": [
