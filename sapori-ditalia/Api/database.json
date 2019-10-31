@@ -182,6 +182,13 @@
       "userId": 2,
       "editTimeStamp": "",
       "id": 13
+    },
+    {
+      "date": "",
+      "message": "Good looking App!",
+      "userId": 4,
+      "editTimeStamp": "",
+      "id": 14
     }
   ],
   "userRecipes": [
@@ -224,11 +231,6 @@
       "userId": 4,
       "myRecipeId": 4,
       "id": 10
-    },
-    {
-      "userId": 4,
-      "myRecipeId": 2,
-      "id": 11
     },
     {
       "userId": 2,
@@ -560,17 +562,6 @@
       "rate": "4",
       "direction": "Heat 1-2 tablespoons of olive oil in large pot. Chop onion, celery, and carrot into small pieces, then add to pot. Saute until  ",
       "userId": 2
-    },
-    {
-      "id": 31,
-      "name": "Fake recipes",
-      "imageUrl": "https://res.cloudinary.com/fortunato/image/upload/v1572292874/w113uwxb2fq0enls0chx.png",
-      "ingredients": "gregergregergergerg",
-      "difficulty": "medium",
-      "regionId": 20,
-      "rate": "3",
-      "direction": "cscscscsc",
-      "userId": 1
     },
     {
       "id": 32,
