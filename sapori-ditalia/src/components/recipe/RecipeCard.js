@@ -60,7 +60,7 @@ class RecipeCard extends Component {
                 {this.state.myCard ? (
                     <div className="recipeCard">
                         <h2>{this.props.recipe.name}</h2>
-                        <h3>Created By:{this.props.recipe.user.userName}</h3>
+                        <h3>Created By: <br/> <p>{this.props.recipe.user.userName}</p></h3>
                         <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                         <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                         <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>

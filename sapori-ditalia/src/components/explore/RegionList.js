@@ -22,19 +22,21 @@ class RegionList extends Component {
         return (
 
             <>
+                <section className="body-container">
+                    <div className="picture-content">
+                        <img className="italyMap" src="../images/italy-map.gif" alt="map of italy" />
+                    </div>
+                    <section className="explore-section">
 
-                <div className="picture-content">
-                    <img className="italyMap" src="../images/italy-map.gif" alt="map of italy" />
-                </div>
-                <section className="explore-section">
-                    {this.state.regions.map(region => (
-                        <RegionCard
-                            key={region.id}
-                            region={region}
-                            {...this.props}
-                        />
-                    ))}
-                    {/* <ModalExample /> */}
+                        {this.state.regions.map(region => (
+                            <RegionCard
+                                key={region.id}
+                                region={region}
+                                {...this.props}
+                            />
+                        ))}
+                        {/* <ModalExample /> */}
+                    </section>
                 </section>
             </>
         )

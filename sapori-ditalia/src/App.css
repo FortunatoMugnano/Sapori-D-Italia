@@ -4,10 +4,25 @@
     margin-bottom: 0.3em;
     background-color: #FCB83B;
     width: fit-content;
-
 }
 
-.ui.icon.button{
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+h4, h5, p, span, a {
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+}
+
+.logo {
+    width: 34%;
+    height: 10%;
+    align-self: flex-start;
+}
+
+.ui.icon.button {
     padding: 0.8em;
     padding-left: 0.3em;
 }
@@ -32,6 +47,7 @@
 .sectionHeader {
     align-self: center;
     margin-bottom: 2em;
+    margin-top: 0.6em;
 }
 
 .friendCard {
@@ -65,7 +81,7 @@
     margin-top: 0.6em;
 }
 
-.recipeCard > p, h4 {
+.recipeCard>p, h4 {
     margin-left: 1em;
     line-height: 1.8em;
 }
@@ -76,21 +92,23 @@
 
 .explore-section {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: auto;
+    overflow-y: scroll;
+    width: 739px;
+    height: 876px;
 }
 
 .picture-content {
-    display: flex;
-    justify-content: center;
     margin-bottom: 2em;
     margin-top: 1em;
+    width: 50%;
 }
 
 .italyMap {
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .regionCard {
@@ -99,13 +117,13 @@
     border-radius: 5px;
     background: #E5E9D0;
     margin: 0.5em;
-    width: 22%;
+    width: 40%;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
 }
 
-.regionCard > p {
+.regionCard>p {
     margin-left: 1em;
     line-height: 1.8em;
     margin-right: 1em;
@@ -124,7 +142,7 @@
     margin-bottom: 1em;
 }
 
-.MyRecipeCard  p, h3, h2{
+.MyRecipeCard p, h3, h2 {
     margin-left: 0.5em;
     line-height: 1.8em;
 }
@@ -133,6 +151,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 0.6em;
 }
 
 .MyRecipeCard {
@@ -144,7 +163,7 @@
     order: 1;
 }
 
-picture > img{
+picture>img {
     width: 80%;
     margin-left: 1em;
 }
@@ -161,7 +180,7 @@ picture > img{
 }
 
 .ui.rating {
-margin-left: 0.5em;
+    margin-left: 0.5em;
 }
 
 .form-group {
@@ -172,19 +191,49 @@ margin-left: 0.5em;
 
 .main {
     align-self: center;
-}
-.edit-form{
-    margin:1.4em;
+    margin-top: 1em;
 }
 
-.myCard > p{
-margin-left: 1.4em;
+.edit-form {
+    margin: 1.4em;
 }
 
-.cardButtonRow > .ui.button {
+.myCard>p {
+    margin-left: 1.4em;
+}
+
+.cardButtonRow>.ui.button {
     margin-left: 1.4em;
 }
 
 span:hover {
     color: #FCB83B
+}
+
+.nav-tabs .nav-link {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.nav-item>.special {
+    margin-top: 0.9em;
+    font-size: x-large;
+}
+
+.nav-item a {
+    color: #BEBEBE;
+}
+
+.nav-item a:hover {
+    color: #D3363B;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+}
+.text-muted{
+position: sticky;
+background-color: #FCB83B;
+margin-top: 0.3em;
 }
