@@ -20,7 +20,7 @@ class Navbar extends Component {
                     <Nav.Link href="/explore"><img className="logo" src="../images/Sapori-D-Italia_logo.jpg" alt="logo" /></Nav.Link>
                 </Nav.Item>
                 <Nav.Item >
-                    <Nav.Link className="special" href="/cookbook">My CookBook</Nav.Link>
+                    <Nav.Link className="special" href="/cookbook">My Cookbook</Nav.Link>
                 </Nav.Item>
                 <Nav.Item >
                     <Nav.Link className="special" href="/messages">Messages</Nav.Link>
