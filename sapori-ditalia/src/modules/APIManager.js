@@ -131,5 +131,14 @@ export default {
     return fetch (
       `${remoteURL}/myRecipes?${id}_expand=user`
     ).then(response => response.json());
+  },
+  patch(id, obj) {
+    return fetch(`${remoteURL}/myRecipes/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(obj)
+    }).then(data => data.json());
   }
 }

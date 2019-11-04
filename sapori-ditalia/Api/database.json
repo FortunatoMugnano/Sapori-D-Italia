@@ -131,64 +131,39 @@
       "password": "Nashville",
       "name": "Elizabeth",
       "id": 5
+    },
+    {
+      "userName": "Cohort35",
+      "password": "napoli",
+      "name": "Cohort35",
+      "id": 6
+    },
+    {
+      "userName": "Molly",
+      "password": "chester823",
+      "name": "Molly",
+      "id": 7
     }
   ],
   "messages": [
     {
-      "userId": 1,
-      "date": "2019-10-22T23:00",
-      "message": "Hello!for this weekend. Who is coming out?\n",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "date": "2019-10-22T14:59",
-      "message": "Another message from Fortunato",
-      "id": 5
-    },
-    {
-      "date": "2019-10-22T15:00",
-      "message": "Hello from Fortunato",
-      "userId": 1,
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "date": "2019-11-01T10:25",
-      "message": "Hello!for this weekend. Who is coming out?",
-      "id": 8
-    },
-    {
-      "userId": 2,
-      "date": "2019-10-28T17:50",
-      "message": "Try my recipe, it is in the Lazio region!",
-      "id": 9
-    },
-    {
-      "userId": 2,
-      "date": "2019-10-26T10:40",
-      "message": "New recipe- check it out!",
-      "id": 11
-    },
-    {
-      "userId": 4,
-      "date": "2019-10-28T18:00",
-      "message": "Hey I made a Meatball recipe, check it out in the Sicilia Region",
-      "id": 12
-    },
-    {
-      "date": "2019-10-29T18:00",
-      "message": "I love the design",
-      "userId": 2,
-      "editTimeStamp": "",
-      "id": 13
-    },
-    {
-      "date": "",
-      "message": "Good looking App!",
+      "message": "Hello from me",
+      "timestamp": "11/04/2019, 02:56:34 PM",
       "userId": 4,
       "editTimeStamp": "",
-      "id": 14
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "timestamp": "11/04/2019, 03:29:53 PM",
+      "message": "Hello Bryan!!!!\n",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "timestamp": "11/04/2019, 03:33:30 PM",
+      "message": "Perfect!!!",
+      "id": 19
     }
   ],
   "userRecipes": [
@@ -241,6 +216,16 @@
       "userId": 1,
       "myRecipeId": 32,
       "id": 14
+    },
+    {
+      "userId": 2,
+      "myRecipeId": 16,
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "myRecipeId": 8,
+      "id": 17
     }
   ],
   "myRecipes": [
@@ -251,9 +236,9 @@
       "ingredients": "For the pastry: 2 1/2 cups flour, 1/2 cup  warm water, 1 egg, 2 teaspoons olive oil, plus more for brushing, 1 pinch of salt, 1 teaspoon vinegar; For the filling: 4 apples, about 750 grams Zest and juice of 1 lemon, 3 tablespoons currants, 2 tablespoons pine nuts, 1/4 cup turbinado sugar, 1 teaspoon ground cinnamon, 2/3 cup breadcrumbs, 1/3 cup butter, 2 tablespoons rum, optional, confectioners' sugar, for dusting",
       "difficulty": "Very Hard",
       "regionId": 1,
-      "rate": 4,
       "direction": "For the pastry: Place the flour in a bowl and make a well in the center. Place the water, egg, 2 teaspoons olive oil, salt, and vinegar in the center and whisk with a fork to combine, until it begins to get too difficult to whisk. From here, knead the dough until soft, elastic, and well-combined. Brush the dough with olive oil and let rest, covered, in a bowl for 30 minutes. For the filling: Peel and core the apples, and chop them into thin slices, then place immediately in a bowl with the zest and juice of the lemon and toss. Set aside. In a separate bowl, combine the currants, pine nuts, turbinado sugar, and cinnamon. Set aside. In a small skillet, toast the breadcrumbs in half of the butter over a medium heat for 2 to 3 minutes, until the breadcrumbs become coated in the butter. Set aside. For the assembly: Divide the pastry into 2 balls. Roll out 1 ball of pastry on a floured tea towel to a rectangle roughly 12 x 16 inches and thin enough to see your hand through the other side. Brush melted butter over the whole pastry. Scatter half of the toasted breadcrumbs evenly over the pastry, leaving a border of about 4 inches. Combine the chopped apples with the currant mixture and the rum, then toss to combine. Place half of the apple mixture over the breadcrumbs and, with the help of the tea towel, gently fold the pastry from the long side, then roll to close the pastry firmly. Fold the ends underneath. Transfer the pastry to a baking sheet lined with parchment paper and brush with melted butter to cover entirely. Repeat with the rest of the pastry and filling to create the second strudel. Bake the strudels at 350ºF for about 30 minutes, or until the top is golden brown. Let cool slightly, then transfer to a baking rack. You can serve this warm or cold, with a simple dusting of confectioners' sugar or a dollop of unsweetened, fresh whipped cream or ice cream.",
-      "userId": 1
+      "userId": 1,
+      "rate": 3
     },
     {
       "id": 3,
@@ -273,7 +258,7 @@
       "ingredients": "1 1/2 cups arborio rice, 4 cups chicken stock, 1/2 cup vermouth (or another dry white wine), 1 medium shallot (about 1/2 cup or 1/2 small onion, chopped), 3 tablespoons whole butter (divided), 1 tablespoon vegetable oil, 1/4 cup Parmesan cheese (grated), 1 tablespoon Italian parsley (chopped), Kosher salt (to taste)",
       "difficulty": "Easy",
       "regionId": 3,
-      "rate": 4,
+      "rate": 5,
       "direction": "Gather the ingredients. Heat the stock to a simmer in a medium saucepan, then lower the heat so that the stock just stays hot. In a large, heavy-bottomed saucepan, heat the oil and 1 tablespoon of the butter over medium heat. When the butter has melted, add the chopped shallot or onion. Sauté for 2 to 3 minutes or until slightly translucent. Add the rice to the pot and stir it briskly with a wooden spoon so that the grains are coated with the oil and melted butter. Sauté for another minute or so, until there is a slightly nutty aroma. But don't let the rice turn brown. Add the wine and cook while stirring, until the liquid is fully absorbed. Add a ladle of hot chicken stock to the rice and stir until the liquid is fully absorbed. When the rice appears almost dry, add another ladle of stock and repeat the process. Continue adding stock, a ladle at a time, for 20 to 30 minutes or until the grains are tender but still firm to the bite, without being crunchy. Stir in the remaining 2 tablespoons butter, the Parmesan cheese, and the parsley, and season to taste with Kosher salt. Serve in bowls and enjoy",
       "userId": 1
     },
@@ -284,9 +269,9 @@
       "ingredients": "2 1/2 pounds (1.2 kg) beef chuck roast/pot roast, Salt and freshly ground black pepper, 3 tablespoons olive oil, 3 tablespoons (50 grams) cold butter, 1 onion diced, 1 carrot diced, 1 stalk celery diced, 2 garlic cloves peeled, 2-3 bay leaves, 1 handful mixed fresh herbs such as rosemary, sage, thyme, 1 bottle (25 fl oz or 750 ml) dry, full-bodied red wine, Water or beef stock, to cover",
       "difficulty": "Hard",
       "regionId": 4,
-      "rate": 4,
       "direction": "Rub the beef with salt and pepper. If you like, you can tie the beef with kitchen string too, to help it keep it shape during cooking. Heat the olive oil in a (preferably ovenproof) pot, such as a Dutch oven (in Italy a terracotta pot is often used). Sear the beef in one whole piece over high heat on all sides until a nice brown crust develops. Remove the beef and set aside. Turn the heat to low. Add the onion, carrot and celery by sweating them gently with a good pinch of salt and half of the butter until the vegetables are soft and translucent, about 10 minutes. Return the beef to the pot, tip over the bottle of wine, add the garlic cloves, herbs (and optional spices, if using) and season with salt and pepper. Over medium heat, bring the wine to a boil and let it reduce, about 5 minutes. Add enough water (or beef stock) to cover the meat with liquid again. Place on the lid, turn heat down to low and let simmer gently for about 2 hours, turning the beef occasionally. Alternatively, if you have an ovenproof pot, you can also put this in a moderate oven (325°F/160°C) for the same amount of time. Remove the meat and set aside on a chopping board. Remove and discard bay leaves and rosemary or thyme stalks, if you used them. Then, with an immersion blender, blend the vegetables and liquid until smooth. Continue boiling the sauce over medium-high heat, uncovered, until the sauce is reduced and slightly thickened, about 10 minutes. Drop in the rest of the butter and swirl it through the sauce until glossy. Taste for seasoning, add salt and pepper, if necessary. Cut the beef into 1/3 inch slices and serve with the sauce alongside fluffy mashed potatoes or creamy, soft polenta. Note: This dish improves after a good night's rest. I like to slice the meat as described above and leave in the sauce to absorb some extra flavor, but some prefer to keep the meat whole until serving and slice later. Either way, let the brasato cool completely, then cover and refrigerate overnight (or up to three days). Then, simply reheat in the oven or stovetop before serving.",
-      "userId": 1
+      "userId": 1,
+      "rate": 5
     },
     {
       "id": 6,
@@ -317,7 +302,7 @@
       "ingredients": "25 ounces (700 gr) baccalà (stockfish, already soaked), 1 or 2 cloves of garlic, 1/2 cup (120 ml) olive oil, salt and white pepper to taste",
       "difficulty": "Easy",
       "regionId": 6,
-      "rate": 4,
+      "rate": 2,
       "direction": "Place the baccalà in a large saucepan and cover with cold water. Bring to the boil and simmer for 15 minutes or until tender (test by pricking with a fork, if it's still too firm, give it a little more time). Drain the fish, reserving a little of the water if needed later. Remove the garlic, skin and any large bones. Break the fish into pieces and place in a bowl (or your mixer/food processor if using - but note that this will result in a different consistency). Then, while the fish is still hot, begin whipping to 'cream' the fish with a whisk or -- if you're going old-school -- a wooden spoon. At the same time, add the olive oil in a thin, slow drizzle and continue whipping energetically until you have a creamy, mousse-like consistency, with some larger pieces here and there. This is easiest done with two people, but otherwise just pause every now and then to add the olive oil in stages. You may need a little more olive oil, you may find you don't need all of it. You might even need a little of the cooking water if it is too dry or too dense. This all really depends on the quality of the stockfish and how long it was soaked for prior to cooking. Season to taste with salt and pepper and serve on slices of baguette or grilled (white) polenta. If you like, scatter some chopped parsley over the top; some prefer a pinch of nutmeg; those who like it with a kick can stir in some chopped, raw garlic.",
       "userId": 1
     },
@@ -394,7 +379,7 @@
       "ingredients": "6 ounces flat pancetta, cut into 1/4-inch dice, 2 tablespoons extra-virgin olive oil, 5 large eggs, 1 cup freshly grated Pecorino Romano, 1 cup freshly grated Parmigiano-Reggiano, 2 tablespoons freshly cracked black pepper, 1 pound bucatini",
       "difficulty": "Medium",
       "regionId": 12,
-      "rate": 4,
+      "rate": 5,
       "direction": "In a medium skillet, cook the pancetta and oil over medium-low heat, stirring occasionally, until the pancetta is browned and the fat has rendered, about 10 minutes. Remove from heat. In a large bowl, whisk together the eggs, Pecorino, Parmesan, and pepper. Bring a pot of salted water to boil; cook pasta until al dente, drain, and immediately toss with the egg mixture. Add the pancetta along with its rendered fat, toss well, and serve immediately with extra pepper, if desired. If the heat of the cooked pasta does not quite set the eggs, you can gently toss it again over very low heat in the pan you cooked the pancetta in. But stir continuously and make sure the heat is as low as it can go so that you don’t wind up with scrambled eggs.",
       "userId": 2
     },
@@ -570,7 +555,7 @@
       "ingredients": "Meat, milk....",
       "difficulty": "hard",
       "regionId": 19,
-      "rate": "4",
+      "rate": 2,
       "direction": "Cook it properly and enjoy",
       "userId": 4
     }

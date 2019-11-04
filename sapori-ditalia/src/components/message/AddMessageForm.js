@@ -8,10 +8,10 @@ import { withRouter } from "react-router-dom"
 class AddMessageForm extends React.Component {
     state = {
         userId: '',
-        date: '',
+        // date: '',
         message: '',
         loadingStatus: false,
-        editTimeStamp: ''
+        timestamp: "",
     };
 
     handleFieldChange = evt => {
@@ -26,11 +26,19 @@ class AddMessageForm extends React.Component {
             window.alert('Please fill out all the fields');
         } else {
             let userId = parseInt(sessionStorage.getItem('activeUser'));
+            let timestamp = Date.now();
+            let dateNow = new Intl.DateTimeFormat("en-US", {
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit"
+            }).format(timestamp);
             const message = {
-                date: this.state.date,
                 message: this.state.message,
+                timestamp: dateNow,
                 userId: userId,
-                editTimeStamp: ''
             };
             APIManager.postMessages(message)
                 .then(this.props.getData)
@@ -73,16 +81,6 @@ class AddMessageForm extends React.Component {
                                         id='message'
                                         placeholder='Message'
                                         value={this.state.message}
-                                    />
-                                </FormGroup>
-                                <FormGroup className='formField'>
-                                    <Input
-                                        type='datetime-local'
-                                        required
-                                        onChange={this.handleFieldChange}
-                                        id='date'
-                                        placeholder='Message'
-                                        value={this.state.date}
                                     />
                                 </FormGroup>
 

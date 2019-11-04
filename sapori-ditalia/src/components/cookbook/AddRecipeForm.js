@@ -18,8 +18,8 @@ class AddRecipeForm extends React.Component {
         difficulty: "",
         uploadURL: null,
         file: null,
-        rate: "",
         loadingStatus: false,
+        rate: 0,
         imageUrl: "",
         regionId: "1",
         regions: [],
@@ -88,8 +88,8 @@ class AddRecipeForm extends React.Component {
                 ingredients: this.state.ingredients,
                 regionId: parseInt(this.state.regionId),
                 difficulty: this.state.difficulty,
-                imageUrl: this.state.imageUrl,
                 rate: this.state.rate,
+                imageUrl: this.state.imageUrl,
                 direction: this.state.direction,
                 userId: userId
             };
@@ -123,8 +123,6 @@ class AddRecipeForm extends React.Component {
                                         <Input type="textarea" required onChange={this.handleFieldChange} id="direction" placeholder="Directions" /> <br />
                                         <Label htmlFor="Difficulty">Difficulty: </Label>
                                         <Input type="text" required onChange={this.handleFieldChange} id="difficulty" placeholder="Difficulty" /> <br />
-                                        <Label htmlFor="Rate">Rate it: </Label>
-                                        <Input type="text" required onChange={this.handleFieldChange} id="rate" placeholder="Rate" /> <br />
                                         <Label for="regionId">Region: </Label>
                                         <Input type="select"
                                             id="regionId"
