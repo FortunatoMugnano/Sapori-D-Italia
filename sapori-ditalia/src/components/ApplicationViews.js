@@ -30,7 +30,7 @@ class ApplicationViews extends Component {
                     return <MyRecipeList {...props} activeUser={this.props.activeUser} />
                 }} />
                 <Route path="/cookbook/:myRecipeId(\d+)/edit" render={props => {
-                    return <EditRecipeForm {...props} myRecipeId={parseInt(props.match.params.myRecipeId)} />
+                    return <EditRecipeForm {...props} myRecipeId={parseInt(props.match.params.myRecipeId)} myRecipeRate={parseInt(props.match.params.myRecipeRate)} {...this.props} />
                 }} />
 
                 <CardFooter className="text-muted"> &copy; Fortunato Mugnano, Cohort 35</CardFooter>

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Rating } from 'semantic-ui-react'
+import Rating from "react-rating";
 import APIManager from '../../modules/APIManager';
 import { withRouter } from "react-router-dom"
+
 
 
 class RecipeCard extends Component {
@@ -45,12 +46,23 @@ class RecipeCard extends Component {
         })
     }
 
+
+
     handleDelete = () => {
         console.log("recipeId", this.props.recipe.id)
         APIManager.deleteRecipe(this.props.recipe.id).then(() => {
             this.props.history.push("/explore")
         })
     }
+
+    updateRate = (evt) => {
+        let newRate = {
+            rate: evt
+        }; APIManager.patch(this.props.recipe.id, newRate).then(() => {
+            this.props.getData()
+        });
+    }
+
 
     render() {
 
@@ -67,41 +79,12 @@ class RecipeCard extends Component {
                             <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                             <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                             <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
-                            <h3>Rate:</h3><div className="ui star rating" role="radiogroup" tabIndex="-1">
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="false"
-                                    aria-posinset="1"
-                                    aria-setsize="4"
-                                    className="active icon"
-                                    role="radio"
-                                ></i>
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="false"
-                                    aria-posinset="2"
-                                    aria-setsize="4"
-                                    className="active icon"
-                                    role="radio"
-                                ></i>
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="false"
-                                    aria-posinset="3"
-                                    aria-setsize="4"
-                                    className="active icon"
-                                    role="radio"
-                                ></i>
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="true"
-                                    aria-posinset="4"
-                                    aria-setsize="4"
-                                    className="icon"
-                                    role="radio"
-                                ></i>
-                            </div>
-                            <div>{this.props.recipe.rate}</div>
+                            <h3>Rate:<br />
+                            <Rating className="rating"
+                                id="rate"
+                                initialRating={this.props.recipe.rate}
+                                onClick={evt => this.updateRate(evt)}
+                            /> </h3>
 
                             {this.props.recipe.imageUrl === "" ? (
                                 <div></div>
@@ -120,65 +103,32 @@ class RecipeCard extends Component {
                         </div>
                     </>
                 ) : (
-                    <>
-                    <div className="top"><h1 className="main">{this.props.regionName}</h1></div>
-                        <div className="recipeCard">
-                            <h2>{this.props.recipe.name}</h2>
-                            <h3>Created By: <p>Me</p></h3>
-                            <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
-                            <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
-                            <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
-                            <h3>Rate:</h3><div className="ui star rating" role="radiogroup" tabIndex="-1">
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="false"
-                                    aria-posinset="1"
-                                    aria-setsize="4"
-                                    className="active icon"
-                                    role="radio"
-                                ></i>
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="false"
-                                    aria-posinset="2"
-                                    aria-setsize="4"
-                                    className="active icon"
-                                    role="radio"
-                                ></i>
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="false"
-                                    aria-posinset="3"
-                                    aria-setsize="4"
-                                    className="active icon"
-                                    role="radio"
-                                ></i>
-                                <i
-                                    tabIndex="0"
-                                    aria-checked="true"
-                                    aria-posinset="4"
-                                    aria-setsize="4"
-                                    className="icon"
-                                    role="radio"
-                                ></i>
-                            </div>
-                            <p>{this.props.recipe.rate}</p>
-                            {this.props.recipe.imageUrl === "" ? (
-                                <div></div>
-                            ) : (
-                                    <picture>
-                                        <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
-                                    </picture>
-                                )}
-                            <div className="buttonWrap">
-                                <button
-                                    className="ui icon button" onClick={this.handleDelete}
-                                ><i aria-hidden="true" className="add icon"></i>
-                                    Delete it
+                        <>
+                            <div className="top"><h1 className="main">{this.props.regionName}</h1></div>
+                            <div className="recipeCard">
+                                <h2>{this.props.recipe.name}</h2>
+                                <h3>Created By: <p>Me</p></h3>
+                                <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
+                                <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
+                                <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
+                                <h3>Rate: <br />
+                                <p>{this.props.recipe.rate} /5 stars</p></h3>
+                                {this.props.recipe.imageUrl === "" ? (
+                                    <div></div>
+                                ) : (
+                                        <picture>
+                                            <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                                        </picture>
+                                    )}
+                                <div className="buttonWrap">
+                                    <button
+                                        className="ui icon button" onClick={this.handleDelete}
+                                    ><i aria-hidden="true" className="delete icon"></i>
+                                        Delete it
                                 </button>
-                                <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
+                                    <button type="button" className="ui icon button" onClick={() => { this.props.history.push(`/cookbook/${this.props.recipe.id}/edit`) }}><i aria-hidden="true" className="edit icon"></i>Edit</button>
+                                </div>
                             </div>
-                        </div>
                         </>
                     )}
             </>

@@ -9,11 +9,14 @@
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
+    margin-left: 0.5em;
 }
 
-h4, h5, p, span, a {
+h4, h5, p, a {
     font-family: 'Lato', sans-serif;
     font-size: medium;
+    width: auto;
+    margin-left: 0.8em;
 }
 
 .logo {
@@ -142,7 +145,7 @@ h4, h5, p, span, a {
     margin-bottom: 1em;
 }
 
-.MyRecipeCard p, h3, h2 {
+.MyRecipeCard h3, h2 {
     margin-left: 0.5em;
     line-height: 1.8em;
 }
@@ -260,3 +263,9 @@ span:hover {
     width: auto;
     height: 750px;
 }
+
+span .rate {
+    width: 100% ;
+}
+
+

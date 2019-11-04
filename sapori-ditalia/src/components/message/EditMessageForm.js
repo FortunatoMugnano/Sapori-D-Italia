@@ -7,7 +7,7 @@ import { Button, Form, Input } from 'reactstrap';
 class EditMessageForm extends React.Component {
 	state = {
 		userId: '',
-		date: '',
+		timestamp: '',
 		message: '',
 		loadingStatus: true
 	};
@@ -22,9 +22,18 @@ class EditMessageForm extends React.Component {
 	updateExistingMessage = () => {
 
 		this.setState({ loadingStatus: true });
+		let timestamp = Date.now();
+		let dateNow = new Intl.DateTimeFormat("en-US", {
+			year: "numeric",
+			month: "2-digit",
+			day: "2-digit",
+			hour: "2-digit",
+			minute: "2-digit",
+			second: "2-digit"
+		}).format(timestamp);
 		const editedMessage = {
 			userId: this.state.userId,
-			date: this.state.date,
+			timestamp: dateNow,
 			message: this.state.message,
 			id: this.props.id
 		};
@@ -36,7 +45,7 @@ class EditMessageForm extends React.Component {
 		APIManager.getMessagesById(this.props.id).then(message => {
 			this.setState({
 				userId: message.userId,
-				date: message.date,
+				timestamp: message.timestamp,
 				message: message.message,
 				loadingStatus: false
 			});
@@ -54,11 +63,11 @@ class EditMessageForm extends React.Component {
 
 
 					<Form className='edit-form'>
-							<Input type="datetime-local"
+							<Input type="date"
                         required onChange={this.handleFieldChange}
-                        id="date" placeholder="Date"
-                        value={this.state.date} />
-
+                        id="timestamp" placeholder="Date"
+                        value={this.state.timestamp}
+                       />
 
 							<Input
 								type="textarea"

@@ -10,21 +10,25 @@ const uploadURL = 'https://api.cloudinary.com/v1_1/fortunato/image/upload';
 
 
 class EditRecipeForm extends Component {
+
+    
     //set the initial state
     state = {
         name: "",
         ingredients: "",
         difficulty: "",
-        rate: "",
         loadingStatus: true,
         uploadURL: null,
         file: null,
+        rate: 0,
         imageUrl: "",
         direction: "",
         regionId: "",
         regions: [],
         userId: ""
     };
+
+   
 
     // this is the functionality for react-dropzone to upload images
     onImageDrop(files) {
@@ -68,9 +72,9 @@ class EditRecipeForm extends Component {
             name: this.state.name,
             imageUrl: this.state.imageUrl,
             ingredients: this.state.ingredients,
+            // rate:this.props.match.params.myRecipeRate,
             difficulty: this.state.difficulty,
             regionId: parseInt(this.state.regionId),
-            rate: this.state.rate,
             direction: this.state.direction,
             userId: userId
         };
@@ -91,7 +95,7 @@ class EditRecipeForm extends Component {
                             ingredients: recipe.ingredients,
                             imageUrl: recipe.imageUrl,
                             difficulty: recipe.difficulty,
-                            rate: recipe.rate,
+                            // rate: recipe.rate,
                             direction: recipe.direction,
                             regionId: recipe.regionId,
                             regions: allRegions,
@@ -103,6 +107,7 @@ class EditRecipeForm extends Component {
     }
 
     render() {
+console.log("my props", this.props)
         return (
             <>
                 <Form>
@@ -143,15 +148,6 @@ class EditRecipeForm extends Component {
                                 onChange={this.handleFieldChange}
                                 id="difficulty"
                                 value={this.state.difficulty}
-                            />
-                            <Label htmlFor="Rate">Rate</Label>
-                            <Input
-                                type="text"
-                                required
-                                className="form-control"
-                                onChange={this.handleFieldChange}
-                                id="rate"
-                                value={this.state.rate}
                             />
                             <Label htmlFor="regionId">Region </Label>
                             <Input type="select"
