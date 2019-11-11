@@ -150,7 +150,6 @@
       "message": "Hello from me",
       "timestamp": "11/04/2019, 02:56:34 PM",
       "userId": 4,
-      "editTimeStamp": "",
       "id": 17
     },
     {
@@ -166,10 +165,16 @@
       "id": 19
     },
     {
-      "message": "Hi Cohort 35",
-      "timestamp": "11/11/2019, 09:37:57 AM",
       "userId": 2,
+      "timestamp": "11/11/2019, 09:43:07 AM",
+      "message": "Hi Cohort 35, you look amazing!",
       "id": 20
+    },
+    {
+      "message": "Hi Phil",
+      "timestamp": "11/11/2019, 11:46:37 AM",
+      "userId": 2,
+      "id": 21
     }
   ],
   "userRecipes": [
@@ -244,7 +249,7 @@
       "regionId": 1,
       "direction": "For the pastry: Place the flour in a bowl and make a well in the center. Place the water, egg, 2 teaspoons olive oil, salt, and vinegar in the center and whisk with a fork to combine, until it begins to get too difficult to whisk. From here, knead the dough until soft, elastic, and well-combined. Brush the dough with olive oil and let rest, covered, in a bowl for 30 minutes. For the filling: Peel and core the apples, and chop them into thin slices, then place immediately in a bowl with the zest and juice of the lemon and toss. Set aside. In a separate bowl, combine the currants, pine nuts, turbinado sugar, and cinnamon. Set aside. In a small skillet, toast the breadcrumbs in half of the butter over a medium heat for 2 to 3 minutes, until the breadcrumbs become coated in the butter. Set aside. For the assembly: Divide the pastry into 2 balls. Roll out 1 ball of pastry on a floured tea towel to a rectangle roughly 12 x 16 inches and thin enough to see your hand through the other side. Brush melted butter over the whole pastry. Scatter half of the toasted breadcrumbs evenly over the pastry, leaving a border of about 4 inches. Combine the chopped apples with the currant mixture and the rum, then toss to combine. Place half of the apple mixture over the breadcrumbs and, with the help of the tea towel, gently fold the pastry from the long side, then roll to close the pastry firmly. Fold the ends underneath. Transfer the pastry to a baking sheet lined with parchment paper and brush with melted butter to cover entirely. Repeat with the rest of the pastry and filling to create the second strudel. Bake the strudels at 350ºF for about 30 minutes, or until the top is golden brown. Let cool slightly, then transfer to a baking rack. You can serve this warm or cold, with a simple dusting of confectioners' sugar or a dollop of unsweetened, fresh whipped cream or ice cream.",
       "userId": 1,
-      "rate": 3
+      "rate": 5
     },
     {
       "id": 3,
@@ -253,7 +258,7 @@
       "ingredients": "2 pounds (1 kg) quince (or apples), on the underripe side, 1 1/2 cups (300 grams) sugar, 1/2 lemon, sliced (optional), mustard essence, as needed (10-20 drops per kilogram of cooked fruit)",
       "difficulty": "Hard",
       "regionId": 2,
-      "rate": "5",
+      "rate": 4,
       "direction": "Day one: Peel and finely chop the fruit. Place in a non-reactive bowl with the sugar and lemon slices (if using) and toss until well-combined. Leave to sit in a cool place to macerate for 24 hours. Day two: Strain the liquid created by the fruit into a small saucepan. Return the fruit to the bowl. Bring the liquid to a rapid boil, cook for 5 minutes. Remove from the heat and pour the liquid over the fruit. Let cool, then cover and let sit in a cool place for another 24 hours. Day three: Strain off the liquid again, into a saucepan. Return the fruit to the bowl. Bring the liquid, which should be more syrupy now, to the boil and cook 5 minutes. Pour it back over the fruit. Let cool, then cover and let sit in a cool place for 24 hours. Day four: Place the fruit and its syrup in a saucepan and bring to the boil. Turn the heat down to a simmer and let cook, turning the fruit with a wooden spoon to cook it evenly, for about 10 minutes (if there is not enough liquid left to cook the fruit through, add a splash of water to help it along). The fruit should still have some bite to it, it should keep its shape, but be evenly cooked. It should all be held together with a light syrup. Let it cool completely, then, weigh the fruit (you do need scales for this! In my experience with this recipe, it produces about 750 grams of cooked fruit, so 3/4 of a kilogram). In a well-ventilated area, open the bottle of mustard essence (do not put your face close to it or try to sniff it directly and do not try to taste it or get it on your skin!) and carefully add 10-20 drops of mustard essence per kilogram of fruit or to taste—10 drops will produce a mildy spiced mostarda, 20 is not for the faint hearted! I would recommend 10-12 drops per kilogram (so 8-9 drops for 3/4 of a kilogram of cooked fruit). Bottle in sterilised jars and, if not planning on eating within the month, process the cans to seal. This is best consumed within six months as the mustard essence begins to weaken significantly after this time, even if unopened. As the essence diminishes with heat, it is best to keep the mostarda somewhere cool.",
       "userId": 1
     },
@@ -277,7 +282,7 @@
       "regionId": 4,
       "direction": "Rub the beef with salt and pepper. If you like, you can tie the beef with kitchen string too, to help it keep it shape during cooking. Heat the olive oil in a (preferably ovenproof) pot, such as a Dutch oven (in Italy a terracotta pot is often used). Sear the beef in one whole piece over high heat on all sides until a nice brown crust develops. Remove the beef and set aside. Turn the heat to low. Add the onion, carrot and celery by sweating them gently with a good pinch of salt and half of the butter until the vegetables are soft and translucent, about 10 minutes. Return the beef to the pot, tip over the bottle of wine, add the garlic cloves, herbs (and optional spices, if using) and season with salt and pepper. Over medium heat, bring the wine to a boil and let it reduce, about 5 minutes. Add enough water (or beef stock) to cover the meat with liquid again. Place on the lid, turn heat down to low and let simmer gently for about 2 hours, turning the beef occasionally. Alternatively, if you have an ovenproof pot, you can also put this in a moderate oven (325°F/160°C) for the same amount of time. Remove the meat and set aside on a chopping board. Remove and discard bay leaves and rosemary or thyme stalks, if you used them. Then, with an immersion blender, blend the vegetables and liquid until smooth. Continue boiling the sauce over medium-high heat, uncovered, until the sauce is reduced and slightly thickened, about 10 minutes. Drop in the rest of the butter and swirl it through the sauce until glossy. Taste for seasoning, add salt and pepper, if necessary. Cut the beef into 1/3 inch slices and serve with the sauce alongside fluffy mashed potatoes or creamy, soft polenta. Note: This dish improves after a good night's rest. I like to slice the meat as described above and leave in the sauce to absorb some extra flavor, but some prefer to keep the meat whole until serving and slice later. Either way, let the brasato cool completely, then cover and refrigerate overnight (or up to three days). Then, simply reheat in the oven or stovetop before serving.",
       "userId": 1,
-      "rate": 5
+      "rate": 4
     },
     {
       "id": 6,
@@ -352,7 +357,7 @@
       "ingredients": "2 large bunches of wild chicory, 2 garlic cloves, 2 small potatoes, peeled and thinly sliced, 10 1/2 ounces (300 grams) of fresh tomatoes, chopped, 1 pinch of salt, Water to cover, 4 eggs, 4 slices of stale bread from a good, dense, wood fired country loaf (or if fresh, dry out the slices in a low oven), Extra-virgin olive oil, A handful of chopped, wild fennel and calamint",
       "difficulty": "Medium",
       "regionId": 9,
-      "rate": 3,
+      "rate": 5,
       "direction": "Carefully wash the wild greens several times over or until all the dirt has been removed. If they are tough or large, you may need to blanch them first until tender. If they are young and small then just use them as they are. Place the garlic cloves, potatoes, tomatoes, the wild greens and salt in a pot and add water to cover. Bring to a simmer and cook until the vegetables are tender. Crack the eggs into the simmering soup and cover until the whites are cooked but the yolk still runny, a few minutes. Remove from the heat, place a slice of bread in each shallow bowl and ladle the soup and egg over each slice of bread. Let rest a minute or two so that the bread can soak up the broth. Ideally, the bread should soak everything up and there should be no liquid in the bowl. If the bread hasn't soaked up enough, be sure to ladle over some extra broth from the pot. If there is any extra liquid present in the bowl, remove it with a spoon or kitchen paper. Finish with a drizzle of very good olive oil and a generous handful of chopped wild fennel and calamint.",
       "userId": 1
     },

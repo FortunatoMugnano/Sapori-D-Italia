@@ -11,7 +11,7 @@ const uploadURL = 'https://api.cloudinary.com/v1_1/fortunato/image/upload';
 
 class EditRecipeForm extends Component {
 
-    
+
     //set the initial state
     state = {
         name: "",
@@ -28,7 +28,7 @@ class EditRecipeForm extends Component {
         userId: ""
     };
 
-   
+
 
     // this is the functionality for react-dropzone to upload images
     onImageDrop(files) {
