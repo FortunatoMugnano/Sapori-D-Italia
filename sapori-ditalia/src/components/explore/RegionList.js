@@ -35,7 +35,6 @@ class RegionList extends Component {
                                 {...this.props}
                             />
                         ))}
-                        {/* <ModalExample /> */}
                     </section>
                 </section>
             </>

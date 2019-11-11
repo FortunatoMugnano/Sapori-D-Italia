@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## A brief description of this App
+
+Italy has 20 regions, each of them with a particular food palette. The northern regions are famous for wine that pairs with very rich dishes. The central regions are famous for meat and incredible handmade pasta. The southern regions are famous for seafood dishes.
+
+The purpose of Sapori d’Italia is to allow users to experience these authentic recipes and let them contribute and expand to this amazing culinary rainbow. With this app, users can surf through the 20 regions of Italy, and with one click, save the recipes you like to their cookbooks. The recipes are organized by region and can be rated by a five stars system. If you have a recipe to share, it can be added to the ongoing expanding database, and even include a picture. Let other users know about new creations by sending a notification on the message board. We hope that through this app, users will share their passion for the world's best food and help the Italian heritage stay alive.
+
 ## Available Scripts
 
 In the project directory, you can run:

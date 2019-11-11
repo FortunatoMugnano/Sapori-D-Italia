@@ -10,6 +10,14 @@ h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     margin-left: 0.5em;
+    
+}
+
+.recipeCard > h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    margin-left: 0.5em;
+    align-self: auto;
 }
 
 h4, h5, p, a {
@@ -138,6 +146,8 @@ h4, h5, p, a {
     border-radius: 5px;
     background: #E5E9D0;
     margin: 0.6em;
+    display: flex;
+    flex-direction: column;
 }
 
 .recipeCard .ui.button {
@@ -264,8 +274,10 @@ span:hover {
     height: 750px;
 }
 
-span .rate {
-    width: 100% ;
+span {
+    align-self: flex-start ;
+    font-size: x-large;
+    width: auto;
 }
 
 

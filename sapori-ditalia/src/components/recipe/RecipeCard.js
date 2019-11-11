@@ -5,6 +5,8 @@ import { withRouter } from "react-router-dom"
 
 
 
+
+
 class RecipeCard extends Component {
     state = {
         myCard: '',
@@ -79,12 +81,14 @@ class RecipeCard extends Component {
                             <h3>Ingredients:</h3><p> {this.props.recipe.ingredients}</p>
                             <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                             <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
-                            <h3>Rate:<br />
+                            <h3>Rate: </h3> <br />
                             <Rating className="rating"
                                 id="rate"
+                                emptySymbol={<span className="icon-text">-</span>}
+                                fullSymbol={[1, 2, 3, 4, 5].map(n => <span className="icon-text">{n}</span>)}
                                 initialRating={this.props.recipe.rate}
                                 onClick={evt => this.updateRate(evt)}
-                            /> </h3>
+                            />
 
                             {this.props.recipe.imageUrl === "" ? (
                                 <div></div>
@@ -112,7 +116,7 @@ class RecipeCard extends Component {
                                 <h3>Directions:</h3><p> {this.props.recipe.direction}</p>
                                 <h3>Difficulty:</h3><p>{this.props.recipe.difficulty}</p>
                                 <h3>Rate: <br />
-                                <p>{this.props.recipe.rate} /5 stars</p></h3>
+                                    <p>{this.props.recipe.rate} /5 stars</p></h3>
                                 {this.props.recipe.imageUrl === "" ? (
                                     <div></div>
                                 ) : (
