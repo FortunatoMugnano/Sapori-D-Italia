@@ -155,8 +155,8 @@
     },
     {
       "userId": 1,
-      "timestamp": "11/04/2019, 03:29:53 PM",
-      "message": "Hello Bryan!!!!\n",
+      "timestamp": "11/07/2019, 09:12:58 PM",
+      "message": "Hello Bryan!\n",
       "id": 18
     },
     {
@@ -164,6 +164,12 @@
       "timestamp": "11/04/2019, 03:33:30 PM",
       "message": "Perfect!!!",
       "id": 19
+    },
+    {
+      "message": "Hi Cohort 35",
+      "timestamp": "11/11/2019, 09:37:57 AM",
+      "userId": 2,
+      "id": 20
     }
   ],
   "userRecipes": [
@@ -379,7 +385,7 @@
       "ingredients": "6 ounces flat pancetta, cut into 1/4-inch dice, 2 tablespoons extra-virgin olive oil, 5 large eggs, 1 cup freshly grated Pecorino Romano, 1 cup freshly grated Parmigiano-Reggiano, 2 tablespoons freshly cracked black pepper, 1 pound bucatini",
       "difficulty": "Medium",
       "regionId": 12,
-      "rate": 5,
+      "rate": 3,
       "direction": "In a medium skillet, cook the pancetta and oil over medium-low heat, stirring occasionally, until the pancetta is browned and the fat has rendered, about 10 minutes. Remove from heat. In a large bowl, whisk together the eggs, Pecorino, Parmesan, and pepper. Bring a pot of salted water to boil; cook pasta until al dente, drain, and immediately toss with the egg mixture. Add the pancetta along with its rendered fat, toss well, and serve immediately with extra pepper, if desired. If the heat of the cooked pasta does not quite set the eggs, you can gently toss it again over very low heat in the pan you cooked the pancetta in. But stir continuously and make sure the heat is as low as it can go so that you don’t wind up with scrambled eggs.",
       "userId": 2
     },
@@ -390,7 +396,7 @@
       "ingredients": "1 teaspoon extra-virgin olive oil, 7 ounces guanciale, cut into 1 1/2 x 1/2-inch strips Cored insides of 6 zucchini, roughly chopped, Sea salt, 1 pound rigatoni, mezze maniche, paccheri, or other tubular pasta, 1 cup grated Pecorino Romano, Freshly ground black pepper",
       "difficulty": "Easy",
       "regionId": 12,
-      "rate": 4,
+      "rate": 5,
       "direction": "Heat the olive oil in a large skillet over low heat. When the oil begins to shimmer, add the guanciale and cook, stirring, until golden brown, about 8 minutes. Add the zucchini, season with salt, and cook until the zucchini is softened and cooked through, about 10 minutes. Meanwhile, bring a large pot of water to a rolling boil over high heat. Salt the water. When the salt has dissolved, add the pasta and cook until al dente. Add a ladle of the pasta cooking water to the skillet with the zucchini and bring to a simmer. When the pasta is very al dente, drain, reserving the cooking water. Add the pasta and another ladle of its cooking water to the pan. Cook over medium-high heat, stirring vigorously, until a thick sauce forms, adding more water if necessary to achieve the desired consistency. Remove the skillet from the heat and, add 3/4 cup of the Pecorino Romano, and mix thoroughly. Season to taste. Plate and sprinkle each portion with some of the remaining Pecorino Romano and pepper to taste. Serve immediately.",
       "userId": 1
     },
